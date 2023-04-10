@@ -1,0 +1,87 @@
+.recent-news-container {
+  max-width: 1350px;
+  padding: 0 30px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.recent-news-container h1 {
+  align-self: center;
+}
+.recent-news-container a {
+  align-self: flex-end;
+}
+.recent-news-row {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.recent-news-column {
+  display: flex;
+  flex-direction: column;
+  width: 31.5%;
+}
+.recent-news-column .recent-news-img1 {
+  background: url("../img/CondensingBoiler.jpg");
+  background-size: 100% 100%;
+  height: 270;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.recent-news-column .recent-news-img2 {
+  background: url("../img/corona.jpg");
+  background-size: 100% 100%;
+  height: 270;
+  width: 100%;
+}
+.recent-news-column .recent-news-img3 {
+  background: url("../img/laptopwithboiler.jpg");
+  background-size: 100% 100%;
+  height: 270;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.recent-news-column h2 {
+  display: inline-block;
+}
+.recent-news-column p {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.recent-news-column a {
+  align-self: flex-start;
+  font-size: 16px;
+  font-weight: bold;
+}
+.recent-news-container .viewall {
+  color: var(--pribrand2);
+}
+.rounded-arrow {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: var(--pribrand1);
+  color: var(--inverse);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 30px;
+}
+.rounded-arrow:hover{
+    opacity: .5;
+}
+.mirror {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  left: -30px;
+  
+}

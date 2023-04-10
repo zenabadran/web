@@ -1,0 +1,131 @@
+.solutions-container {
+  max-width: 1350px;
+  margin: auto;
+  padding: 0 18px;
+}
+.solutions-container h1 {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: bold;
+  padding: 40px;
+}
+.solutions-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.first-row-boilerimg {
+  background: url("../img/Clever-brooks.jpg");
+  background-size: 100% 100%;
+  height: 400;
+  width: 57%;
+}
+.second-row-boilerimg {
+  background: url("../img/ContainerCBEX.jpg");
+  background-size: 100% 100%;
+  height: 400;
+  width: 57%;
+}
+.row-description {
+  word-break: break-word;
+  word-wrap: break-word;
+  width: 38%;
+  align-self: center;
+
+  /* padding-right: 40px; */
+}
+.row-description-title{
+  font-size: 15px;
+  color: var(--pribrand2);
+  position: relative;
+  letter-spacing: 2px;
+}
+
+.row-description >span::after {
+  content: "";
+  position: absolute;
+  background-color: var(--pribrand2);
+  height: 2px;
+  width: 31px;
+  left: 0;
+  top: 23px;
+}
+.row-description h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.row-description div p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.row-description div a {
+  font-size: 18px;
+  /* font-weight: bold; */
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 1023px) {
+    .first-row-boilerimg {
+        
+        height: 40vw;
+       
+      }
+      .row-description {
+        height: 35vw;
+      
+      }
+
+      .second-row-boilerimg {
+        height: 40vw;
+      }
+}
+@media only screen and (max-width: 767px){
+    .solutions-row {
+        flex-direction: column;
+      }
+      .solutions-row.first-row{
+        flex-direction: column-reverse;
+      }
+      .first-row-boilerimg {
+        
+        width: 100%;
+       
+      }
+      .row-description {
+        margin-top: 20px;
+        width: 100%;
+      
+      }
+
+      .second-row-boilerimg {
+        width: 100%;
+      }
+
+
+      .row-description span {
+        font-size: 12px;
+        
+      }
+      
+   
+      .row-description h2 {
+        font-size: 20px;
+        
+      }
+      .row-description div p {
+        font-size: 14px;
+        line-height: 1;
+      }
+      .row-description div a {
+        font-size: 16px;
+        line-height: 1;
+        
+      }
+
+}
+@media only screen and (max-width: 424px){
+  .solutions-row.first-row{
+    margin-bottom: 70px;
+  }
+}

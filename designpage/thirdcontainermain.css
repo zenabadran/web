@@ -1,0 +1,219 @@
+.container-thirdpart-engineergirl {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+
+  max-width: 1350px;
+
+  padding: 0 18px;
+  justify-content: flex-end;
+  position: relative;
+}
+.playvideo {
+  height: 560px;
+  width: 870px;
+  background: url("../img/engineer.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playvideo button {
+  background-color: transparent;
+  border: none;
+}
+.playvideo video {
+  width: 870px;
+  height: 600px;
+  display: none;
+}
+/* body:has(button:focus ) .playvideo{
+
+background: none;
+} */
+/* body:has(button:focus ) video{
+
+   display: block;
+    } */
+/* body:has(button:focus ) button{
+ display: none;
+  } */
+
+.playbutton {
+  height: 150px;
+  width: 150px;
+  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.1));
+}
+
+.container-thirdpart-engineergirl section {
+  height: 400px;
+  width: 550;
+  display: inline-block;
+  background-color: var(--suppUI01);
+  align-self: center;
+  position: absolute;
+  left: 0;
+  box-shadow: 14px 10px 30px 10px rgba(0, 0, 0, 0.1);
+}
+section img {
+  margin: 60 0 20 65;
+  height: 40px;
+  width: 140px;
+}
+section h2 {
+  display: inline-block;
+  width: 440px;
+  margin: 0 70 20 70;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+section p {
+  margin: 0 70 20 70;
+  font-size: 16px;
+  width: 440px;
+}
+@media only screen and (max-width: 1300px) {
+  .container-thirdpart-engineergirl{
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    }
+  .playvideo {
+    height: 370px;
+    width: 650px;
+    align-self: flex-end;
+  }
+  .playvideo video {
+    height: 370px;
+    width: 620px;
+
+    z-index: 2;
+  }
+  .container-thirdpart-engineergirl section {
+    height: 300px;
+    width: 450px;
+    
+    position: static;
+    align-self: start;
+    
+  }
+  section img {
+    margin: 30 0 20 35;
+    height: 30px;
+    width: 130px;
+  }
+  section h2 {
+    display: inline-block;
+    width: 340px;
+    margin: 0 50 10 50;
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+  section p {
+    margin: 0 50 20 50;
+    font-size: 14px;
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .container-thirdpart-engineergirl {
+    /* position: relative;
+      bottom: 100px; */
+    flex-direction: column-reverse;
+    justify-content: space-between;
+
+    height: 600px;
+  }
+  .playvideo {
+    align-self: flex-end;
+    height: 270px;
+    width: 520px;
+  }
+
+  .container-thirdpart-engineergirl section {
+    position: static;
+    align-self: start;
+  }
+  .playvideo video {
+    height: 270px;
+    width: 520px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container-thirdpart-engineergirl {
+    justify-content: space-evenly;
+    height: 450px;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  .playvideo {
+    height: 190px;
+    width: 390px;
+    
+  }
+
+  .container-thirdpart-engineergirl section {
+    height: 200px;
+    width: 390px;
+    position: static;
+  }
+  section img {
+    margin: 10 0 10 15;
+    height: 20px;
+    width: 100px;
+  }
+  section h2 {
+    width: 300px;
+    margin: 0 10 10 30;
+    font-size: 21px;
+  }
+  section p {
+    margin: 0 10 10 35;
+    font-size: 14px;
+    width: 350px;
+    zoom: 0.8;
+  }
+  .playbutton {
+    height: 50px;
+    width: 50px;
+  }
+  .playvideo video {
+    height: 210px;
+    width: 410px;
+  }
+}
+@media only screen and (max-width: 424px){
+  .container-thirdpart-engineergirl{
+    justify-content: center;
+   margin-top: 20px;
+  }
+
+  .playvideo {
+    height: 190px;
+    width: 100%;
+    align-self: center;
+  }
+  .playvideo video {
+    height: 190px;
+    width: 100%;
+    align-self: center;
+  }
+
+  .container-thirdpart-engineergirl section {
+    height: 200px;
+    width: 100%;
+   align-self: center;
+   margin-top: 20px;
+  }
+  section h2 {
+    width: 80%;
+    margin: 0 10 10 30;
+    font-size: 17px;
+  }
+  section p {
+    margin: 0 10 10 35;
+    font-size: 10px;
+    width: 80%;
+    zoom: 0.8;
+  }
+}

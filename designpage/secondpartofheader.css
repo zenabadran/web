@@ -1,0 +1,46 @@
+.header-secondpart {
+  padding: 10px;
+  background-color: var(--suppUI01op);
+
+  color: var(--pribrand1);
+  font-size: 12pt;
+
+  font-weight: 400;
+
+  box-shadow: inset 0px -11px 10px -15px gray;
+}
+.container-header-secondpart {
+  max-width: 1450px;
+  margin: auto;
+  
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.head-set-icon {
+  height: 17px;
+  width: 17px;
+  color: var(--pribrand1);
+}
+
+.header-secondpart a {
+  padding-right: 50px;
+}
+
+a:visited,
+a:active,
+a:link {
+  text-decoration: none;
+  color: var(--pribrand1);
+}
+
+@media only screen and (max-width: 1300px) {
+  .header-secondpart {
+    display: none;
+  }
+}

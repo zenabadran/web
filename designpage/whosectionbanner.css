@@ -1,0 +1,146 @@
+.main-div-paragraph {
+  display: flex;
+  justify-content: space-between;
+  height: 180px;
+  margin: auto;
+  margin-top: 30px;
+  max-width: 1350px;
+  padding: 0 18px;
+  position: relative;
+}
+.whoparagraph {
+  font-size: 26px;
+  font-weight: 800;
+
+  padding: 20px 20 20 0;
+}
+
+.whodiv {
+  border-right: solid 3px var(--suppUI01);
+  align-self: center;
+  width: 55%;
+}
+
+.firsttextdiv {
+  font-size: 18px;
+  align-self: center;
+  padding: 40px 360px 40px 50px;
+  /* word-break: break-word;
+    word-wrap: break-word; */
+
+  /* width: 820px; */
+}
+
+.secondtextdiv {
+  background-color: var(--pribrand3);
+
+  color: var(--inverse);
+  position: absolute;
+  right: 19px;
+  top: -120;
+  /* height: 260px; */
+  width: 320px;
+  padding: 10px;
+  z-index: 2;
+  display: inline-block;
+}
+
+.secondtextdiv p {
+  font-size: 22px;
+  padding: 0 45 0 35;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.secondtextdiv a {
+  color: var(--inverse);
+  font-size: 13px;
+  display: inline-block;
+  padding: 0 30 20 30;
+}
+
+.boiler-room-maindiv .hover-show-hiddentext {
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+  .main-div-paragraph {
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+  }
+
+  .whodiv {
+    width: 98%;
+    text-align: end;
+  }
+
+  .firsttextdiv {
+    border-left: solid 3px var(--suppUI01);
+    font-size: 15px;
+    text-align: justify;
+    padding: 20 60 20 20;
+    width: 88%;
+  }
+
+  .secondtextdiv {
+    position: static;
+  }
+  .secondtextdiv {
+    width: 98%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .firsttextdiv {
+    font-size: 14px;
+  
+  }
+
+  /* .main-div-paragraph {
+    height: 400px;
+  } */
+  .secondtextdiv {
+    margin-top: 20px;
+  }
+  .secondtextdiv p {
+    font-size: 15px;
+    padding: 0 15 0 55;
+    margin-bottom: 10px;
+  }
+
+  .secondtextdiv a {
+    font-size: 10px;
+    padding: 0 10 5 50;
+  }
+}
+@media only screen and (max-width: 424px) {
+  .main-div-paragraph {
+    justify-content: center;
+  }
+  .whodiv {
+    text-align: center;
+    border: none;
+  }
+  .firsttextdiv {
+    align-self: center;
+    text-align: center;
+    padding-right: 20;
+    border: none;
+    width: 88%;
+  }
+  .secondtextdiv {
+    margin-top: 0px;
+  }
+  .secondtextdiv p {
+    font-size: 15px;
+    padding: 0 15 0 25;
+    margin-bottom: 10px;
+  }
+
+  .secondtextdiv a {
+    font-size: 10px;
+    padding: 0 10 5 20;
+  }
+}

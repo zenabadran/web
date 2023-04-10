@@ -1,0 +1,18 @@
+.header-firstpart {
+  background-color: var(--suppUI01);
+  text-align: center;
+}
+.paragraph-header-firstpart {
+  padding: 25px;
+  font-size: 12pt;
+  margin-bottom: 0px;
+}
+
+.header-firstpart .paragraph-header-firstpart a {
+  color: var(--text);
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
