@@ -1,0 +1,44 @@
+.featured-categories-container {
+  max-width: 1350px;
+  padding: 0 18px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.featured-categories-container h1 {
+  font-size: 35px;
+  padding: 30px;
+  align-self: center;
+}
+.featured-categories-row {
+  display: flex;
+}
+.featured-categories-card {
+  display: flex;
+  flex-direction: column;
+}
+.featured-categories-img {
+  background: url("../img/boiler.png");
+  background-size: 100% 100%;
+  height: 160px;
+  width: 200px;
+  margin-bottom: 40px;
+}
+.featured-categories-img2 {
+  background: url("../img/burners.png");
+  background-size: 100% 100%;
+  height: 160px;
+  width: 200px;
+  margin-bottom: 40px;
+}
+.featured-categories-img3 {
+  background: url("../img/controls.png");
+  background-size: 100% 100%;
+  height: 160px;
+  width: 200px;
+  margin-bottom: 40px;
+}
+.featured-categories-card a {
+  align-self: center;
+  font-weight: 600;
+}

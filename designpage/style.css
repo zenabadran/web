@@ -8,6 +8,8 @@
 @import "thirdcontainermain.css";
 @import "solutions.css";
 @import "recentnews.css";
+@import "productsbanner.css";
+@import"featuredcategories.css";
 :root {
   --pribrand1: #003150;
   --pribrand2: #82786f;
@@ -16,7 +18,6 @@
   --inverse: #ffffff;
   --suppUI01: #d7d3c7;
   --suppUI01op: #d7d3c725;
-
   --suppUI02: #d3dee4;
   --suppUI02op: #d3dee480;
   --suppUI04: #477f80;

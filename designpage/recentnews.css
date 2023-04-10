@@ -51,6 +51,7 @@
 .recent-news-column p {
   display: inline-block;
   padding-right: 40px;
+  line-height: 1.5;
 }
 
 .recent-news-column a {
@@ -73,8 +74,8 @@
   position: relative;
   left: 30px;
 }
-.rounded-arrow:hover{
-    opacity: .5;
+.rounded-arrow:hover {
+  opacity: 0.5;
 }
 .mirror {
   -moz-transform: scale(-1, 1);
@@ -83,5 +84,4 @@
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
   left: -30px;
-  
 }
