@@ -11,34 +11,80 @@
   align-self: center;
 }
 .featured-categories-row {
-  display: flex;
+  /* display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 600px;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 270px);
+  row-gap: 50px;
 }
 .featured-categories-card {
   display: flex;
   flex-direction: column;
+  margin: auto;
 }
 .featured-categories-img {
   background: url("../img/boiler.png");
   background-size: 100% 100%;
-  height: 160px;
-  width: 200px;
+  height: 180px;
+  width: 250px;
   margin-bottom: 40px;
 }
 .featured-categories-img2 {
   background: url("../img/burners.png");
   background-size: 100% 100%;
-  height: 160px;
-  width: 200px;
+  height: 180px;
+  width: 250px;
   margin-bottom: 40px;
 }
 .featured-categories-img3 {
   background: url("../img/controls.png");
   background-size: 100% 100%;
-  height: 160px;
-  width: 200px;
+  height: 180px;
+  width: 250px;
+  margin-bottom: 40px;
+}
+.featured-categories-img4 {
+  background: url("../img/heatrecovery.png");
+  background-size: 100% 100%;
+  height: 180px;
+  width: 250px;
+  margin-bottom: 40px;
+}
+.featured-categories-img5 {
+  background: url("../img/watersystem.jpg");
+  background-size: 100% 100%;
+  height: 180px;
+  width: 250px;
+  margin-bottom: 40px;
+}
+.featured-categories-img6 {
+  background: url("../img/exhaustSolutions.png");
+  background-size: 100% 100%;
+  height: 180px;
+  width: 250px;
+  margin-bottom: 40px;
+}
+.featured-categories-img7 {
+  background: url("../img/partsandservices.jpg");
+  background-size: 100% 100%;
+  height: 180px;
+  width: 250px;
   margin-bottom: 40px;
 }
 .featured-categories-card a {
   align-self: center;
   font-weight: 600;
+}
+@media only screen and (max-width: 843px) {
+  .featured-categories-row {
+    grid-template-columns: repeat(auto-fit, 350px);
+  }
+}
+@media only screen and (max-width: 724px) {
+  .featured-categories-row {
+    align-self: center;
+  }
 }

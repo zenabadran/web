@@ -20,7 +20,7 @@
 .recent-news-column {
   display: flex;
   flex-direction: column;
-  width: 31.5%;
+  width: 426px;
 }
 .recent-news-column .recent-news-img1 {
   background: url("../img/CondensingBoiler.jpg");
@@ -84,4 +84,13 @@
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
   left: -30px;
+}
+@media only screen and (max-width: 1330px){
+  /* .recent-news-container {
+    justify-content: center;
+  } */
+  .recent-news-row {
+    justify-content: center;
+    
+  }
 }
