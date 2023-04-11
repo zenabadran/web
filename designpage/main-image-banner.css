@@ -30,9 +30,9 @@
 .boiler-room-maindiv p {
   color: var(--inverse);
   position: relative;
-  font-family: "helveticaneue";
+  font-family: "helveticaneuebold";
   font-size: 59px;
-  font-weight: 800;
+  
   margin: 0;
   padding: 0;
   letter-spacing: 2px;

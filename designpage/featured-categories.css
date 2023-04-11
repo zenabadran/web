@@ -9,6 +9,7 @@
   font-size: 35px;
   padding: 30px;
   align-self: center;
+  font-family: "helveticaneuebold";
 }
 .featured-categories-row {
   /* display: flex;
@@ -76,7 +77,10 @@
 }
 .featured-categories-card a {
   align-self: center;
-  font-weight: 600;
+  /* font-weight: bold; */
+  font-family: "helveticaneuebold";
+  letter-spacing: 1px;
+  font-size: 16px;
 }
 @media only screen and (max-width: 843px) {
   .featured-categories-row {

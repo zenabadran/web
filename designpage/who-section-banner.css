@@ -9,8 +9,8 @@
   position: relative;
 }
 .whoparagraph {
-  font-size: 26px;
-  font-weight: 800;
+  font-size: 25px;
+  font-family: "helveticaneuebold";
 
   padding: 20px 20 20 0;
 }
@@ -22,13 +22,13 @@
 }
 
 .firsttextdiv {
-  font-size: 18px;
+  font-size: 16px;
   align-self: center;
-  padding: 40px 360px 40px 50px;
-  /* word-break: break-word;
-    word-wrap: break-word; */
-
-  /* width: 820px; */
+  padding: 40px 420px 40px 50px;
+  font-family: "helveticaneuethin" !important;
+  letter-spacing: 1px;
+  line-height: 1.7;
+  font-weight: bold;
 }
 
 .secondtextdiv {

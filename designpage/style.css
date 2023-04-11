@@ -1,16 +1,17 @@
-@import "firstpartofheader.css";
-@import "secondpartofheader.css";
-@import "thirdpartmainnav.css";
-@import "megalist.css";
-@import "mainimagebanner.css";
-@import "whosectionbanner.css";
-@import "hiddennav.css";
-@import "thirdcontainermain.css";
+@import "first-part-ofheader.css";
+@import "second-part-ofheader.css";
+@import "third-part-mainnav.css";
+@import "mega-list.css";
+@import "main-image-banner.css";
+@import "who-section-banner.css";
+@import "hidden-nav.css";
+@import "third-container-main.css";
 @import "solutions.css";
-@import "recentnews.css";
-@import "productsbanner.css";
-@import "featuredcategories.css";
+@import "recent-news.css";
+@import "products-banner.css";
+@import "featured-categories.css";
 @import "colors.css";
+@import "helveticaneue-font.css";
 
 body {
   margin: 0;
@@ -19,10 +20,4 @@ body {
   font-size: 100%;
 }
 
-@font-face {
-  font-family: "helveticaneue";
-  src: url(../fonts/HelveticaNeueRoman.woff) format("woff");
-}
-* {
-  font-family: "helveticaneue";
-}
+
