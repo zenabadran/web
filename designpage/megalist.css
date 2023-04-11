@@ -9,11 +9,12 @@
   background-color: var(--inverse);
   max-width: 1550px;
   margin: auto;
-  height: 550px;
+  height: 650px;
   left: 0;
   right: 0;
 
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0px 500px 0px #03030381;
   z-index: 1;
 }
 
@@ -81,7 +82,7 @@
   font-size: 45px;
   letter-spacing: 1px;
   padding-left: 50px;
-  margin-top: 0;
+  margin-top: 40px;
 
   color: var(--pribrand1);
   font-family: "Anton", sans-serif;
@@ -89,12 +90,13 @@
 
 .section4 img {
   height: 282px;
+  
   padding-left: 50px;
   width: 550px;
 }
 
 .section4 a {
-  padding-top: 30px;
+  padding-top: 110px;
   padding-left: 50px;
 }
 
@@ -111,12 +113,12 @@
 
 .section2-section3 a {
   display: inline-block;
-  padding: 20px 0 0 40px;
+  padding: 35px 0 0 40px;
 }
 
 .section1 a {
   display: inline-block;
-  padding: 25px 0 0 40px;
+  padding: 35px 0 0 100px;
 }
 
 a.gray {

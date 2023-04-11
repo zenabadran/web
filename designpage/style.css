@@ -9,8 +9,8 @@
 @import "solutions.css";
 @import "recentnews.css";
 @import "productsbanner.css";
-@import"featuredcategories.css";
-@import"colors.css";
+@import "featuredcategories.css";
+@import "colors.css";
 
 body {
   margin: 0;
@@ -26,4 +26,3 @@ body {
 * {
   font-family: "helveticaneue";
 }
-
