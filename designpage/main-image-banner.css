@@ -45,7 +45,7 @@
   color: var(--inverse);
   border: solid 2px var(--inverse);
   margin-top: 30px;
-
+  letter-spacing: 1.5px;
   background-color: transparent;
 }
 
