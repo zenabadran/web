@@ -17,13 +17,13 @@
 .first-row-boilerimg {
   background: url("../img/Clever-brooks.jpg");
   background-size: 100% 100%;
-  height: 400;
+  height: 400px;
   width: 57%;
 }
 .second-row-boilerimg {
   background: url("../img/ContainerCBEX.jpg");
   background-size: 100% 100%;
-  height: 400;
+  height: 400px;
   width: 57%;
 }
 .row-description {
@@ -47,7 +47,7 @@
   background-color: var(--pribrand2);
   height: 2px;
   width: 31px;
-  left: 0;
+  left: 0px;
   top: 23px;
 }
 .row-description h2 {

@@ -5,7 +5,7 @@
   color: var(--pribrand1);
   font-size: 12pt;
 
-  font-weight: 400;
+  font-family: "helveticaneuemedium";
 
   box-shadow: inset 0px -11px 10px -15px gray;
 }

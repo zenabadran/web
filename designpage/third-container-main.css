@@ -48,30 +48,29 @@ background: none;
 
 .container-thirdpart-engineergirl .container-description {
   height: 400px;
-  width: 550;
+  width: 550px;
   display: inline-block;
   background-color: var(--suppUI01);
   align-self: center;
   position: absolute;
-  left: 0;
+  left: 0px;
   box-shadow: 14px 10px 30px 10px rgba(0, 0, 0, 0.1);
-
 }
 .container-description img {
-  margin: 60 0 20 65;
+  margin: 60px 0px 20px 65px;
   height: 40px;
   width: 140px;
 }
 .container-description h2 {
   display: inline-block;
   width: 440px;
-  margin: 0 70 20 70;
+  margin: 0px 70px 20px 70px;
   font-size: 33px;
   font-family: "helveticaneuebold";
   letter-spacing: 1px;
 }
 .container-description p {
-  margin: 0 70 20 70;
+  margin: 0px 70px 20px 70px;
   font-size: 15px;
   font-family: "helveticaneuethin" !important;
   letter-spacing: 1px;
@@ -80,45 +79,44 @@ background: none;
   width: 440px;
 }
 @media only screen and (max-width: 1300px) {
-  .container-thirdpart-engineergirl{
+  .container-thirdpart-engineergirl {
     flex-direction: column-reverse;
     justify-content: space-between;
-    }
+    align-items: center;
+  }
   .playvideo {
-    height: 370px;
-    width: 650px;
-    align-self: flex-end;
+    height: 470px;
+    width: 90%;
   }
   .playvideo video {
-    height: 370px;
-    width: 620px;
+    height: 470px;
+    width: 90%;
 
     z-index: 2;
   }
   .container-thirdpart-engineergirl .container-description {
-    height: 300px;
-    width: 450px;
-    
+    height: 470px;
+    width: 90%;
+
     position: static;
-    align-self: start;
-    
   }
   .container-description img {
-    margin: 30 0 20 35;
-    height: 30px;
-    width: 130px;
+    margin: 30px 0px 20px 35px;
+    height: 50px;
+    width: 200px;
+    display: block;
   }
   .container-description h2 {
     display: inline-block;
-    width: 340px;
-    margin: 0 50 10 50;
-    font-size: 25px;
+    margin: 0px 50px 10px 50px;
+    font-size: 35px;
     letter-spacing: 1px;
+    width: auto;
   }
   .container-description p {
-    margin: 0 50 20 50;
-    font-size: 14px;
-    width: 340px;
+    margin: 50px 50px 20px 50px;
+    font-size: 23px;
+    width: auto;
   }
 }
 @media only screen and (max-width: 1023px) {
@@ -127,57 +125,65 @@ background: none;
       bottom: 100px; */
     flex-direction: column-reverse;
     justify-content: space-between;
-
-    height: 600px;
+    align-items: center;
   }
   .playvideo {
-    align-self: flex-end;
-    height: 270px;
-    width: 520px;
-  }
-
-  .container-thirdpart-engineergirl .container-description {
-    position: static;
-    align-self: start;
+    height: 370px;
+    width: 90%;
   }
   .playvideo video {
-    height: 270px;
-    width: 520px;
+    height: 370px;
+    width: 90%;
+  }
+  .container-thirdpart-engineergirl .container-description {
+    height: 370px;
+    width: 90%;
+  }
+  .container-description img {
+    height: 30px;
+    width: 150px;
+    
+  }
+  .container-description h2 {
+    font-size: 30px;
+    
+  }
+  .container-description p {
+    margin: 20px 50px 20px 50px;
+    font-size: 19px;
+    
   }
 }
 @media only screen and (max-width: 767px) {
   .container-thirdpart-engineergirl {
-    justify-content: space-evenly;
-    height: 450px;
+    
     margin-top: 40px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
   }
   .playvideo {
-    height: 190px;
-    width: 390px;
-    
+    height: 260px;
+    width: 90%;
   }
 
   .container-thirdpart-engineergirl .container-description {
-    height: 200px;
-    width: 390px;
-    position: static;
+    height: 250px;
+    width: 90%;
+    
   }
   .container-description img {
-    margin: 10 0 10 15;
+    margin: 10px 0px 10px 15px;
     height: 20px;
     width: 100px;
   }
   .container-description h2 {
-    width: 300px;
-    margin: 0 10 10 30;
-    font-size: 21px;
+    margin: 0px 10px 10px 30px;
+    font-size: 20px;
   }
   .container-description p {
-    margin: 0 10 10 35;
-    font-size: 14px;
-    width: 350px;
-    zoom: 0.8;
+    margin: 0px 10px 10px 35px;
+    font-size: 12px;
+    
+    
   }
   .playbutton {
     height: 50px;
@@ -188,10 +194,10 @@ background: none;
     width: 410px;
   }
 }
-@media only screen and (max-width: 424px){
-  .container-thirdpart-engineergirl{
+@media only screen and (max-width: 440px) {
+  .container-thirdpart-engineergirl {
     justify-content: center;
-   margin-top: 20px;
+    margin-top: 80px;
   }
 
   .playvideo {
@@ -208,16 +214,16 @@ background: none;
   .container-thirdpart-engineergirl .container-description {
     height: 200px;
     width: 100%;
-   align-self: center;
-   margin-top: 20px;
+    align-self: center;
+    
   }
   .container-description h2 {
     width: 80%;
-    margin: 0 10 10 30;
+    margin: 0px 10px 10px 30px;
     font-size: 17px;
   }
   .container-description p {
-    margin: 0 10 10 35;
+    margin: 0px 10px 10px 35px;
     font-size: 10px;
     width: 80%;
     zoom: 0.8;

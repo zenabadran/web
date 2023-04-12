@@ -4,12 +4,16 @@
 }
 .paragraph-header-firstpart {
   padding: 25px;
-  font-size: 12pt;
+  font-size: 17px;
   margin-bottom: 0px;
+  font-family: "helveticaneuelight";
+  font-weight: 500;
 }
 
 .header-firstpart .paragraph-header-firstpart a {
   color: var(--text);
+  font-family: "helveticaneuemedium";
+  font-size: 17px;
 }
 
 .material-symbols-outlined {
