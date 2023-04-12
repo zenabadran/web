@@ -1,6 +1,7 @@
 .header-firstpart {
   background-color: var(--suppUI01);
   text-align: center;
+  
 }
 .paragraph-header-firstpart {
   padding: 25px;
@@ -8,6 +9,7 @@
   margin-bottom: 0px;
   font-family: "helveticaneuelight";
   font-weight: 500;
+  margin-top: 0;
 }
 
 .header-firstpart .paragraph-header-firstpart a {
