@@ -67,10 +67,10 @@ background: none;
 .container-description p {
   margin: 0px 70px 20px 70px;
   font-size: 15px;
-  font-family: "helveticaneuethin" !important;
+  font-family: "helveticaneuelight";
   letter-spacing: 1px;
   line-height: 1.5;
-  font-weight: bold;
+  font-weight:normal;
   width: 440px;
 }
 @media only screen and (max-width: 1370px) {
