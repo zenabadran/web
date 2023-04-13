@@ -1,8 +1,3 @@
-.solutions-container {
-  max-width: 1350px;
-  margin: auto;
-  padding: 0 18px;
-}
 .solutions-container h1 {
   text-align: center;
   font-size: 2.5rem;
@@ -34,14 +29,14 @@
 
   /* padding-right: 40px; */
 }
-.row-description-title{
+.row-description-title {
   font-size: 15px;
   color: var(--pribrand2);
   position: relative;
   letter-spacing: 2px;
 }
 
-.row-description >span::after {
+.row-description > span::after {
   content: "";
   position: absolute;
   background-color: var(--pribrand2);
@@ -67,66 +62,54 @@
 }
 
 @media only screen and (max-width: 1023px) {
-    .first-row-boilerimg {
-        
-        height: 40vw;
-       
-      }
-      .row-description {
-        height: 35vw;
-      
-      }
+  .first-row-boilerimg {
+    height: 40vw;
+  }
+  .row-description {
+    height: 35vw;
+  }
 
-      .second-row-boilerimg {
-        height: 40vw;
-      }
+  .second-row-boilerimg {
+    height: 40vw;
+  }
 }
-@media only screen and (max-width: 767px){
-    .solutions-row {
-        flex-direction: column;
-      }
-      .solutions-row.first-row{
-        flex-direction: column-reverse;
-      }
-      .first-row-boilerimg {
-        
-        width: 100%;
-       
-      }
-      .row-description {
-        margin-top: 20px;
-        width: 100%;
-      
-      }
+@media only screen and (max-width: 767px) {
+  .solutions-row {
+    flex-direction: column;
+  }
+  .solutions-row.first-row {
+    flex-direction: column-reverse;
+  }
+  .first-row-boilerimg {
+    width: 100%;
+  }
+  .row-description {
+    margin-top: 20px;
+    width: 100%;
+  }
 
-      .second-row-boilerimg {
-        width: 100%;
-      }
+  .second-row-boilerimg {
+    width: 100%;
+  }
 
+  .row-description span {
+    font-size: 12px;
+  }
 
-      .row-description span {
-        font-size: 12px;
-        
-      }
-      
-   
-      .row-description h2 {
-        font-size: 20px;
-        
-      }
-      .row-description div p {
-        font-size: 14px;
-        line-height: 1;
-      }
-      .row-description div a {
-        font-size: 16px;
-        line-height: 1;
-        
-      }
-
+  .row-description h2 {
+    font-size: 20px;
+  }
+  .row-description div p {
+    font-size: 14px;
+    line-height: 1;
+  }
+  .row-description div a {
+    font-size: 16px;
+    line-height: 1;
+  }
 }
-@media only screen and (max-width: 424px){
-  .solutions-row.first-row{
+@media only screen and (max-width: 424px) {
+  .solutions-row.first-row {
     margin-bottom: 70px;
   }
 }

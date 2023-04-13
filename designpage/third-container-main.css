@@ -1,12 +1,7 @@
 .container-thirdpart-engineergirl {
-  margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
-
-  max-width: 1350px;
-
-  padding: 0 18px;
   justify-content: flex-end;
   position: relative;
 }
@@ -78,11 +73,10 @@ background: none;
   font-weight: bold;
   width: 440px;
 }
-@media only screen and (max-width: 1370px){
+@media only screen and (max-width: 1370px) {
   .container-thirdpart-engineergirl .container-description {
     height: 300px;
     width: 450px;
-    
   }
   .container-description img {
     margin: 60px 0px 0px 45px;
@@ -93,7 +87,6 @@ background: none;
     width: 340px;
     margin: 0px 70px 10px 50px;
     font-size: 25px;
-   
   }
   .container-description p {
     margin: 0px 70px 10px 50px;
@@ -165,21 +158,17 @@ background: none;
   .container-description img {
     height: 30px;
     width: 150px;
-    
   }
   .container-description h2 {
     font-size: 30px;
-    
   }
   .container-description p {
     margin: 20px 50px 20px 50px;
     font-size: 19px;
-    
   }
 }
 @media only screen and (max-width: 767px) {
   .container-thirdpart-engineergirl {
-    
     margin-top: 40px;
     margin-bottom: 0px;
   }
@@ -191,7 +180,6 @@ background: none;
   .container-thirdpart-engineergirl .container-description {
     height: 250px;
     width: 90%;
-    
   }
   .container-description img {
     margin: 10px 0px 10px 15px;
@@ -205,8 +193,6 @@ background: none;
   .container-description p {
     margin: 0px 10px 10px 35px;
     font-size: 12px;
-    
-    
   }
   .playbutton {
     height: 50px;
@@ -238,7 +224,6 @@ background: none;
     height: 200px;
     width: 100%;
     align-self: center;
-    
   }
   .container-description h2 {
     width: 80%;
