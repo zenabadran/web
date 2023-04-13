@@ -237,3 +237,21 @@ background: none;
     zoom: 0.8;
   }
 }
+@media only screen and (max-width: 325px) {
+  .container-description img {
+    margin: 10px 0px 10px 0px;
+    height: 20px;
+    width: 100px;
+  }
+  .container-description h2 {
+    width: 90%;
+    margin: 0px 5px 5px 20px;
+    font-size: 15px;
+  }
+  .container-description p {
+    margin: 0px 5px 5px 25px;
+    font-size: 10px;
+    width: 90%;
+    zoom: 0.8;
+  }
+}

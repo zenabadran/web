@@ -108,8 +108,19 @@
     line-height: 1;
   }
 }
-@media only screen and (max-width: 424px) {
+@media only screen and (max-width: 482px) {
+  .solutions-container h1 {
+    font-size: 25px;
+  }
   .solutions-row.first-row {
     margin-bottom: 70px;
+  }
+}
+@media only screen and (max-width: 325px){
+  .solutions-container h1 {
+    font-size: 20px;
+  }
+  .solutions-row.first-row {
+    margin-bottom: 90px;
   }
 }

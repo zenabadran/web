@@ -84,12 +84,12 @@
     grid-template-columns: repeat(auto-fit, 350px);
   }
 }
-@media only screen and (max-width: 724px) {
+@media only screen and (max-width: 760px) {
   .featured-categories-row {
     align-self: center;
   }
 }
-@media only screen and (max-width: 424px) {
+@media only screen and (max-width: 482px) {
   .featured-categories-container h1 {
     font-size: 25px;
     padding: 20px;
@@ -101,3 +101,8 @@
     grid-template-columns: repeat(auto-fit, 250px);
   }
 }
+@media only screen and (max-width: 372px){
+  .featured-categories-container h1 {
+    font-size: 20px;
+  }}
+
