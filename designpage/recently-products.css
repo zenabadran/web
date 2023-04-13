@@ -1,0 +1,69 @@
+.recently-viewed-products-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.recently-viewed-products-container h1 {
+  align-self: center;
+  font-family: "helveticaneuebold";
+  font-size: 35px;
+}
+.recently-viewed-products-row {
+  display: flex;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 530px;
+  border: solid 1px var(--suppUI01);
+  position: relative;
+}
+.column-container {
+  width: 300px;
+  height: 400px;
+  margin: 100px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.column-container img {
+  height: 190px;
+  width: 300px;
+}
+.column-container h5 {
+  margin: 0px;
+  color: var(--pribrand1);
+  font-family: "helveticaneuemedium";
+  letter-spacing: .7px;
+}
+.column-container button {
+  height: 40px;
+  border: none;
+  background-color: var(--pribrand1);
+  color: var(--inverse);
+  letter-spacing: 1px;
+}
+.gradient {
+  position: absolute;
+  top: 10px;
+  width: 220px;
+  height: 0px;
+  display: flex;
+  justify-content: center;
+  border-top: 30px solid var(--suppUI02);
+  border-right: 20px solid transparent;
+}
+.gradient p {
+  font-family: "helveticaneuemedium";
+  position: relative;
+  left: -10px;
+  top: -37px;
+}
+.span1{
+    font-family: "helveticaneuemedium";
+}
+.span2{
+    font-family: "helveticaneuelight";
+}
