@@ -1,31 +1,29 @@
-.megalist:hover .dropdown-content {
-  display: block;
-  z-index: 3;
-}
-
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: var(--inverse);
   max-width: 1550px;
   margin: auto;
-  height: 650px;
+  height: 653px;
   left: 0;
   right: 0;
-
-  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
   box-shadow: 0px 500px 0px #03030381;
-  z-index: 1;
 }
-
-.classfora {
+nav ul li:hover .dropdown-content {
+  z-index: 3;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 16px;
+}
+nav ul li > span {
   position: relative;
   display: inline-block;
   padding-top: 45px;
   padding-bottom: 45px;
+  color: var(--pribrand1);
 }
 
-.classfora::after {
+nav ul li > span::after {
   content: "";
   position: absolute;
   background-color: var(--pribrand1);
@@ -36,87 +34,64 @@
   bottom: 30px;
 }
 
-.classfora:hover::after {
+nav ul li > span:hover::after {
   width: 40%;
 }
 
-.first-level {
-  display: flex;
-  justify-content: flex-start;
-  height: 100%;
-  font-size: 16px;
-}
-
-.section1 {
+.dropdown-content div:first-child {
   flex-shrink: 1;
   width: 23%;
-  /* padding: 50px 100px 50px 70px; */
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   border-right: var(--suppUI01) solid 1px;
-  height: 100%;
   color: var(--pribrand1);
 }
 
-.section4 {
+.dropdown-content div:last-child {
   flex-shrink: 1;
   width: 29%;
-  /* padding: 10px 100px 50px 70px; */
   display: flex;
   flex-direction: column;
-
   border-right: var(--suppUI01) solid 1px;
-  height: 100%;
   background-color: var(--suppUI01op);
-
-  /* font-family: 'Roboto Condensed', sans-serif;
-      letter-spacing: -1px;
-      font-weight: 700; */
-
   overflow: hidden;
 }
 
-.section4 p {
+.dropdown-content div:last-child p {
   display: inline-block;
   font-size: 45px;
   letter-spacing: 1px;
   padding-left: 50px;
   margin-top: 40px;
-
   color: var(--pribrand1);
   font-family: "Anton", sans-serif;
 }
 
-.section4 img {
+.dropdown-content div:last-child img {
   height: 282px;
-  
   padding-left: 50px;
   width: 550px;
 }
 
-.section4 a {
-  padding-top: 110px;
+.dropdown-content div:last-child a {
+  padding-top: 100px;
   padding-left: 50px;
 }
 
-.section2-section3 {
+.dropdown-content div {
   flex-shrink: 1;
   width: 24%;
-  /* padding: 50px 100px 50px 30px; */
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   border-right: var(--suppUI01) solid 1px;
-  height: 100%;
 }
 
-.section2-section3 a {
+.dropdown-content div a {
   display: inline-block;
-  padding: 35px 0 0 40px;
+  padding: 32px 0 0 40px;
 }
 
-.section1 a {
+.dropdown-content div:first-child a {
   display: inline-block;
   padding: 35px 0 0 100px;
 }

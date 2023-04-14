@@ -12,7 +12,7 @@ nav {
   /* margin-right: 30px; */
   margin: 0 auto;
 }
-.main-list {
+nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -28,7 +28,10 @@ li {
   letter-spacing: 0.8px;
   font-family: "helveticaneuemedium";
 }
-.search-nav {
+.thaird-part-header-container button {
+  border: none;
+  background-color: transparent;
+  color: var(--pribrand1);
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 0.8px;
@@ -42,17 +45,13 @@ li {
 .search-icon.material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 48;
 }
-.search-nav p {
-  display: inline-block;
-}
+
 
 @media only screen and (max-width: 1300px) {
   nav {
     display: none;
   }
-  .search-nav p {
-    display: none;
-  }
+  
 
   .thaird-part-header-container {
     justify-content: space-around;
