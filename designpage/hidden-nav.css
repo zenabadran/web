@@ -2,7 +2,7 @@
   display: none;
 }
 
-.hidden-nav {
+.side-bar-menu nav {
   display: none;
 }
 
@@ -21,44 +21,49 @@
   .thaird-part-header-container button span:first-child {
     display: none;
   }
-  .side-bar-menu:hover .hidden-nav {
+  .side-bar-menu:hover  nav {
     display: flex;
     flex-direction: column;
-
-    width: 90%;
+     width: 90%;
     height: 100%;
     position: fixed;
-    background-color: whitesmoke;
     top: 0px;
     left: 0px;
     box-shadow: 150px 0px 0px #0303035b;
     z-index: 3;
+    background-color: whitesmoke;
     overflow: scroll;
   }
 
-  .hidden-nav ul {
+  .side-bar-menu nav ul {
     display: flex;
     flex-direction: column;
-    margin-bottom: 0;
-    padding-left: 0;
     margin-top: 0;
     width: 100%;
   }
 
-  .hidden-nav ul li {
+  .side-bar-menu nav ul li {
     padding: 17px;
     background-color: var(--inverse);
     border-bottom: solid var(--suppUI02) 1px;
     width: 100%;
+    font-size: 15px;
   }
-  .hidden-nav ul li a{
+  .side-bar-menu nav ul li a{
     padding-left: 20px;
   }
 
-  .hidden-nav ul .cross-icon {
-    border-bottom: solid var(--pribrand3) 2px;
-    padding-top: 5px;
-    padding-bottom: 10px;
+  .side-bar-menu nav ul li:first-child {
+    border-bottom: solid var(--pribrand3) 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .side-bar-menu nav ul .sconed-part-un-order-list{
+    font-size: 14px;
+    background-color: whitesmoke;
+    border: none;
+    font-family: "helveticaneuemedium";
+    padding-top:40px;
   }
 
   .material-symbols-outlined {
@@ -69,17 +74,7 @@
     float: right;
     font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
   }
-
-  .hidden-nav-secondpart {
-    display: flex;
-    flex-direction: column;
-    font-family: "Helvetica Neue", sans-serif;
-    font-size: 12pt;
-    font-weight: 400;
-    margin-top: 0;
-  }
-
-  .hidden-nav-secondpart a {
-    padding: 50px 20px 0px 20px;
-  }
+   
+ 
+  
 }

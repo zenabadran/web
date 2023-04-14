@@ -24,18 +24,16 @@ nav ul {
 li {
   list-style-type: none;
   font-size: 16px;
-  font-weight: bold;
   letter-spacing: 0.8px;
-  font-family: "helveticaneuemedium";
+  font-family: "helveticaneuebold";
 }
 .thaird-part-header-container button {
   border: none;
   background-color: transparent;
   color: var(--pribrand1);
   font-size: 16px;
-  font-weight: bold;
   letter-spacing: 0.8px;
-  font-family: "helveticaneuemedium";
+  font-family: "helveticaneuebold";
 }
 
 .logo {

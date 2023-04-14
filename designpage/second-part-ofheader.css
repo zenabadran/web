@@ -9,7 +9,7 @@
 
   box-shadow: inset 0px -11px 10px -15px gray;
 }
-.container-header-secondpart {
+.header-secondpart div {
   max-width: 1450px;
   margin: auto;
   
@@ -22,7 +22,7 @@
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
-.head-set-icon {
+.header-secondpart div a img {
   height: 17px;
   width: 17px;
   color: var(--pribrand1);

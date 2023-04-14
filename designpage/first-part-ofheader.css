@@ -1,9 +1,8 @@
 .header-firstpart {
   background-color: var(--suppUI01);
   text-align: center;
-  
 }
-.paragraph-header-firstpart {
+.header-firstpart p {
   padding: 25px;
   font-size: 16px;
   margin-bottom: 0px;
@@ -11,7 +10,7 @@
   margin-top: 0;
 }
 
-.header-firstpart .paragraph-header-firstpart a {
+.header-firstpart p a {
   color: var(--text);
   font-family: "helveticaneuemedium";
   font-size: 17px;
