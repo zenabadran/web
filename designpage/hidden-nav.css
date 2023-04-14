@@ -65,7 +65,11 @@
     font-family: "helveticaneuemedium";
     padding-top:40px;
   }
-
+  .sconed-part-un-order-list a img {
+    height: 17px;
+    width: 17px;
+    color: var(--pribrand1);
+  }
   .material-symbols-outlined {
     font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 200, "opsz" 48;
   }

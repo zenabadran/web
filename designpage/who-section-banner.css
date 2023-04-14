@@ -1,42 +1,34 @@
-.main-div-paragraph {
+.how-we-are-section {
   display: flex;
   justify-content: space-between;
-  height: 180px;
-  margin-top: 30px;
   position: relative;
 }
-.whoparagraph {
-  font-size: 25px;
-  font-family: "helveticaneuebold";
-
-  padding: 20px 20px 20px 0px;
-}
-
-.whodiv {
+.who-section {
   border-right: solid 3px var(--suppUI01);
   align-self: center;
   width: 55%;
 }
+.who-section p {
+  font-size: 25px;
+  font-family: "helveticaneuebold";
+  padding: 20px 20px 20px 0px;
+}
 
-.firsttextdiv {
+.middle-text-section {
   font-size: 16px;
   align-self: center;
   padding: 40px 400px 40px 50px;
   font-family: "helveticaneuelight";
   letter-spacing: 1px;
   line-height: 1.7;
-  
 }
 
-.secondtextdiv {
+.service-section {
   background-color: var(--pribrand3);
-
   color: var(--inverse);
   position: absolute;
-  /* left: 1010px; */
   right: 0px;
   top: -120px;
-  /* height: 260px; */
   width: 320px;
   padding: 10px;
   z-index: 2;
@@ -47,37 +39,34 @@
   background-position-y: 50px;
 }
 
-.secondtextdiv p {
+.service-section p {
   font-size: 22px;
   padding: 0px 45px 0px 35px;
   margin-bottom: 40px;
   line-height: 1.5;
 }
 
-.secondtextdiv a {
+.service-section a {
   color: var(--inverse);
   font-size: 13px;
   display: inline-block;
   padding: 0px 30px 20px 30px;
 }
 
-.boiler-room-maindiv .hover-show-hiddentext {
-  display: none;
-}
-
 @media only screen and (max-width: 1300px) {
-  .main-div-paragraph {
+  .how-we-are-section {
+    margin-top: 30px;
     flex-direction: column;
     height: 500px;
     align-items: center;
   }
 
-  .whodiv {
+  .who-section {
     width: 98%;
     text-align: end;
   }
 
-  .firsttextdiv {
+  .middle-text-section {
     border-left: solid 3px var(--suppUI01);
     font-size: 15px;
     text-align: justify;
@@ -85,65 +74,63 @@
     width: 88%;
   }
 
-  .secondtextdiv {
+  .service-section {
     position: static;
   }
-  .secondtextdiv {
+  .service-section {
     width: 87%;
   }
 }
 @media only screen and (max-width: 767px) {
-  .firsttextdiv {
+  .middle-text-section {
     font-size: 14px;
   }
 
-  /* .main-div-paragraph {
-    height: 400px;
-  } */
-  .secondtextdiv {
+  .service-section {
     margin-top: 20px;
   }
-  .secondtextdiv p {
+  .service-section p {
     font-size: 15px;
     padding: 0 15px 0 55px;
     margin-bottom: 10px;
   }
 
-  .secondtextdiv a {
+  .service-section a {
     font-size: 10px;
     padding: 0px 10px 5px 50px;
   }
 }
+
 @media only screen and (max-width: 440px) {
-  .main-div-paragraph {
+  .how-we-are-section {
     justify-content: center;
   }
-  .whodiv {
+  .who-section {
     text-align: center;
     border: none;
     margin: 30px 0 0 0;
   }
-  .whoparagraph {
+  .who-section p {
     margin: 30px 0 0 0;
   }
-  .firsttextdiv {
+  .middle-text-section {
     align-self: center;
     text-align: center;
     padding-right: 20px;
     border: none;
     width: 88%;
   }
-  .secondtextdiv {
+  .service-section {
     margin-top: 0px;
     width: 95%;
   }
-  .secondtextdiv p {
+  .service-section p {
     font-size: 15px;
     padding: 0px 15px 0px 25px;
     margin-bottom: 10px;
   }
 
-  .secondtextdiv a {
+  .service-section a {
     font-size: 10px;
     padding: 0px 10px 5px 20px;
   }
