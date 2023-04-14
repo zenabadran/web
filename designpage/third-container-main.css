@@ -1,11 +1,11 @@
-.container-thirdpart-engineergirl {
+.demonstration-video-container {
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
   justify-content: flex-end;
   position: relative;
 }
-.playvideo {
+.play-video-container {
   height: 560px;
   width: 870px;
   background: url("../img/engineer.jpg");
@@ -14,26 +14,15 @@
   justify-content: center;
   align-items: center;
 }
-.playvideo button {
+.play-video-container button {
   background-color: transparent;
   border: none;
 }
-.playvideo video {
+.play-video-container video {
   width: 870px;
   height: 600px;
   display: none;
 }
-/* body:has(button:focus ) .playvideo{
-
-background: none;
-} */
-/* body:has(button:focus ) video{
-
-   display: block;
-    } */
-/* body:has(button:focus ) button{
- display: none;
-  } */
 
 .playbutton {
   height: 150px;
@@ -41,7 +30,7 @@ background: none;
   filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.1));
 }
 
-.container-thirdpart-engineergirl .container-description {
+.demonstration-video-container .video-description {
   height: 400px;
   width: 550px;
   display: inline-block;
@@ -51,12 +40,12 @@ background: none;
   left: 0px;
   box-shadow: 14px 10px 30px 10px rgba(0, 0, 0, 0.1);
 }
-.container-description img {
+.video-description img {
   margin: 60px 0px 20px 65px;
   height: 40px;
   width: 140px;
 }
-.container-description h2 {
+.video-description h2 {
   display: inline-block;
   width: 440px;
   margin: 0px 70px 20px 70px;
@@ -64,133 +53,128 @@ background: none;
   font-family: "helveticaneuebold";
   letter-spacing: 1px;
 }
-.container-description p {
+.video-description p {
   margin: 0px 70px 20px 70px;
   font-size: 15px;
   font-family: "helveticaneuelight";
   letter-spacing: 1px;
   line-height: 1.5;
-  font-weight:normal;
   width: 440px;
 }
 @media only screen and (max-width: 1370px) {
-  .container-thirdpart-engineergirl .container-description {
+  .demonstration-video-container .video-description {
     height: 300px;
     width: 450px;
   }
-  .container-description img {
+  .video-description img {
     margin: 60px 0px 0px 45px;
     height: 40px;
     width: 100px;
   }
-  .container-description h2 {
+  .video-description h2 {
     width: 340px;
     margin: 0px 70px 10px 50px;
     font-size: 25px;
   }
-  .container-description p {
+  .video-description p {
     margin: 0px 70px 10px 50px;
     font-size: 13px;
     width: 340px;
   }
 }
 @media only screen and (max-width: 1300px) {
-  .container-thirdpart-engineergirl {
+  .demonstration-video-container {
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
   }
-  .playvideo {
+  .play-video-container {
     height: 470px;
     width: 90%;
   }
-  .playvideo video {
+  .play-video-container video {
     height: 470px;
     width: 90%;
 
     z-index: 2;
   }
-  .container-thirdpart-engineergirl .container-description {
+  .demonstration-video-container .video-description {
     height: 470px;
     width: 90%;
 
     position: static;
   }
-  .container-description img {
+  .video-description img {
     margin: 30px 0px 20px 35px;
     height: 50px;
     width: 200px;
-    display: block;
   }
-  .container-description h2 {
-    display: inline-block;
+  .video-description h2 {
     margin: 0px 50px 10px 50px;
     font-size: 35px;
     letter-spacing: 1px;
     width: auto;
   }
-  .container-description p {
+  .video-description p {
     margin: 50px 50px 20px 50px;
     font-size: 23px;
     width: auto;
   }
 }
 @media only screen and (max-width: 1023px) {
-  .container-thirdpart-engineergirl {
-    /* position: relative;
-      bottom: 100px; */
+  .demonstration-video-container {
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
   }
-  .playvideo {
+  .play-video-container {
     height: 370px;
     width: 90%;
   }
-  .playvideo video {
+  .play-video-container video {
     height: 370px;
     width: 90%;
   }
-  .container-thirdpart-engineergirl .container-description {
+  .demonstration-video-container .video-description {
     height: 370px;
     width: 90%;
   }
-  .container-description img {
+  .video-description img {
     height: 30px;
     width: 150px;
   }
-  .container-description h2 {
+  .video-description h2 {
     font-size: 30px;
   }
-  .container-description p {
+  .video-description p {
     margin: 20px 50px 20px 50px;
     font-size: 19px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .container-thirdpart-engineergirl {
+  .demonstration-video-container {
     margin-top: 40px;
     margin-bottom: 0px;
   }
-  .playvideo {
+  .play-video-container {
     height: 260px;
     width: 90%;
   }
 
-  .container-thirdpart-engineergirl .container-description {
+  .demonstration-video-container .video-description {
     height: 250px;
     width: 90%;
   }
-  .container-description img {
+  .video-description img {
     margin: 10px 0px 10px 15px;
     height: 20px;
     width: 100px;
   }
-  .container-description h2 {
+  .video-description h2 {
     margin: 0px 10px 10px 30px;
     font-size: 20px;
   }
-  .container-description p {
+  .video-description p {
     margin: 0px 10px 10px 35px;
     font-size: 12px;
   }
@@ -198,39 +182,39 @@ background: none;
     height: 50px;
     width: 50px;
   }
-  .playvideo video {
+  .play-video-container video {
     height: 210px;
     width: 410px;
   }
 }
 @media only screen and (max-width: 440px) {
-  .container-thirdpart-engineergirl {
+  .demonstration-video-container {
     justify-content: center;
     margin-top: 80px;
   }
 
-  .playvideo {
+  .play-video-container {
     height: 190px;
     width: 100%;
     align-self: center;
   }
-  .playvideo video {
+  .play-video-container video {
     height: 190px;
     width: 100%;
     align-self: center;
   }
 
-  .container-thirdpart-engineergirl .container-description {
+  .demonstration-video-container .video-description {
     height: 200px;
     width: 100%;
     align-self: center;
   }
-  .container-description h2 {
+  .video-description h2 {
     width: 80%;
     margin: 0px 10px 10px 30px;
     font-size: 17px;
   }
-  .container-description p {
+  .video-description p {
     margin: 0px 10px 10px 35px;
     font-size: 10px;
     width: 80%;
@@ -238,17 +222,17 @@ background: none;
   }
 }
 @media only screen and (max-width: 325px) {
-  .container-description img {
+  .video-description img {
     margin: 10px 0px 10px 0px;
     height: 20px;
     width: 100px;
   }
-  .container-description h2 {
+  .video-description h2 {
     width: 90%;
     margin: 0px 5px 5px 20px;
     font-size: 15px;
   }
-  .container-description p {
+  .video-description p {
     margin: 0px 5px 5px 25px;
     font-size: 10px;
     width: 90%;

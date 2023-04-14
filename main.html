@@ -266,11 +266,11 @@
             </div>
         </div>
 
-        <div class="container-thirdpart-engineergirl">
-            <div class="container-description">
+        <div class="demonstration-video-container">
+            <div class="video-description">
                 <img src="img\prometha-V2_R9a.svg" alt="promethalogo" />
                 <h2>
-                    <b> Boiler Room Intelligence at Your Fingertips </b>
+                     Boiler Room Intelligence at Your Fingertips 
                 </h2>
                 <p>
                     Ideal for any industry, Prometha offers users the ability to remotely
@@ -279,21 +279,21 @@
                     sustainability in the boiler room.
                 </p>
             </div>
-            <div id="playvideo" class="playvideo">
+            <div id="playvideo" class="play-video-container">
                 <button id="btn">
                     <img class="playbutton" src="img\playbutton.png" alt="playbutton" />
                 </button>
-
-                <video id="box" controls="controls">
+                <video id="video" controls="controls">
                     <source src="video/webvideo.mp4" type="video/mp4" />
                 </video>
             </div>
         </div>
+
         <div class="solutions-container">
             <h1>Solutuions</h1>
-            <div class="solutions-row first-row">
+             <div class="solutions-row first-row"> <!-- اعملي هون نفس الاسم وخدي فيرست تشايلد -->
                 <div class="row-description">
-                    <span class="row-description-title">RENTALS</span>
+                    <span class="row-description-title">RENTALS</span> <!-- ما في داعي اسمي-->
                     <h2>We Provide. Nationwide.</h2>
                     <div>
                         <p>
@@ -307,7 +307,7 @@
                         <a href="javascript:;">Learn More<span class="material-symbols-outlined">arrow_right_alt</span></a>
                     </div>
                 </div>
-                <div class="first-row-boilerimg"></div>
+                <div class="first-row-boilerimg"></div> <!-- اعملي هون نفس الاسم وخدي فيرست تشايلد -->
             </div>
 
             <!-- second row -->
@@ -501,8 +501,8 @@
         btn.addEventListener("click", () => {
             btn.style.display = "none";
 
-            const box = document.getElementById("box");
-            box.style.display = "block";
+            const video = document.getElementById("video");
+            video.style.display = "block";
             const playvideo = document.getElementById("playvideo");
             playvideo.style.background = "none";
         });
