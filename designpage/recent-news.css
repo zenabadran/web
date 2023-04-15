@@ -91,9 +91,7 @@
   .recent-news-container h1 {
     font-size: 25px;
   }
-  .recent-news-container {
-    margin-top: 100px;
-  }
+  
   .recent-news-column {
     width: 250px;
     margin-top: 30px;
@@ -116,9 +114,7 @@
 }
 
 @media only screen and (max-width: 325px) {
-  .recent-news-container {
-    margin-top: 150px;
-  }
+ 
   .recent-news-container h1 {
     font-size: 20px;
   }

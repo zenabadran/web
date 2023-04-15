@@ -10,7 +10,7 @@
   margin-bottom: 30px;
 }
 .solutions-row img {
-  height: 400px;
+  height: auto;
   width: 57%;
 }
 
@@ -54,14 +54,14 @@
   letter-spacing: 1px;
 }
 
-@media only screen and (max-width: 1023px) {
+/* @media only screen and (max-width: 1023px) {
   .solutions-row img {
     height: 40vw;
   }
   .row-description {
     height: 35vw;
   }
-}
+} */
 @media only screen and (max-width: 767px) {
   .solutions-row:last-child {
     flex-direction: column;
@@ -98,9 +98,7 @@
   .solutions-container h1 {
     font-size: 25px;
   }
-  .solutions-row:last-child {
-    margin-top: 80px;
-  }
+  
 }
 @media only screen and (max-width: 325px) {
   .solutions-container h1 {
