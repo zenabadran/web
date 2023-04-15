@@ -1,26 +1,50 @@
 .discover-more-container {
   display: flex;
   flex-direction: column;
-  
+  margin-top: 70px;
 }
 .discover-more-container h1 {
-    align-self: center;
+  align-self: center;
 }
 .discover-more-row {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.discover-more-row > div{
+    height: 400px;
+    width: 650px;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: flex-end;
 }
 .discover-more-row > div:first-child {
   background: url(../img/boilerhouse.png);
   background-size: 100% 100%;
-  height: 400px;
-  width: 650px;
+ 
 }
 .discover-more-row > div:last-child {
-    background: url(../img/boilerhouse.png);
-    background-size: 100% 100%;
-    height: 400px;
-    width: 650px;
-  }
-  
+  background: url(../img/boilerhouse.png);
+  background-size: 100% 100%;
+}
+
+.discover-more-discreption {
+  width: 37%;
+  background-color: var(--suppUI06);
+  color: var(--inverse);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px;
+}
+.discover-more-row > div:last-child .discover-more-discreption{
+    background-color: var( --suppUI04);
+}
+.discover-more-discreption h2 {
+    font-size: 30px;
+}
+.discover-more-discreption p {
+    line-height: 1.5;
+}
+.discover-more-discreption a {
+  color: var(--inverse);
+}
