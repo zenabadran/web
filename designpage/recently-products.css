@@ -65,12 +65,13 @@
   left: -10px;
   top: -37px;
 }
-.span1{
-    font-family: "helveticaneuebold";
+.column-container>span span:first-child{
+  font-family: "helveticaneuebold";
 }
-.span2{
-    font-family: "helveticaneuelight";
+.column-container>span  span:last-child{
+  font-family: "helveticaneuelight";
 }
+
 .rounded-arrow-product{
   height: 60px;
   width: 60px;

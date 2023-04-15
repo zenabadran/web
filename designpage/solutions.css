@@ -9,19 +9,11 @@
   justify-content: space-between;
   margin-bottom: 30px;
 }
-.row-boilerimg {
-  
+.solutions-row img {
   height: 400px;
   width: 57%;
 }
-.row-boilerimg:first-child{
-  background: url("../img/Clever-brooks.jpg");
-  background-size: 100% 100%;
-}
-.row-boilerimg:last-child {
-  background: url("../img/ContainerCBEX.jpg");
-  background-size: 100% 100%;
-}
+
 .row-description {
   word-break: break-word;
   word-wrap: break-word;
@@ -30,7 +22,7 @@
 
   /* padding-right: 40px; */
 }
-.row-description >span:first-child {
+.row-description > span:first-child {
   font-size: 15px;
   color: var(--pribrand2);
   position: relative;
@@ -50,11 +42,11 @@
   font-size: 30px;
   letter-spacing: 2px;
 }
-.row-description  p {
+.row-description p {
   font-size: 16px;
   line-height: 1.5;
 }
-.row-description  a {
+.row-description a {
   font-size: 19px;
   /* font-weight: 800; */
   font-family: "helveticaneuemedium";
@@ -63,13 +55,12 @@
 }
 
 @media only screen and (max-width: 1023px) {
-  .row-boilerimg {
+  .solutions-row img {
     height: 40vw;
   }
   .row-description {
     height: 35vw;
   }
-
 }
 @media only screen and (max-width: 767px) {
   .solutions-row:last-child {
@@ -78,16 +69,14 @@
   .solutions-row {
     flex-direction: column-reverse;
   }
- 
-  .row-boilerimg {
+
+  .solutions-row img {
     width: 100%;
   }
   .row-description {
     margin-top: 20px;
     width: 100%;
   }
-
-
 
   .row-description span {
     font-size: 12px;
@@ -96,11 +85,11 @@
   .row-description h2 {
     font-size: 20px;
   }
-  .row-description  p {
+  .row-description p {
     font-size: 14px;
     line-height: 1;
   }
-  .row-description  a {
+  .row-description a {
     font-size: 16px;
     line-height: 1;
   }
@@ -112,11 +101,9 @@
   .solutions-row:last-child {
     margin-top: 80px;
   }
-  
 }
-@media only screen and (max-width: 325px){
+@media only screen and (max-width: 325px) {
   .solutions-container h1 {
     font-size: 20px;
   }
-  
 }

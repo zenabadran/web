@@ -7,7 +7,7 @@
   font-family: "helveticaneuebold";
   font-size: 35px;
 }
-.recent-news-container >a {
+.recent-news-container > a {
   align-self: flex-end;
   color: var(--pribrand2);
 }
@@ -23,13 +23,13 @@
   width: 426px;
 }
 
-.recent-news-img{
+.recent-news-img {
   height: 270px;
   width: 100%;
   display: flex;
   align-items: center;
 }
-.recent-news-column:first-child .recent-news-img{
+.recent-news-column:first-child .recent-news-img {
   background: url("../img/CondensingBoiler.jpg");
   background-size: 100% 100%;
   justify-content: end;
@@ -41,7 +41,6 @@
 .recent-news-column:last-child .recent-news-img {
   background: url("../img/laptopwithboiler.jpg");
   background-size: 100% 100%;
-  
 }
 
 .recent-news-column h2 {
@@ -99,10 +98,10 @@
     width: 250px;
     margin-top: 30px;
   }
-   .recent-news-img {
+  .recent-news-img {
     height: 170px;
   }
-  
+
   .recent-news-column h2 {
     font-size: 16px;
   }
@@ -116,10 +115,11 @@
   }
 }
 
-@media only screen and (max-width: 325px){
+@media only screen and (max-width: 325px) {
   .recent-news-container {
     margin-top: 150px;
   }
   .recent-news-container h1 {
     font-size: 20px;
-  }}
+  }
+}

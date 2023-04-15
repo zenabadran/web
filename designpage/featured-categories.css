@@ -18,41 +18,12 @@
   flex-direction: column;
   margin: auto;
 }
-.featured-categories-img{
+.featured-categories-card img {
   height: 180px;
   width: 250px;
   margin-bottom: 40px;
 }
-.featured-categories-card:first-child div{
-  background: url("../img/boiler.png");
-  background-size: 100% 100%;
- 
-}
 
-.featured-categories-card:nth-child(2) .featured-categories-img {
-  background: url("../img/burners.png");
-  background-size: 100% 100%;
-}
-.featured-categories-card:nth-child(3) .featured-categories-img {
-  background: url("../img/controls.png");
-  background-size: 100% 100%;
-}
-.featured-categories-card:nth-child(4) .featured-categories-img {
-  background: url("../img/heatrecovery.png");
-  background-size: 100% 100%;
-}
-.featured-categories-card:nth-child(5) .featured-categories-img{
-  background: url("../img/watersystem.jpg");
-  background-size: 100% 100%;
-}
-.featured-categories-card:nth-child(6) .featured-categories-img {
-  background: url("../img/exhaustSolutions.png");
-  background-size: 100% 100%;
-}
-.featured-categories-card:nth-child(7) .featured-categories-img {
-  background: url("../img/partsandservices.jpg");
-  background-size: 100% 100%;
-}
 .featured-categories-card a {
   align-self: center;
   /* font-weight: bold; */
@@ -82,8 +53,8 @@
     grid-template-columns: repeat(auto-fit, 250px);
   }
 }
-@media only screen and (max-width: 372px){
+@media only screen and (max-width: 372px) {
   .featured-categories-container h1 {
     font-size: 20px;
-  }}
-
+  }
+}
