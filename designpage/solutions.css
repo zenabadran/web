@@ -9,17 +9,18 @@
   justify-content: space-between;
   margin-bottom: 30px;
 }
-.first-row-boilerimg {
-  background: url("../img/Clever-brooks.jpg");
-  background-size: 100% 100%;
+.row-boilerimg {
+  
   height: 400px;
   width: 57%;
 }
-.second-row-boilerimg {
+.row-boilerimg:first-child{
+  background: url("../img/Clever-brooks.jpg");
+  background-size: 100% 100%;
+}
+.row-boilerimg:last-child {
   background: url("../img/ContainerCBEX.jpg");
   background-size: 100% 100%;
-  height: 400px;
-  width: 57%;
 }
 .row-description {
   word-break: break-word;
@@ -29,7 +30,7 @@
 
   /* padding-right: 40px; */
 }
-.row-description-title {
+.row-description >span:first-child {
   font-size: 15px;
   color: var(--pribrand2);
   position: relative;
@@ -49,11 +50,11 @@
   font-size: 30px;
   letter-spacing: 2px;
 }
-.row-description div p {
+.row-description  p {
   font-size: 16px;
   line-height: 1.5;
 }
-.row-description div a {
+.row-description  a {
   font-size: 19px;
   /* font-weight: 800; */
   font-family: "helveticaneuemedium";
@@ -62,25 +63,23 @@
 }
 
 @media only screen and (max-width: 1023px) {
-  .first-row-boilerimg {
+  .row-boilerimg {
     height: 40vw;
   }
   .row-description {
     height: 35vw;
   }
 
-  .second-row-boilerimg {
-    height: 40vw;
-  }
 }
 @media only screen and (max-width: 767px) {
-  .solutions-row {
+  .solutions-row:last-child {
     flex-direction: column;
   }
-  .solutions-row.first-row {
+  .solutions-row {
     flex-direction: column-reverse;
   }
-  .first-row-boilerimg {
+ 
+  .row-boilerimg {
     width: 100%;
   }
   .row-description {
@@ -88,9 +87,7 @@
     width: 100%;
   }
 
-  .second-row-boilerimg {
-    width: 100%;
-  }
+
 
   .row-description span {
     font-size: 12px;
@@ -99,11 +96,11 @@
   .row-description h2 {
     font-size: 20px;
   }
-  .row-description div p {
+  .row-description  p {
     font-size: 14px;
     line-height: 1;
   }
-  .row-description div a {
+  .row-description  a {
     font-size: 16px;
     line-height: 1;
   }
@@ -112,15 +109,14 @@
   .solutions-container h1 {
     font-size: 25px;
   }
-  .solutions-row.first-row {
-    margin-bottom: 70px;
+  .solutions-row:last-child {
+    margin-top: 80px;
   }
+  
 }
 @media only screen and (max-width: 325px){
   .solutions-container h1 {
     font-size: 20px;
   }
-  .solutions-row.first-row {
-    margin-bottom: 90px;
-  }
+  
 }

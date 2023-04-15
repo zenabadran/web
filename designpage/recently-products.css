@@ -84,6 +84,10 @@
   right: -30px;
   top: 260px;
 }
+.rounded-arrow-product.mirror{
+  transform: scale(-1, 1);
+  left: -30px;
+}
 .rounded-arrow-product:hover {
   opacity: 0.5;
 }
