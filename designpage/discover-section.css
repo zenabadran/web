@@ -20,11 +20,15 @@
 .discover-more-row > div:first-child {
   background: url(../img/boilerhouse.png);
   background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
  
 }
 .discover-more-row > div:last-child {
   background: url(../img/boilerhouse.png);
   background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .discover-more-discreption {
@@ -39,12 +43,71 @@
 .discover-more-row > div:last-child .discover-more-discreption{
     background-color: var( --suppUI04);
 }
+.discover-more-discreption span {
+  letter-spacing: 2px;
+}
 .discover-more-discreption h2 {
     font-size: 30px;
 }
 .discover-more-discreption p {
     line-height: 1.5;
+    font-family: "helveticaneuelight";
 }
 .discover-more-discreption a {
   color: var(--inverse);
+}
+@media only screen and (max-width: 1370px){
+  .discover-more-row {
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    height: 780px;
+   
+  }
+
+  .discover-more-row > div{
+    height: auto;
+    width: 80%;
+    
+}
+}
+@media only screen and (max-width: 768px){
+  .discover-more-row {
+    height: 650px;
+   
+  }
+  .discover-more-row > div{
+    height: 300px;
+    width: 90%;
+    
+}
+.discover-more-discreption {
+  width: 40%;
+  padding: 30px;
+}
+.discover-more-discreption h2 {
+  font-size: 20px;
+}
+
+.discover-more-discreption span {
+  font-size: 14px;
+  zoom: .95;
+}
+.discover-more-discreption p {
+    zoom: .85;
+    line-height: normal;
+}
+
+}
+@media only screen and (max-width: 425px){
+  .discover-more-discreption{
+    padding: 20px;
+    width: 100%;
+  }
+  .discover-more-discreption h2 {
+    font-size: 18px;
+  }
+  .discover-more-discreption a {
+    zoom: .75;
+  }
 }
