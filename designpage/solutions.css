@@ -54,14 +54,7 @@
   letter-spacing: 1px;
 }
 
-/* @media only screen and (max-width: 1023px) {
-  .solutions-row img {
-    height: 40vw;
-  }
-  .row-description {
-    height: 35vw;
-  }
-} */
+
 @media only screen and (max-width: 767px) {
   .solutions-row:last-child {
     flex-direction: column;
