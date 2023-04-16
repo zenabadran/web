@@ -1,60 +1,72 @@
 footer {
   background-color: var(--pribrand1);
   margin-top: 30px;
-  
 }
 .first-part-of-footer {
   display: flex;
   justify-content: space-between;
 }
 .first-part-of-footer div {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    padding: 50px 0px;
-    
+  padding: 50px 0px;
 }
-.first-part-of-footer div:first-child{
-    padding: 40px 0px;
+.first-part-of-footer div:first-child {
+  padding: 40px 0px;
 }
 .first-part-of-footer div:first-child a {
-    font-family: "helveticaneuemedium";
-    padding-top: 30px;
+  font-family: "helveticaneuemedium";
+  padding-top: 30px;
 }
-.first-part-of-footer div:first-child p{
-line-height: 1.5;
+.first-part-of-footer div:first-child p {
+  line-height: 1.5;
 }
 .first-part-of-footer div > a,
-.first-part-of-footer div{
-    
+.first-part-of-footer div {
   color: var(--inverse);
   font-family: "helveticaneuelight";
 }
-.first-part-of-footer div > a,.first-part-of-footer div >p ,.first-part-of-footer div >span:last-child{
-    padding-top: 10px;
+.first-part-of-footer div > a,
+.first-part-of-footer div > p,
+.first-part-of-footer div > span:last-child {
+  padding-top: 10px;
 }
-.first-part-of-footer div >span:first-child{
-padding-bottom: 20px;
-position: relative;
-font-family: "helveticaneuemedium";
-font-size: 15px;
+.first-part-of-footer div > span:first-child {
+  padding-bottom: 20px;
+  position: relative;
+  font-family: "helveticaneuemedium";
+  font-size: 15px;
 }
-.first-part-of-footer div >span:first-child::after{
-    content: "";
-    position: absolute;
-    background-color: var(--inverse);
-    height: 2px;
-    width: 31px;
-    left: 0px;
-    top: 25px;
-    }
-.logo-footer{
-    height: 30px;
-    width: 140px;
+.first-part-of-footer div > span:first-child::after {
+  content: "";
+  position: absolute;
+  background-color: var(--inverse);
+  height: 2px;
+  width: 31px;
+  left: 0px;
+  top: 25px;
+}
+.logo-footer {
+  height: 30px;
+  width: 140px;
 }
 .first-part-of-footer div:last-child span img {
-    height: 25px;
-    width: 25px;
-    padding-right: 10px ;
-    padding-top: 10px;
+  height: 25px;
+  width: 25px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.last-part-of-footer {
+  display: flex;
+  color: var(--inverse);
+  justify-content: space-between;
+  border-top: solid var(--inverse) 1px;
+  font-family: "helveticaneuelight";
+  position: relative;
+}
+.last-part-of-footer span {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
