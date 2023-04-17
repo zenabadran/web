@@ -1,6 +1,6 @@
 footer {
   background-color: var(--pribrand1);
-  margin-top: 30px;
+  margin-top: 60px;
 }
 .first-part-of-footer {
   display: flex;
@@ -138,5 +138,9 @@ footer {
     height: 35px;
     width: 35px;
    
+  }
+  .convert-vertical-to-horizantal a {
+    font-size: 14px;
+    zoom: .9;
   }
 }
