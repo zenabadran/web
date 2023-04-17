@@ -12,6 +12,9 @@ footer {
 
   padding: 50px 0px;
 }
+.convert-vertical-to-horizantal {
+  padding: 0px 0px !important;
+}
 .first-part-of-footer div:first-child {
   padding: 40px 0px;
 }
@@ -51,11 +54,15 @@ footer {
   height: 30px;
   width: 140px;
 }
-.first-part-of-footer div:last-child span img {
+.first-part-of-footer div:last-child span a img {
   height: 25px;
   width: 25px;
   padding-right: 10px;
   padding-top: 10px;
+}
+.first-part-of-footer div:last-child span a {
+  display: inline-block;
+  height: 25px;
 }
 
 .last-part-of-footer {
@@ -69,4 +76,67 @@ footer {
 .last-part-of-footer span {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+@media only screen and (max-width: 873px) {
+  .first-part-of-footer {
+    flex-direction: column;
+  }
+  .first-part-of-footer div > span:first-child::after {
+    height: 1px;
+    width: 100vw;
+    left: -30px;
+    top: 40px;
+  }
+  .first-part-of-footer div {
+    padding: 10px 0px;
+  }
+
+  .first-part-of-footer div > a {
+    display: none;
+  }
+  .last-part-of-footer {
+    border: none;
+  }
+  .convert-vertical-to-horizantal a {
+    display: block !important;
+  }
+  .convert-vertical-to-horizantal {
+    flex-direction: row !important;
+    justify-content: space-between;
+    position: relative;
+  }
+  .convert-vertical-to-horizantal:after {
+    content: "";
+    position: absolute;
+    background-color: var(--inverse);
+    height: 1px;
+    width: 100vw;
+    left: -30px;
+    top: 85px;
+  }
+  .first-part-of-footer div:last-child span a img {
+    height: 45px;
+    width: 45px;
+    padding-right: 10px;
+    padding-top: 30px;
+  }
+  .last-part-of-footer{
+    flex-direction: column-reverse;
+    height: 140px;
+    justify-content: space-evenly;
+  }
+  .last-part-of-footer span {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .last-part-of-footer span:first-child{
+    padding-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 320px){
+  .first-part-of-footer div:last-child span a img {
+    height: 35px;
+    width: 35px;
+   
+  }
 }
