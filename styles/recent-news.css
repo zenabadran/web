@@ -1,23 +1,23 @@
-.recent-news-container {
+.recent-news-slider {
   display: flex;
   flex-direction: column;
 }
-.recent-news-container h1 {
+.recent-news-slider h1 {
   align-self: center;
   font-family: "helveticaneuebold";
   font-size: 35px;
 }
-.recent-news-container > a {
+.recent-news-slider > a {
   align-self: flex-end;
   color: var(--pribrand2);
 }
-.recent-news-row {
+.recent-news-slider > div {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.recent-news-column {
+.recent-news-slider-item {
   display: flex;
   flex-direction: column;
   width: 426px;
@@ -29,25 +29,25 @@
   display: flex;
   align-items: center;
 }
-.recent-news-column:first-child .recent-news-img {
+.recent-news-slider-item:first-child .recent-news-img {
   background: url("../img/CondensingBoiler.jpg");
   background-size: 100% 100%;
   justify-content: end;
 }
-.recent-news-column:nth-child(2) .recent-news-img {
+.recent-news-slider-item:nth-child(2) .recent-news-img {
   background: url("../img/corona.jpg");
   background-size: 100% 100%;
 }
-.recent-news-column:last-child .recent-news-img {
+.recent-news-slider-item:last-child .recent-news-img {
   background: url("../img/laptopwithboiler.jpg");
   background-size: 100% 100%;
 }
 
-.recent-news-column h2 {
+.recent-news-slider-item h2 {
   display: inline-block;
   letter-spacing: 0.7px;
 }
-.recent-news-column p {
+.recent-news-slider-item p {
   display: inline-block;
   padding-right: 5px;
   font-family: "helveticaneuelight";
@@ -56,7 +56,7 @@
   line-height: 1.5;
 }
 
-.recent-news-column a {
+.recent-news-slider-item a {
   align-self: flex-start;
   font-size: 16px;
   font-family: "helveticaneuemedium";
@@ -82,17 +82,17 @@
   left: -30px;
 }
 @media only screen and (max-width: 1330px) {
-  .recent-news-row {
+  .recent-news-slider > div {
     justify-content: center;
   }
 }
 
 @media only screen and (max-width: 482px) {
-  .recent-news-container h1 {
+  .recent-news-slider h1 {
     font-size: 25px;
   }
   
-  .recent-news-column {
+  .recent-news-slider-item {
     width: 250px;
     margin-top: 30px;
   }
@@ -100,22 +100,22 @@
     height: 170px;
   }
 
-  .recent-news-column h2 {
+  .recent-news-slider-item h2 {
     font-size: 16px;
   }
-  .recent-news-column p {
+  .recent-news-slider-item p {
     font-size: 12px;
     line-height: 1.2;
   }
 
-  .recent-news-column a {
+  .recent-news-slider-item a {
     font-size: 10px;
   }
 }
 
 @media only screen and (max-width: 325px) {
  
-  .recent-news-container h1 {
+  .recent-news-slider h1 {
     font-size: 20px;
   }
 }

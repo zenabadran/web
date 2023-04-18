@@ -1,4 +1,4 @@
-.product-banner {
+.product-slider {
   background: url("../img/encyclopedia-boilers-hero-master1.jpg");
   height: 230px;
   width: 100%;
@@ -11,7 +11,7 @@
   margin-top: 100px;
   box-shadow: inset 3px 230px 5px rgba(26, 28, 28, 0.74);
 }
-.product-banner h1 {
+.product-slider h1 {
   color: var(--inverse);
   font-size: 55px;
 }
