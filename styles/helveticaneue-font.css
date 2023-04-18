@@ -1,12 +1,9 @@
-@font-face {
-  font-family: "helveticaneue";
-  src: url(../fonts/HelveticaNeueRoman.woff) format("woff");
-}
+
 @font-face {
   font-family: "helveticaneuelight";
-  src: url(../fonts/HelveticaNeueLTStd-Lt.woff) format("*-woff"),
+  src: url(../fonts/HelveticaNeueLTStd-Lt.woff) format("woff"),
     url(../fonts/HelveticaNeueLTStd-Lt.woff2) format("woff2"),
-    url(../helvetica/helvetica/HelveticaNeueLTStd-Lt.eot) format("eot");
+    url(../fonts/HelveticaNeueLTStd-Lt.eot) format("eot");
   font-weight: 400;
   font-style: normal;
 }
@@ -14,7 +11,7 @@
 @font-face {
   font-family: "helveticaneuemedium";
   src: url(../fonts/HelveticaNeueLTStd-Md.woff) format("woff"),
-    url(../helvetica/helvetica/HelveticaNeueLTStd-Md.woff2) format("woff2");
+    url(../fonts/HelveticaNeueLTStd-Md.woff2) format("woff2");
   font-weight: 500;
   font-style: normal;
 }
@@ -35,3 +32,7 @@
   src: url(../fonts/HelveticaNeueLTStd-Hv.woff) format("woff");
 }
 
+@font-face {
+  font-family: "helveticaneue";
+  src: url(../fonts/HelveticaNeueRoman.woff) format("woff");
+}

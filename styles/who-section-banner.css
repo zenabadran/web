@@ -41,16 +41,18 @@
 
 .service-section p {
   font-size: 22px;
-  padding: 0px 45px 0px 35px;
+  padding: 0px 56px 0px 35px;
   margin-bottom: 40px;
   line-height: 1.5;
+  font-family: "helveticaneuelight";
 }
 
 .service-section a {
   color: var(--inverse);
-  font-size: 13px;
+  font-size: 15px;
   display: inline-block;
   padding: 0px 30px 20px 30px;
+  font-family: "helveticaneuemedium";
 }
 
 @media only screen and (max-width: 1300px) {

@@ -5,6 +5,8 @@
 }
 .discover-more-container h1 {
   align-self: center;
+  font-family: "helveticaneuebold";
+  margin-bottom: 40px;
 }
 .discover-more-row {
   display: flex;
@@ -12,7 +14,7 @@
  
 }
 .discover-more-row > div{
-    height: 400px;
+    height: 450px;
     width: 650px;
     display: flex;
     justify-content: flex-end;
@@ -30,29 +32,37 @@
 }
 
 .discover-more-discreption {
-  width: 37%;
+  width: 43%;
   background-color: var(--suppUI06);
   color: var(--inverse);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding: 30px;
+  padding-bottom: 80px;
 }
 .discover-more-row > div:last-child .discover-more-discreption{
     background-color: var( --suppUI04);
 }
-.discover-more-discreption span {
+.discover-more-discreption >span {
   letter-spacing: 2px;
+  font-family: "helveticaneuemedium";
 }
 .discover-more-discreption h2 {
     font-size: 30px;
+    font-family: "helveticaneue";
+    margin-top: 60px;
+    margin-bottom: 0px;
 }
 .discover-more-discreption p {
     line-height: 1.5;
+    font-size: 15px;
+    letter-spacing: 1px;
     font-family: "helveticaneuelight";
 }
 .discover-more-discreption a {
   color: var(--inverse);
+  font-family: "helveticaneue";
 }
 @media only screen and (max-width: 1370px){
   .discover-more-row {
@@ -64,7 +74,7 @@
   }
 
   .discover-more-row > div{
-    height: 350px;
+    height: 360px;
     width: 100%;
     
 }
@@ -83,8 +93,10 @@
   width: 40%;
   padding: 30px;
 }
+
 .discover-more-discreption h2 {
   font-size: 20px;
+  margin-top: 20px;
 }
 
 .discover-more-discreption span {

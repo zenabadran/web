@@ -14,4 +14,5 @@
 .product-slider h1 {
   color: var(--inverse);
   font-size: 55px;
+  font-family: "helveticaneuebold";
 }

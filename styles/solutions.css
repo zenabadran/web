@@ -27,6 +27,7 @@
   color: var(--pribrand2);
   position: relative;
   letter-spacing: 2px;
+  font-family: "helveticaneuemedium";
 }
 
 .row-description > span::after {
@@ -41,13 +42,15 @@
 .row-description h2 {
   font-size: 30px;
   letter-spacing: 2px;
+  font-family: "helveticaneue";
 }
 .row-description p {
   font-size: 16px;
   line-height: 1.5;
+  font-family: "helveticaneue";
 }
 .row-description a {
-  font-size: 19px;
+  font-size: 17px;
   /* font-weight: 800; */
   font-family: "helveticaneuemedium";
   line-height: 1.5;

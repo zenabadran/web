@@ -10,6 +10,7 @@
 .recent-news-slider > a {
   align-self: flex-end;
   color: var(--pribrand2);
+  font-family: "helveticaneuebold";
 }
 .recent-news-slider > div {
   display: flex;
@@ -46,6 +47,7 @@
 .recent-news-slider-item h2 {
   display: inline-block;
   letter-spacing: 0.7px;
+  font-family: "helveticaneuebold";
 }
 .recent-news-slider-item p {
   display: inline-block;
@@ -58,7 +60,7 @@
 
 .recent-news-slider-item a {
   align-self: flex-start;
-  font-size: 16px;
+  font-size: 15px;
   font-family: "helveticaneuemedium";
 }
 
