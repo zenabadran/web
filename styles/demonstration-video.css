@@ -94,7 +94,7 @@
   }
   .play-video-container video {
     height: 470px;
-    width: 90%;
+    width: 100%;
 
     z-index: 2;
   }
@@ -133,7 +133,7 @@
   }
   .play-video-container video {
     height: 370px;
-    width: 90%;
+   
   }
   .demonstration-video-container .video-description {
     height: 370px;
@@ -157,8 +157,12 @@
     margin-bottom: 0px;
   }
   .play-video-container {
-    height: 260px;
+    height: 300px;
     width: 90%;
+  }
+  .play-video-container video {
+    height: 300px;
+    
   }
 
   .demonstration-video-container .video-description {
@@ -171,7 +175,7 @@
     width: 100px;
   }
   .video-description h2 {
-    margin: 0px 10px 10px 30px;
+    margin: 0px 30px 10px 30px;
     font-size: 20px;
   }
   .video-description p {
@@ -182,10 +186,7 @@
     height: 50px;
     width: 50px;
   }
-  .play-video-container video {
-    height: 210px;
-    width: 410px;
-  }
+  
 }
 @media only screen and (max-width: 440px) {
   .demonstration-video-container {

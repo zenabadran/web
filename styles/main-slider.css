@@ -27,7 +27,7 @@
   filter: brightness(50%);
 }
 
-.main-slider p {
+.main-slider h1 {
   color: var(--inverse);
   position: relative;
   font-family: "helveticaneuebold";
@@ -59,7 +59,7 @@
     height: 424px;
   }
 
-  .main-slider p {
+  .main-slider h1 {
     font-size: 49px;
     font-weight: 800;
   }
@@ -74,13 +74,13 @@
     height: 324px;
   }
 
-  .main-slider p {
+  .main-slider h1 {
     font-size: 30px;
     font-weight: 800;
   }
 }
 @media only screen and (max-width: 424px) {
-  .main-slider p {
+  .main-slider h1 {
     font-size: 25px;
     font-weight: 800;
   }
