@@ -2,7 +2,7 @@
 @import "second-part-ofheader.css";
 @import "third-part-mainnav.css";
 @import "mega-list.css";
-@import "main-image-banner.css";
+@import "main-slider.css";
 @import "who-section-banner.css";
 @import "hidden-nav.css";
 @import "third-container-main.css";
@@ -20,6 +20,7 @@ body {
   padding: 0px;
   box-sizing: border-box;
   font-size: 100%;
+  font-family: "helveticaneue";
 }
 .page-container{
   margin: 0 auto;

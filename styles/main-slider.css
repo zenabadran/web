@@ -1,4 +1,4 @@
-.boiler-room-maindiv {
+.main-slider {
   background: url("../img/encyclopedia-boilers-hero-master1.jpg");
   height: 524px;
   border-top: var(--pribrand3) solid 4px;
@@ -15,7 +15,7 @@
   z-index: 1;
 }
 
-.boiler-room-maindiv::before {
+.main-slider::before {
   content: "";
   position: absolute;
   top: 0px;
@@ -27,7 +27,7 @@
   filter: brightness(50%);
 }
 
-.boiler-room-maindiv p {
+.main-slider p {
   color: var(--inverse);
   position: relative;
   font-family: "helveticaneuebold";
@@ -38,7 +38,7 @@
   letter-spacing: 2px;
 }
 
-.boiler-room-maindiv button {
+.main-slider button {
   position: relative;
   width: 250px;
   height: 50px;
@@ -49,38 +49,38 @@
   background-color: transparent;
 }
 
-.boiler-room-maindiv button:hover {
+.main-slider button:hover {
   cursor: pointer;
   background-color: var(--inverse);
   color: var(--pribrand1);
 }
 @media only screen and (max-width: 1023px) {
-  .boiler-room-maindiv {
+  .main-slider {
     height: 424px;
   }
 
-  .boiler-room-maindiv p {
+  .main-slider p {
     font-size: 49px;
     font-weight: 800;
   }
-  .boiler-room-maindiv button {
+  .main-slider button {
     width: 200px;
     height: 30px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .boiler-room-maindiv {
+  .main-slider {
     height: 324px;
   }
 
-  .boiler-room-maindiv p {
+  .main-slider p {
     font-size: 30px;
     font-weight: 800;
   }
 }
 @media only screen and (max-width: 424px) {
-  .boiler-room-maindiv p {
+  .main-slider p {
     font-size: 25px;
     font-weight: 800;
   }
