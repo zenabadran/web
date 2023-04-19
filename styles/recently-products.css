@@ -47,6 +47,7 @@
   background-color: var(--pribrand1);
   color: var(--inverse);
   letter-spacing: 1px;
+  cursor: pointer;
 }
 .gradient {
   position: absolute;
@@ -83,6 +84,7 @@
   position: absolute;
   right: -30px;
   top: 260px;
+  cursor: pointer;
 }
 .rounded-arrow-product.mirror {
   transform: scale(-1, 1);

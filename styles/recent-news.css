@@ -76,6 +76,7 @@
   justify-content: center;
   position: relative;
   left: 30px;
+  cursor: pointer;
 }
 .recent-news-img div:hover {
   opacity: 0.5;

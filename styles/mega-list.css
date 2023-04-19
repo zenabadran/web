@@ -48,6 +48,7 @@ nav ul li > span {
   padding-bottom: 45px;
   z-index: 3;
   color: var(--pribrand1);
+  cursor: pointer;
 }
 
 nav ul li > span::after {
