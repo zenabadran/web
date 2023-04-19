@@ -3,18 +3,18 @@
   justify-content: space-between;
   position: relative;
 }
-.who-section {
+.how-we-are-section  div:first-child {
   border-right: solid 3px var(--suppUI01);
   align-self: center;
   width: 55%;
 }
-.who-section h2 {
+.how-we-are-section div:first-child h2 {
   font-size: 25px;
   font-family: "helveticaneuebold";
   padding: 20px 20px 20px 0px;
 }
 
-.middle-text-section {
+.how-we-are-section div:nth-child(2) {
   font-size: 16px;
   align-self: center;
   padding: 40px 400px 40px 50px;
@@ -63,12 +63,12 @@
     align-items: center;
   }
 
-  .who-section {
+  .how-we-are-section div:first-child {
     width: 98%;
     text-align: end;
   }
 
-  .middle-text-section {
+  .how-we-are-section div:nth-child(2) {
     border-left: solid 3px var(--suppUI01);
     font-size: 15px;
     text-align: justify;
@@ -84,7 +84,7 @@
   }
 }
 @media only screen and (max-width: 767px) {
-  .middle-text-section {
+  .how-we-are-section div:nth-child(2) {
     font-size: 14px;
   }
 
@@ -107,15 +107,15 @@
   .how-we-are-section {
     justify-content: center;
   }
-  .who-section {
+  .how-we-are-section div:first-child {
     text-align: center;
     border: none;
     margin: 30px 0 0 0;
   }
-  .who-section h2 {
+  .how-we-are-section div:first-child h2 {
     margin: 30px 0 0 0;
   }
-  .middle-text-section {
+  .how-we-are-section div:nth-child(2) {
     align-self: center;
     text-align: center;
     padding-right: 20px;

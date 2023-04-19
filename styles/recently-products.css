@@ -23,7 +23,7 @@
   border: solid 1px var(--suppUI01);
   position: relative;
 }
-.column-container {
+.card-description {
   width: 250px;
   height: 180px;
   margin: 40px auto 0 auto;
@@ -35,13 +35,13 @@
   height: 280px;
   width: 100%;
 }
-.column-container h5 {
+.card-description h5 {
   margin: 0px;
   color: var(--pribrand1);
   font-family: "helveticaneuemedium";
   letter-spacing: 0.7px;
 }
-.column-container button {
+.card-description button {
   height: 40px;
   border: none;
   background-color: var(--pribrand1);
@@ -64,10 +64,10 @@
   left: -10px;
   top: -25px;
 }
-.column-container > span span:first-child {
+.card-description > span span:first-child {
   font-family: "helveticaneuebold";
 }
-.column-container > span span:last-child {
+.card-description > span span:last-child {
   font-family: "helveticaneuelight";
 }
 

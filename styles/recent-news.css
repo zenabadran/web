@@ -1,6 +1,7 @@
 .recent-news-slider {
   display: flex;
   flex-direction: column;
+  padding-top: 50px;
 }
 .recent-news-slider h1 {
   align-self: center;
