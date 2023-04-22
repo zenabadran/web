@@ -12,7 +12,7 @@
   box-shadow: inset 3px 230px 5px rgba(26, 28, 28, 0.74);
 }
 .product-slider h1 {
-  color: var(--inverse);
+  color: var(--inversetextcolor);
   font-size: 55px;
   font-family: "helveticaneuebold";
 }

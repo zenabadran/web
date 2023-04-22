@@ -44,8 +44,8 @@
 
   .side-bar-menu nav ul li {
     padding: 17px;
-    background-color: var(--inverse);
-    border-bottom: solid var(--suppUI02) 1px;
+    background-color: var(--inversetextcolor);
+    border-bottom: solid var( --supplementarycolorUI02) 1px;
     width: 100%;
     font-size: 15px;
   }
@@ -54,7 +54,7 @@
   }
 
   .side-bar-menu nav ul li:first-child {
-    border-bottom: solid var(--pribrand3) 3px;
+    border-bottom: solid var(--primarybrand3) 3px;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -68,7 +68,7 @@
   .sconed-part-un-order-list a img {
     height: 17px;
     width: 16px;
-    color: var(--pribrand1);
+    color: var(--primarybrand1);
   }
   .material-symbols-outlined {
     font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 200, "opsz" 48;

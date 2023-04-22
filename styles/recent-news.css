@@ -10,7 +10,7 @@
 }
 .recent-news-slider > a {
   align-self: flex-end;
-  color: var(--pribrand2);
+  color: var(--primarybrand2);
   font-family: "helveticaneuebold";
 }
 .recent-news-slider > div {
@@ -69,8 +69,8 @@
   height: 60px;
   width: 60px;
   border-radius: 30px;
-  background-color: var(--pribrand1);
-  color: var(--inverse);
+  background-color: var(--primarybrand1);
+  color: var(--inversetextcolor);
   display: flex;
   align-items: center;
   justify-content: center;

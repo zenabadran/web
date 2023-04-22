@@ -1,16 +1,15 @@
 :root {
-  --pribrand1: #003150;
-  --pribrand2: #82786f;
-  --pribrand3: #aa272f;
-  --text: #1f1f1f;
-  --inverse: #ffffff;
-  --suppUI01: #d7d3c7;
-  --suppUI01op: #d7d3c725;
-  --suppUI02: #d3dee4;
-  --suppUI02op: #d3dee480;
-  --suppUI04: #477f80;
-  --suppUI04op: #477f8080;
-  --suppUI03op: #007c9280;
-  --suppUI06:#53284F;
-  --x: #003150;
+  --primarybrand1: #003150;
+  --primarybrand2: #82786f;
+  --primarybrand3: #aa272f;
+  --textcolor: #1f1f1f;
+  --inversetextcolor: #ffffff;
+  --supplementarycolorUI01: #d7d3c7;
+  --supplementarycolorUI01withoppacity: #d7d3c725;
+  --supplementarycolorUI02: #d3dee4;
+  --supplementarycolorUI02withoppacity: #d3dee480;
+  --supplementarycolorUI04: #477f80;
+  --supplementarycolorUI04withoppacity: #477f8080;
+  --supplementarycolorUI03withoppacity: #007c9280;
+  --supplementarycolorUI06:#53284F;
 }

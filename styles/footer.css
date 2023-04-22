@@ -1,5 +1,5 @@
 footer {
-  background-color: var(--pribrand1);
+  background-color: var(--primarybrand1);
   margin-top: 60px;
 }
 .first-part-of-footer {
@@ -27,7 +27,7 @@ footer {
 }
 .first-part-of-footer div > a,
 .first-part-of-footer div {
-  color: var(--inverse);
+  color: var(--inversetextcolor);
   font-family: "helveticaneuelight";
 }
 .first-part-of-footer div > a,
@@ -44,7 +44,7 @@ footer {
 .first-part-of-footer div > span:first-child::after {
   content: "";
   position: absolute;
-  background-color: var(--inverse);
+  background-color: var(--inversetextcolor);
   height: 2px;
   width: 31px;
   left: 0px;
@@ -67,9 +67,9 @@ footer {
 
 .last-part-of-footer {
   display: flex;
-  color: var(--inverse);
+  color: var(--inversetextcolor);
   justify-content: space-between;
-  border-top: solid var(--suppUI02op) 1px;
+  border-top: solid var( --supplementarycolorUI02op) 1px;
   font-family: "helveticaneuelight";
   position: relative;
 }
@@ -86,7 +86,7 @@ footer {
     flex-direction: column;
   }
   .first-part-of-footer div > span:first-child::after {
-    background-color: var(--suppUI02);
+    background-color: var( --supplementarycolorUI02);
     height: .5px;
     width: 100vw;
     left: -30px;
@@ -124,7 +124,7 @@ footer {
   .convert-vertical-to-horizantal:last-child:after {
     content: "";
     position: absolute;
-    background-color: var(--suppUI02);
+    background-color: var( --supplementarycolorUI02);
     height: .5px;
     width: 100vw;
     left: -30px;

@@ -27,7 +27,7 @@
 }
 .row-description > span:first-child {
   font-size: 15px;
-  color: var(--pribrand2);
+  color: var(--primarybrand2);
   position: relative;
   letter-spacing: 2px;
   font-family: "helveticaneuemedium";
@@ -36,7 +36,7 @@
 .row-description > span::after {
   content: "";
   position: absolute;
-  background-color: var(--pribrand2);
+  background-color: var(--primarybrand2);
   height: 2px;
   width: 31px;
   left: 0px;

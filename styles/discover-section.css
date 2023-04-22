@@ -34,8 +34,8 @@
 
 .discover-more-discreption {
   width: 43%;
-  background-color: var(--suppUI06);
-  color: var(--inverse);
+  background-color: var(--supplementarycolorUI06);
+  color: var(--inversetextcolor);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -43,7 +43,7 @@
   padding-bottom: 80px;
 }
 .discover-more-row > div:last-child .discover-more-discreption{
-    background-color: var( --suppUI04);
+    background-color: var( --supplementarycolorUI04);
 }
 .discover-more-discreption >span {
   letter-spacing: 2px;
@@ -62,7 +62,7 @@
     font-family: "helveticaneuelight";
 }
 .discover-more-discreption a {
-  color: var(--inverse);
+  color: var(--inversetextcolor);
   font-family: "helveticaneue";
 }
 @media only screen and (max-width: 1370px){

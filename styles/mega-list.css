@@ -2,7 +2,7 @@
 .dropdown-main-container{
   display: none;
   position: absolute;
-  background-color: var(--inverse);
+  background-color: var(--inversetextcolor);
   width: 100%;
   height: 653px;
   left: 0;
@@ -12,7 +12,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--inverse);
+  background-color: var(--inversetextcolor);
   height: 653px;
   left: 0;
   right: 0;
@@ -47,14 +47,14 @@ nav ul li > span {
   padding-top: 45px;
   padding-bottom: 45px;
   z-index: 3;
-  color: var(--pribrand1);
+  color: var(--primarybrand1);
   cursor: pointer;
 }
 
 nav ul li > span::after {
   content: "";
   position: absolute;
-  background-color: var(--pribrand1);
+  background-color: var(--primarybrand1);
   height: 2px;
   width: 0;
   left: 0;
@@ -71,8 +71,8 @@ nav ul li > span:hover::after {
   width: 23%;
   display: flex;
   flex-direction: column;
-  border-right: var(--suppUI01) solid 1px;
-  color: var(--pribrand1);
+  border-right: var(--supplementarycolorUI01) solid 1px;
+  color: var(--primarybrand1);
 }
 
 .dropdown-content div:last-child {
@@ -80,8 +80,8 @@ nav ul li > span:hover::after {
   width: 29%;
   display: flex;
   flex-direction: column;
-  border-right: var(--suppUI01) solid 1px;
-  background-color: var(--suppUI01op);
+  border-right: var(--supplementarycolorUI01) solid 1px;
+  background-color: var(--supplementarycolorUI01op);
   overflow: hidden;
 }
 
@@ -91,7 +91,7 @@ nav ul li > span:hover::after {
   letter-spacing: 1px;
   padding-left: 50px;
   margin-top: 40px;
-  color: var(--pribrand1);
+  color: var(--primarybrand1);
   font-family: "Anton", sans-serif;
 }
 
@@ -111,7 +111,7 @@ nav ul li > span:hover::after {
   width: 24%;
   display: flex;
   flex-direction: column;
-  border-right: var(--suppUI01) solid 1px;
+  border-right: var(--supplementarycolorUI01) solid 1px;
 }
 
 .dropdown-content div a {
@@ -125,5 +125,5 @@ nav ul li > span:hover::after {
 }
 
 a.gray {
-  color: var(--pribrand2);
+  color: var(--primarybrand2);
 }

@@ -1,8 +1,8 @@
 .header-secondpart {
   padding: 10px;
-  background-color: var(--suppUI01op);
+  background-color: var(--supplementarycolorUI01op);
 
-  color: var(--pribrand1);
+  color: var(--primarybrand1);
   font-size: 12pt;
 
   font-family: "helveticaneuemedium";
@@ -25,7 +25,7 @@
 .header-secondpart div a img {
   height: 17px;
   width: 16px;
-  color: var(--pribrand1);
+  color: var(--primarybrand1);
 }
 
 .header-secondpart a {
@@ -36,7 +36,7 @@ a:visited,
 a:active,
 a:link {
   text-decoration: none;
-  color: var(--pribrand1);
+  color: var(--primarybrand1);
 }
 
 @media only screen and (max-width: 1300px) {

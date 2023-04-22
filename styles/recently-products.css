@@ -20,7 +20,7 @@
   flex-direction: column;
   width: 320px;
   height: 530px;
-  border: solid 1px var(--suppUI01);
+  border: solid 1px var(--supplementarycolorUI01);
   position: relative;
 }
 .card-description {
@@ -37,15 +37,15 @@
 }
 .card-description h5 {
   margin: 0px;
-  color: var(--pribrand1);
+  color: var(--primarybrand1);
   font-family: "helveticaneuemedium";
   letter-spacing: 0.7px;
 }
 .card-description button {
   height: 40px;
   border: none;
-  background-color: var(--pribrand1);
-  color: var(--inverse);
+  background-color: var(--primarybrand1);
+  color: var(--inversetextcolor);
   letter-spacing: 1px;
   cursor: pointer;
 }
@@ -56,7 +56,7 @@
   height: 0px;
   display: flex;
   justify-content: center;
-  border-top: 30px solid var(--suppUI02);
+  border-top: 30px solid var( --supplementarycolorUI02);
   border-right: 20px solid transparent;
 }
 .gradient span {
@@ -76,8 +76,8 @@
   height: 60px;
   width: 60px;
   border-radius: 30px;
-  background-color: var(--pribrand1);
-  color: var(--inverse);
+  background-color: var(--primarybrand1);
+  color: var(--inversetextcolor);
   display: flex;
   align-items: center;
   justify-content: center;

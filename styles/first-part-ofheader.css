@@ -1,5 +1,5 @@
 .header-firstpart {
-  background-color: var(--suppUI01);
+  background-color: var(--supplementarycolorUI01);
   text-align: center;
 }
 .header-firstpart p {
@@ -11,7 +11,7 @@
 }
 
 .header-firstpart p a {
-  color: var(--text);
+  color: var(--textcolor);
   font-family: "helveticaneuemedium";
   font-size: 17px;
 }

@@ -1,7 +1,7 @@
 .main-slider {
   background: url("../img/encyclopedia-boilers-hero-master1.jpg");
   height: 524px;
-  border-top: var(--pribrand3) solid 4px;
+  border-top: var(--primarybrand3) solid 4px;
   width: 100%;
   position: relative;
   background-size: 100% 100%;
@@ -28,7 +28,7 @@
 }
 
 .main-slider h1 {
-  color: var(--inverse);
+  color: var(--inversetextcolor);
   position: relative;
   font-family: "helveticaneuebold";
   font-size: 59px;
@@ -42,8 +42,8 @@
   position: relative;
   width: 250px;
   height: 50px;
-  color: var(--inverse);
-  border: solid 2px var(--inverse);
+  color: var(--inversetextcolor);
+  border: solid 2px var(--inversetextcolor);
   margin-top: 30px;
   letter-spacing: 1.5px;
   background-color: transparent;
@@ -51,8 +51,8 @@
 
 .main-slider button:hover {
   cursor: pointer;
-  background-color: var(--inverse);
-  color: var(--pribrand1);
+  background-color: var(--inversetextcolor);
+  color: var(--primarybrand1);
 }
 @media only screen and (max-width: 1023px) {
   .main-slider {
