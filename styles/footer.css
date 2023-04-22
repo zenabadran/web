@@ -69,20 +69,25 @@ footer {
   display: flex;
   color: var(--inverse);
   justify-content: space-between;
-  border-top: solid var(--inverse) 1px;
+  border-top: solid var(--suppUI02op) 1px;
   font-family: "helveticaneuelight";
   position: relative;
 }
 .last-part-of-footer span {
   padding-top: 30px;
   padding-bottom: 30px;
+  letter-spacing: 1px;
+}
+.first-part-of-footer div i{
+  display: none;
 }
 @media only screen and (max-width: 873px) {
   .first-part-of-footer {
     flex-direction: column;
   }
   .first-part-of-footer div > span:first-child::after {
-    height: 1px;
+    background-color: var(--suppUI02);
+    height: .5px;
     width: 100vw;
     left: -30px;
     top: 40px;
@@ -93,6 +98,15 @@ footer {
 
   .first-part-of-footer div > a {
     display: none;
+  }
+  .first-part-of-footer >div:not(.first-part-of-footer >div:first-child,.first-part-of-footer >div:last-child) {
+    flex-direction: row;
+   justify-content: space-between;
+  }
+  
+  .first-part-of-footer div i{
+    display: block;
+   
   }
   .last-part-of-footer {
     border: none;
@@ -105,11 +119,11 @@ footer {
     justify-content: space-between;
     position: relative;
   }
-  .convert-vertical-to-horizantal:after {
+  .convert-vertical-to-horizantal:last-child:after {
     content: "";
     position: absolute;
-    background-color: var(--inverse);
-    height: 1px;
+    background-color: var(--suppUI02);
+    height: .5px;
     width: 100vw;
     left: -30px;
     top: 85px;
@@ -120,7 +134,7 @@ footer {
     padding-right: 10px;
     padding-top: 30px;
   }
-  .last-part-of-footer{
+  .last-part-of-footer {
     flex-direction: column-reverse;
     height: 140px;
     justify-content: space-evenly;
@@ -129,18 +143,17 @@ footer {
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  .last-part-of-footer span:first-child{
+  .last-part-of-footer span:first-child {
     padding-bottom: 30px;
   }
 }
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px) {
   .first-part-of-footer div:last-child span a img {
     height: 35px;
     width: 35px;
-   
   }
   .convert-vertical-to-horizantal a {
     font-size: 14px;
-    zoom: .9;
+    zoom: 0.9;
   }
 }

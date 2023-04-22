@@ -44,7 +44,7 @@
 @media only screen and (max-width: 482px) {
   .featured-categories-container > div {
     font-size: 25px;
-    padding: 20px;
+    padding: 20px 0px;
   }
   .featured-categories-container h1 {
     font-size: 20px;
