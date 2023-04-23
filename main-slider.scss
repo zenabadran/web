@@ -1,0 +1,80 @@
+@use 'colors';
+.main-slider {
+	background: url("img/encyclopedia-boilers-hero-master1.jpg");
+	height: 524px;
+	border-top: colors.$primarybrand3 solid 4px;
+	width: 100%;
+	position: relative;
+	background-size: 100% 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 1;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		background-color: rgba(10, 19, 34, 0.74);
+		filter: brightness(50%);
+	}
+	h1 {
+		color: colors.$inversetextcolor;
+		position: relative;
+		font-family: "helveticaneuebold";
+		font-size: 59px;
+		margin: 0;
+		padding: 0;
+		letter-spacing: 2px;
+	}
+	button {
+		position: relative;
+		width: 250px;
+		height: 50px;
+		color: colors.$inversetextcolor;
+		border: solid 2px colors.$inversetextcolor;
+		margin-top: 30px;
+		letter-spacing: 1.5px;
+		background-color: transparent;
+		&:hover {
+			cursor: pointer;
+			background-color: colors.$inversetextcolor;
+			color:colors.$primarybrand1;
+		}
+	}
+}
+@media only screen and (max-width: 1023px) {
+	.main-slider {
+		height: 424px;
+		h1 {
+			font-size: 49px;
+			font-weight: 800;
+		}
+		button {
+			width: 200px;
+			height: 30px;
+		}
+	}
+}
+@media only screen and (max-width: 767px) {
+	.main-slider {
+		height: 324px;
+		h1 {
+			font-size: 30px;
+			font-weight: 800;
+		}
+	}
+}
+@media only screen and (max-width: 424px) {
+	.main-slider {
+		h1 {
+			font-size: 25px;
+			font-weight: 800;
+		}
+	}
+}
