@@ -5,35 +5,34 @@
 	font-weight: 400;
 	font-style: normal;
 }
-$helveticaneuelight:"helveticaneuelight";
 @font-face {
 	font-family: "helveticaneuemedium";
 	src: url(fonts/HelveticaNeueLTStd-Md.woff) format("woff"), url(fonts/HelveticaNeueLTStd-Md.woff2) format("woff2");
 	font-weight: 500;
 	font-style: normal;
 }
-$helveticaneuemedium:"helveticaneuemedium";
+
 @font-face {
 	font-family: "helveticaneueblack";
 	src: url(fonts/HelveticaNeueLTStd-Blk.woff) format("woff");
 	font-style: normal;
 	font-weight: 900;
 }
-$helveticaneueblack:"helveticaneueblack";
+
 @font-face {
 	font-family: "helveticaneuebold";
 	src: url(fonts/HelveticaNeueLTStd-Bd.woff) format("woff");
 	font-style: normal;
 	font-weight: 700;
 }
-$helveticaneuebold:"helveticaneuebold";
+
 @font-face {
 	font-family: "helveticaneueheavy";
 	src: url(fonts/HelveticaNeueLTStd-Hv.woff) format("woff");
 }
-$helveticaneueheavy:"helveticaneueheavy";
+
 @font-face {
 	font-family: "helveticaneue";
 	src: url(fonts/HelveticaNeueRoman.woff) format("woff");
 }
-$helveticaneue:"helveticaneue";
+

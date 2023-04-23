@@ -24,7 +24,7 @@
   .side-bar-menu:hover nav {
     display: flex;
     flex-direction: column;
-    width: 23%;
+    width: 90%;
     height: 100%;
     position: fixed;
     top: 0px;
