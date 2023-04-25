@@ -565,6 +565,240 @@ a.gray {
     padding: 0px 10px 5px 20px;
   }
 }
+.demonstration-video-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.demonstration-video-container .video-description {
+  height: 400px;
+  width: 550px;
+  display: inline-block;
+  background-color: #d7d3c7;
+  align-self: center;
+  position: absolute;
+  left: 0px;
+  box-shadow: 14px 10px 30px 10px rgba(0, 0, 0, 0.1);
+}
+.demonstration-video-container .video-description img {
+  margin: 60px 0px 20px 65px;
+  height: 40px;
+  width: 140px;
+}
+.demonstration-video-container .video-description h2 {
+  display: inline-block;
+  width: 440px;
+  margin: 0px 70px 20px 70px;
+  font-size: 33px;
+  font-family: "helveticaneuebold";
+  letter-spacing: 1px;
+}
+.demonstration-video-container .video-description p {
+  margin: 0px 70px 20px 70px;
+  font-size: 15px;
+  font-family: "helveticaneuelight";
+  letter-spacing: 1px;
+  line-height: 1.5;
+  width: 440px;
+}
+.demonstration-video-container .play-video-container {
+  height: 560px;
+  width: 870px;
+  background: url("C:/Users/asus/Desktop/sass/img/engineer.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.demonstration-video-container .play-video-container button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.demonstration-video-container .play-video-container button .playbutton {
+  height: 150px;
+  width: 150px;
+  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.1));
+}
+.demonstration-video-container .play-video-container video {
+  width: 870px;
+  height: 600px;
+  display: none;
+}
+
+@media only screen and (max-width: 1370px) {
+  .demonstration-video-container .video-description {
+    height: 300px;
+    width: 450px;
+  }
+  .demonstration-video-container .video-description img {
+    margin: 60px 0px 0px 45px;
+    height: 40px;
+    width: 100px;
+  }
+  .demonstration-video-container .video-description h2 {
+    width: 340px;
+    margin: 0px 70px 10px 50px;
+    font-size: 25px;
+  }
+  .demonstration-video-container .video-description p {
+    margin: 0px 70px 10px 50px;
+    font-size: 13px;
+    width: 340px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .demonstration-video-container {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .demonstration-video-container .video-description {
+    height: 470px;
+    width: 90%;
+    position: static;
+  }
+  .demonstration-video-container .video-description img {
+    margin: 30px 0px 20px 35px;
+    height: 50px;
+    width: 200px;
+  }
+  .demonstration-video-container .video-description h2 {
+    margin: 0px 50px 10px 50px;
+    font-size: 35px;
+    letter-spacing: 1px;
+    width: auto;
+  }
+  .demonstration-video-container .video-description p {
+    margin: 50px 50px 20px 50px;
+    font-size: 23px;
+    width: auto;
+  }
+  .demonstration-video-container .play-video-container {
+    height: 470px;
+    width: 90%;
+  }
+  .demonstration-video-container .play-video-container video {
+    height: 470px;
+    width: 100%;
+    z-index: 2;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .demonstration-video-container {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .demonstration-video-container .video-description {
+    height: 370px;
+    width: 90%;
+  }
+  .demonstration-video-container .video-description img {
+    height: 30px;
+    width: 150px;
+  }
+  .demonstration-video-container .video-description h2 {
+    font-size: 30px;
+  }
+  .demonstration-video-container .video-description p {
+    margin: 20px 50px 20px 50px;
+    font-size: 19px;
+  }
+  .demonstration-video-container .play-video-container {
+    height: 370px;
+    width: 90%;
+  }
+  .demonstration-video-container .play-video-container video {
+    height: 370px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .demonstration-video-container {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  .demonstration-video-container .video-description {
+    height: 250px;
+    width: 90%;
+  }
+  .demonstration-video-container .video-description img {
+    margin: 10px 0px 10px 15px;
+    height: 20px;
+    width: 100px;
+  }
+  .demonstration-video-container .video-description h2 {
+    margin: 0px 30px 10px 30px;
+    font-size: 20px;
+  }
+  .demonstration-video-container .video-description p {
+    margin: 0px 10px 10px 35px;
+    font-size: 12px;
+  }
+  .demonstration-video-container .play-video-container {
+    height: 300px;
+    width: 90%;
+  }
+  .demonstration-video-container .play-video-container video {
+    height: 300px;
+  }
+  .demonstration-video-container .playbutton {
+    height: 50px;
+    width: 50px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .demonstration-video-container {
+    justify-content: center;
+    margin-top: 80px;
+  }
+  .demonstration-video-container .video-description {
+    height: 200px;
+    width: 100%;
+    align-self: center;
+  }
+  .demonstration-video-container .video-description h2 {
+    width: 80%;
+    margin: 0px 10px 10px 30px;
+    font-size: 17px;
+  }
+  .demonstration-video-container .video-description p {
+    margin: 0px 10px 10px 35px;
+    font-size: 10px;
+    width: 80%;
+    zoom: 0.8;
+  }
+  .demonstration-video-container .play-video-container {
+    height: 190px;
+    width: 100%;
+    align-self: center;
+  }
+  .demonstration-video-container .play-video-container video {
+    height: 190px;
+    width: 100%;
+    align-self: center;
+  }
+}
+@media only screen and (max-width: 347px) {
+  .demonstration-video-container .video-description img {
+    margin: 10px 0px 10px 0px;
+    height: 20px;
+    width: 100px;
+  }
+  .demonstration-video-container .video-description h2 {
+    width: 90%;
+    margin: 0px 5px 5px 20px;
+    font-size: 15px;
+  }
+  .demonstration-video-container .video-description p {
+    margin: 0px 5px 5px 25px;
+    font-size: 10px;
+    width: 90%;
+    zoom: 0.8;
+  }
+}
 body {
   margin: 0px;
   padding: 0px;
