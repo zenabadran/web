@@ -799,6 +799,102 @@ a.gray {
     zoom: 0.8;
   }
 }
+.solutions-container {
+  padding-top: 50px;
+}
+.solutions-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "helveticaneuebold";
+  padding: 40px;
+}
+.solutions-container .solutions-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.solutions-container .solutions-row img {
+  height: auto;
+  width: 57%;
+}
+.solutions-container .solutions-row .row-description {
+  word-break: break-word;
+  word-wrap: break-word;
+  width: 38%;
+  align-self: center;
+}
+.solutions-container .solutions-row .row-description > span:first-child {
+  font-size: 15px;
+  color: #82786f;
+  position: relative;
+  letter-spacing: 2px;
+  font-family: "helveticaneuemedium";
+}
+.solutions-container .solutions-row .row-description > span::after {
+  content: "";
+  position: absolute;
+  background-color: #82786f;
+  height: 2px;
+  width: 31px;
+  left: 0px;
+  top: 23px;
+}
+.solutions-container .solutions-row .row-description h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-family: "helveticaneue";
+}
+.solutions-container .solutions-row .row-description p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "helveticaneue";
+}
+.solutions-container .solutions-row .row-description a {
+  font-size: 17px;
+  font-family: "helveticaneuemedium";
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 767px) {
+  .solutions-container .solutions-row {
+    flex-direction: column-reverse;
+  }
+  .solutions-container .solutions-row:last-child {
+    flex-direction: column;
+  }
+  .solutions-container .solutions-row img {
+    width: 100%;
+  }
+  .solutions-container .solutions-row .row-description {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .solutions-container .solutions-row .row-description span {
+    font-size: 12px;
+  }
+  .solutions-container .solutions-row .row-description h2 {
+    font-size: 20px;
+  }
+  .solutions-container .solutions-row .row-description p {
+    font-size: 14px;
+    line-height: 1;
+  }
+  .solutions-container .solutions-row .row-description a {
+    font-size: 16px;
+    line-height: 1;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .solutions-container h1 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 325px) {
+  .solutions-container h1 {
+    font-size: 20px;
+  }
+}
 body {
   margin: 0px;
   padding: 0px;
