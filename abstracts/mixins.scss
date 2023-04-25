@@ -1,0 +1,4 @@
+@mixin backgroundproperities($background-url, $backgroundsize){
+    background:$background-url;
+    background-size: $backgroundsize;
+}

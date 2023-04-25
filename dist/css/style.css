@@ -895,6 +895,124 @@ a.gray {
     font-size: 20px;
   }
 }
+.recent-news-slider {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+.recent-news-slider h1 {
+  align-self: center;
+  font-family: "helveticaneuebold";
+  font-size: 35px;
+}
+.recent-news-slider > a {
+  align-self: flex-end;
+  color: #82786f;
+  font-family: "helveticaneuebold";
+}
+.recent-news-slider > div {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.recent-news-slider-item {
+  display: flex;
+  flex-direction: column;
+  width: 426px;
+}
+.recent-news-slider-item:first-child .recent-news-img {
+  background: url("C:/Users/asus/Desktop/sass/img/CondensingBoiler.jpg");
+  background-size: 100% 100%;
+  justify-content: end;
+}
+.recent-news-slider-item:nth-child(2) .recent-news-img {
+  background: url("C:/Users/asus/Desktop/sass/img/corona.jpg");
+  background-size: 100% 100%;
+}
+.recent-news-slider-item:last-child .recent-news-img {
+  background: url("C:/Users/asus/Desktop/sass/img/laptopwithboiler.jpg");
+  background-size: 100% 100%;
+}
+.recent-news-slider-item h2 {
+  display: inline-block;
+  letter-spacing: 0.7px;
+  font-family: "helveticaneuebold";
+}
+.recent-news-slider-item p {
+  display: inline-block;
+  padding-right: 5px;
+  font-family: "helveticaneuelight";
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.recent-news-slider-item a {
+  align-self: flex-start;
+  font-size: 15px;
+  font-family: "helveticaneuemedium";
+}
+
+.recent-news-img {
+  height: 270px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.recent-news-img div {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: #003150;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 30px;
+  cursor: pointer;
+}
+.recent-news-img div:hover {
+  opacity: 0.5;
+}
+.recent-news-img div.mirror {
+  transform: scale(-1, 1);
+  left: -30px;
+}
+
+@media only screen and (max-width: 1330px) {
+  .recent-news-slider > div {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .recent-news-slider h1 {
+    font-size: 25px;
+  }
+  .recent-news-slider-item {
+    width: 250px;
+    margin-top: 30px;
+  }
+  .recent-news-slider-item h2 {
+    font-size: 16px;
+  }
+  .recent-news-slider-item p {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+  .recent-news-slider-item a {
+    font-size: 10px;
+  }
+  .recent-news-img {
+    height: 170px;
+  }
+}
+@media only screen and (max-width: 325px) {
+  .recent-news-slider h1 {
+    font-size: 20px;
+  }
+}
 body {
   margin: 0px;
   padding: 0px;
