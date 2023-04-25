@@ -1,3 +1,35 @@
+@font-face {
+  font-family: "helveticaneuelight";
+  src: url(C:/Users/asus/Desktop/sass/fonts/HelveticaNeueLTStd-Lt.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "helveticaneuemedium";
+  src: url(C:/Users/asus/Desktop/sass/fonts/HelveticaNeueLTStd-Md.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "helveticaneueblack";
+  src: url(C:/Users/asus/Desktop/sass/fonts/HelveticaNeueLTStd-Blk.woff) format("woff");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "helveticaneuebold";
+  src: url(C:/Users/asus/Desktop/sass/fonts/HelveticaNeueLTStd-Bd.woff) format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "helveticaneueheavy";
+  src: url(C:/Users/asus/Desktop/sass/fonts/HelveticaNeueLTStd-Hv.woff) format("woff");
+}
+@font-face {
+  font-family: "helveticaneue";
+  src: url(C:/Users/asus/Desktop/sass/fonts/HelveticaNeueRoman.woff) format("woff");
+}
 .header-firstpart {
   background-color: #d7d3c7;
   text-align: center;
@@ -405,38 +437,6 @@ a.gray {
     font-size: 25px;
     font-weight: 800;
   }
-}
-@font-face {
-  font-family: "helveticaneuelight";
-  src: url(fonts/HelveticaNeueLTStd-Lt.woff) format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "helveticaneuemedium";
-  src: url(fonts/HelveticaNeueLTStd-Md.woff) format("woff"), url(fonts/HelveticaNeueLTStd-Md.woff2) format("woff2");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "helveticaneueblack";
-  src: url(fonts/HelveticaNeueLTStd-Blk.woff) format("woff");
-  font-style: normal;
-  font-weight: 900;
-}
-@font-face {
-  font-family: "helveticaneuebold";
-  src: url(fonts/HelveticaNeueLTStd-Bd.woff) format("woff");
-  font-style: normal;
-  font-weight: 700;
-}
-@font-face {
-  font-family: "helveticaneueheavy";
-  src: url(fonts/HelveticaNeueLTStd-Hv.woff) format("woff");
-}
-@font-face {
-  font-family: "helveticaneue";
-  src: url(fonts/HelveticaNeueRoman.woff) format("woff");
 }
 body {
   margin: 0px;

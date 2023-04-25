@@ -1,8 +1,8 @@
-@use 'colors';
+@use '../abstracts' as *;
 .main-slider {
 	background: url("C:/Users/asus/Desktop/sass/img/encyclopedia-boilers-hero-master1.jpg");
 	height: 524px;
-	border-top: colors.$primarybrand3 solid 4px;
+	border-top: $primarybrand3 solid 4px;
 	width: 100%;
 	position: relative;
 	background-size: 100% 100%;
@@ -24,9 +24,9 @@
 		filter: brightness(50%);
 	}
 	h1 {
-		color: colors.$inversetextcolor;
+		color: $inversetextcolor;
 		position: relative;
-		font-family: "helveticaneuebold";
+		font-family: $helveticaneuebold;
 		font-size: 59px;
 		margin: 0;
 		padding: 0;
@@ -36,15 +36,15 @@
 		position: relative;
 		width: 250px;
 		height: 50px;
-		color: colors.$inversetextcolor;
-		border: solid 2px colors.$inversetextcolor;
+		color: $inversetextcolor;
+		border: solid 2px $inversetextcolor;
 		margin-top: 30px;
 		letter-spacing: 1.5px;
 		background-color: transparent;
 		&:hover {
 			cursor: pointer;
-			background-color: colors.$inversetextcolor;
-			color:colors.$primarybrand1;
+			background-color: $inversetextcolor;
+			color:$primarybrand1;
 		}
 	}
 }

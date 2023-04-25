@@ -1,8 +1,8 @@
-@use "colors";
+@use '../abstracts' as *;
 .dropdown-main-container {
   display: none;
   position: absolute;
-  background-color: colors.$inversetextcolor;
+  background-color: $inversetextcolor;
   width: 100%;
   height: 653px;
   left: 0;
@@ -12,7 +12,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: colors.$inversetextcolor;
+  background-color: $inversetextcolor;
   height: 653px;
   left: 0;
   right: 0;
@@ -44,7 +44,7 @@ nav {
         justify-content: flex-start;
         font-size: 16px;
         position: absolute;
-        background-color: colors.$inversetextcolor;
+        background-color: $inversetextcolor;
         height: 653px;
         left: 0;
         right: 0;
@@ -55,7 +55,7 @@ nav {
           width: 24%;
           display: flex;
           flex-direction: column;
-          border-right: colors.$supplementarycolorUI01 solid 1px;
+          border-right: $supplementarycolorUI01 solid 1px;
           a {
             display: inline-block;
             padding: 32px 0 0 40px;
@@ -65,8 +65,8 @@ nav {
             width: 23%;
             display: flex;
             flex-direction: column;
-            border-right: colors.$supplementarycolorUI01 solid 1px;
-            color: colors.$primarybrand1;
+            border-right: $supplementarycolorUI01 solid 1px;
+            color: $primarybrand1;
             a {
               display: inline-block;
               padding: 35px 0 0 70px;
@@ -77,8 +77,8 @@ nav {
             width: 29%;
             display: flex;
             flex-direction: column;
-            border-right: colors.$supplementarycolorUI01 solid 1px;
-            background-color: colors.$supplementarycolorUI01withoppacity;
+            border-right: $supplementarycolorUI01 solid 1px;
+            background-color: $supplementarycolorUI01withoppacity;
             overflow: hidden;
             p {
               display: inline-block;
@@ -86,7 +86,7 @@ nav {
               letter-spacing: 1px;
               padding-left: 50px;
               margin-top: 40px;
-              color: colors.$primarybrand1;
+              color: $primarybrand1;
               font-family: "Anton", sans-serif;
             }
             img {
@@ -105,7 +105,7 @@ nav {
         &::after {
           content: "";
           position: absolute;
-          background-color: colors.$primarybrand1;
+          background-color: $primarybrand1;
           height: 2px;
           width: 0;
           left: 0;
@@ -130,7 +130,7 @@ nav {
         padding-top: 45px;
         padding-bottom: 45px;
         z-index: 3;
-        color: colors.$primarybrand1;
+        color: $primarybrand1;
         cursor: pointer;
       }
       .dropdown-content {
@@ -140,92 +140,6 @@ nav {
   }
 }
 a.gray {
-  color: colors.$primarybrand2;
+  color: $primarybrand2;
 }
-// nav ul li:hover .dropdown-content {
-//   display: flex;
-//   justify-content: flex-start;
-//   font-size: 16px;
-// }
-// nav ul li > span {
-//   position: relative;
-//   display: inline-block;
-//   padding-top: 45px;
-//   padding-bottom: 45px;
-//   z-index: 3;
-//   color: var(--primarybrand1);
-//   cursor: pointer;
-// }
 
-// nav ul li > span::after {
-//   content: "";
-//   position: absolute;
-//   background-color: var(--primarybrand1);
-//   height: 2px;
-//   width: 0;
-//   left: 0;
-//   transition: 0.3s;
-//   bottom: 30px;
-// }
-
-// nav ul li > span:hover::after {
-//   width: 40%;
-// }
-
-// .dropdown-content div:first-child {
-//   flex-shrink: 1;
-//   width: 23%;
-//   display: flex;
-//   flex-direction: column;
-//   border-right: var(--supplementarycolorUI01) solid 1px;
-//   color: var(--primarybrand1);
-// }
-
-// .dropdown-content div:last-child {
-//   flex-shrink: 1;
-//   width: 29%;
-//   display: flex;
-//   flex-direction: column;
-//   border-right: var(--supplementarycolorUI01) solid 1px;
-//   background-color: var(--supplementarycolorUI01op);
-//   overflow: hidden;
-// }
-
-// .dropdown-content div:last-child p {
-//   display: inline-block;
-//   font-size: 45px;
-//   letter-spacing: 1px;
-//   padding-left: 50px;
-//   margin-top: 40px;
-//   color: var(--primarybrand1);
-//   font-family: "Anton", sans-serif;
-// }
-
-// .dropdown-content div:last-child img {
-//   height: 282px;
-//   padding-left: 50px;
-//   width: 550px;
-// }
-
-// .dropdown-content div:last-child a {
-//   padding-top: 100px;
-//   padding-left: 50px;
-// }
-
-// .dropdown-content div {
-//   flex-shrink: 1;
-//   width: 24%;
-//   display: flex;
-//   flex-direction: column;
-//   border-right: var(--supplementarycolorUI01) solid 1px;
-// }
-
-// .dropdown-content div a {
-//   display: inline-block;
-//   padding: 32px 0 0 40px;
-// }
-
-// .dropdown-content div:first-child a {
-//   display: inline-block;
-//   padding: 35px 0 0 70px;
-// }

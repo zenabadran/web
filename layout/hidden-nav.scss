@@ -1,4 +1,4 @@
-@use 'colors';
+@use '../abstracts' as *;
 .menu-icon.material-symbols-outlined {
 	display: none;
 }
@@ -51,15 +51,15 @@
 				li {
                     
 					padding: 17px;
-					background-color: colors.$inversetextcolor;
-					border-bottom: solid colors.$supplementarycolorUI02 1px;
+					background-color: $inversetextcolor;
+					border-bottom: solid $supplementarycolorUI02 1px;
 					width: 100%;
 					font-size: 15px;
 					a {
 						padding-left: 20px;
 					}
 					&:first-child {
-						border-bottom: solid colors.$primarybrand3 3px;
+						border-bottom: solid $primarybrand3 3px;
 						padding-top: 20px;
 						padding-bottom: 20px;
 					}
@@ -68,7 +68,7 @@
 					font-size: 14px;
 					background-color: whitesmoke;
 					border: none;
-					font-family: "helveticaneuemedium";
+					font-family: $helveticaneuemedium;
 					padding-top: 40px;
 				}
 			}
@@ -79,7 +79,7 @@
 			img {
 				height: 17px;
 				width: 16px;
-				color: colors.$primarybrand1;
+				color: $primarybrand1;
 			}
 		}
 	}

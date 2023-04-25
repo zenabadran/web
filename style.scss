@@ -1,10 +1,12 @@
-@import 'first-part-ofheader';
-@import 'second-part-ofheader';
-@import 'main-nav';
-@import 'mega-list';
-@import 'hidden-nav';
-@import 'main-slider';
-@import 'helveticaneue-font';
+@import 'layout/helveticaneue-font';
+@import 'layout/first-part-ofheader';
+@import 'layout/second-part-ofheader';
+@import 'layout/main-nav';
+@import 'layout/mega-list';
+@import 'layout/hidden-nav';
+@import 'layout/main-slider';
+
+
 body {
   margin: 0px;
   padding: 0px;

@@ -1,5 +1,4 @@
-@use 'colors';
-@use 'fontsname' as font;
+@use '../abstracts' as *;
 .thaird-part-header-container {
 	display: flex;
 	flex-direction: row;
@@ -9,10 +8,10 @@
 	button {
 		border: none;
 		background-color: transparent;
-		color: colors.$primarybrand1;
+		color: $primarybrand1;
 		font-size: 16px;
 		letter-spacing: 0.8px;
-		font-family: font.$helveticaneuebold;
+		font-family: $helveticaneuebold;
 		cursor: pointer;
 	}
 }
@@ -32,7 +31,7 @@ li {
 	list-style-type: none;
 	font-size: 16px;
 	letter-spacing: 0.8px;
-	font-family: font.$helveticaneuebold;
+	font-family: $helveticaneuebold;
 }
 .logo {
 	width: 196px;

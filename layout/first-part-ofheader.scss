@@ -1,17 +1,16 @@
-@use 'colors';
-@use 'fontsname' as font;
+@use '../abstracts' as *;
 .header-firstpart {
-	background-color:colors.$supplementarycolorUI01;
+	background-color:$supplementarycolorUI01;
 	text-align: center;
 	p {
 		padding: 25px;
 		font-size: 16px;
 		margin-bottom: 0px;
-		font-family: font.$helveticaneuelight;
+		font-family: $helveticaneuelight;
 		margin-top: 0;
 		a {
 			color: var(--textcolor);
-			font-family: font.$helveticaneuemedium;
+			font-family:$helveticaneuemedium;
 			font-size: 17px;
 		}
 	}

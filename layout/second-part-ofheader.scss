@@ -1,13 +1,12 @@
-@use "colors";
-@use 'fontsname' as font;
+@use '../abstracts' as *;
 .header-secondpart {
   padding: 10px;
-  background-color: colors.$supplementarycolorUI01withoppacity;
+  background-color: $supplementarycolorUI01withoppacity;
 
-  color: colors.$primarybrand1;
+  color: $primarybrand1;
   font-size: 12pt;
 
-  font-family: font.$helveticaneuemedium;
+  font-family: $helveticaneuemedium;
 
   box-shadow: inset 0px -11px 10px -15px gray;
   div {
@@ -21,7 +20,7 @@
       img {
         height: 17px;
         width: 16px;
-        color: colors.$primarybrand1;
+        color: $primarybrand1;
       }
     }
   }
@@ -29,15 +28,15 @@
 a {
   &:visited {
     text-decoration: none;
-    color: colors.$primarybrand1;
+    color:$primarybrand1;
   }
   &:active {
     text-decoration: none;
-    color: colors.$primarybrand1;
+    color: $primarybrand1;
   }
   &:link {
     text-decoration: none;
-    color: colors.$primarybrand1;
+    color: $primarybrand1;
   }
 }
 
