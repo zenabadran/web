@@ -366,7 +366,6 @@ a.gray {
   border-top: #aa272f solid 4px;
   width: 100%;
   position: relative;
-  background-size: 100% 100%;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -1013,6 +1012,25 @@ a.gray {
     font-size: 20px;
   }
 }
+.product-slider {
+  background: url("C:/Users/asus/Desktop/sass/img/encyclopedia-boilers-hero-master1.jpg");
+  height: 230px;
+  width: 100%;
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  box-shadow: inset 3px 230px 5px rgba(26, 28, 28, 0.74);
+}
+.product-slider h1 {
+  color: #ffffff;
+  font-size: 55px;
+  font-family: "helveticaneuebold";
+}
+
 body {
   margin: 0px;
   padding: 0px;
