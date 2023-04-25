@@ -329,7 +329,7 @@ a.gray {
   }
 }
 .main-slider {
-  background: url("img/encyclopedia-boilers-hero-master1.jpg");
+  background: url("C:/Users/asus/Desktop/sass/img/encyclopedia-boilers-hero-master1.jpg");
   height: 524px;
   border-top: #aa272f solid 4px;
   width: 100%;
@@ -408,7 +408,7 @@ a.gray {
 }
 @font-face {
   font-family: "helveticaneuelight";
-  src: url(fonts/HelveticaNeueLTStd-Lt.woff) format("woff"), url(fonts/HelveticaNeueLTStd-Lt.woff2) format("woff2"), url(../fonts/HelveticaNeueLTStd-Lt.eot) format("eot");
+  src: url(fonts/HelveticaNeueLTStd-Lt.woff) format("woff");
   font-weight: 400;
   font-style: normal;
 }
