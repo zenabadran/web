@@ -1,7 +1,22 @@
+@use "colors" as *;
 %proparities {
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+%arrowright {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $primarybrand1;
+  color: $inversetextcolor;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.5;
+  }
 }

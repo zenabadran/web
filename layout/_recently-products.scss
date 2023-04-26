@@ -81,21 +81,10 @@
   }
 }
 .rounded-arrow-product {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  background-color: $primarybrand1;
-  color: $inversetextcolor;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %arrowright;
   position: absolute;
   right: -30px;
   top: 260px;
-  cursor: pointer;
-  &:hover {
-    opacity: 0.5;
-  }
 }
 @media only screen and (max-width: 1341px) {
   .product-card {

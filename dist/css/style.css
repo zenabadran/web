@@ -38,6 +38,22 @@
   align-items: center;
 }
 
+.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003150;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
+  opacity: 0.5;
+}
+
 .header-firstpart {
   background-color: #d7d3c7;
   text-align: center;
@@ -66,6 +82,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003150;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
+  opacity: 0.5;
 }
 
 .header-secondpart {
@@ -120,6 +152,22 @@ a:link {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003150;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
+  opacity: 0.5;
 }
 
 .thaird-part-header-container {
@@ -183,6 +231,22 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003150;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
+  opacity: 0.5;
 }
 
 .dropdown-main-container {
@@ -323,6 +387,22 @@ a.gray {
   align-items: center;
 }
 
+.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003150;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
+  opacity: 0.5;
+}
+
 .menu-icon.material-symbols-outlined {
   display: none;
 }
@@ -408,6 +488,22 @@ a.gray {
   align-items: center;
 }
 
+.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003150;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
+  opacity: 0.5;
+}
+
 .main-slider {
   background: url("C:/Users/asus/Desktop/sass/img/encyclopedia-boilers-hero-master1.jpg");
   height: 524px;
@@ -486,6 +582,22 @@ a.gray {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003150;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
+  opacity: 0.5;
 }
 
 .how-we-are-section {
@@ -615,6 +727,22 @@ a.gray {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003150;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
+  opacity: 0.5;
 }
 
 .demonstration-video-container {
@@ -863,6 +991,22 @@ a.gray {
   align-items: center;
 }
 
+.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003150;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
+  opacity: 0.5;
+}
+
 .solutions-container {
   padding-top: 50px;
 }
@@ -979,6 +1123,22 @@ a.gray {
   align-items: center;
 }
 
+.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003150;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
+  opacity: 0.5;
+}
+
 .recent-news-slider {
   display: flex;
   flex-direction: column;
@@ -1045,20 +1205,8 @@ a.gray {
   align-items: center;
 }
 .recent-news-img div {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  background-color: #003150;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
   left: 30px;
-  cursor: pointer;
-}
-.recent-news-img div:hover {
-  opacity: 0.5;
 }
 .recent-news-img div.mirror {
   transform: scale(-1, 1);
@@ -1111,6 +1259,22 @@ a.gray {
   align-items: center;
 }
 
+.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003150;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
+  opacity: 0.5;
+}
+
 .product-slider {
   background: url("C:/Users/asus/Desktop/sass/img/encyclopedia-boilers-hero-master1.jpg");
   height: 240px;
@@ -1130,6 +1294,22 @@ a.gray {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003150;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
+  opacity: 0.5;
 }
 
 .featured-categories-container {
@@ -1195,6 +1375,22 @@ a.gray {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.recent-news-img div, .rounded-arrow-product, .product-card .mirror {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003150;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.recent-news-img div:hover, .rounded-arrow-product:hover, .product-card .mirror:hover {
+  opacity: 0.5;
 }
 
 .recently-viewed-products-slider {
@@ -1278,21 +1474,9 @@ a.gray {
 }
 
 .rounded-arrow-product, .product-card .mirror {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  background-color: #003150;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: absolute;
   right: -30px;
   top: 260px;
-  cursor: pointer;
-}
-.rounded-arrow-product:hover, .product-card .mirror:hover {
-  opacity: 0.5;
 }
 
 @media only screen and (max-width: 1341px) {
@@ -1321,6 +1505,22 @@ a.gray {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.recent-news-img div, .rounded-arrow-product, .product-card .mirror {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003150;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.recent-news-img div:hover, .rounded-arrow-product:hover, .product-card .mirror:hover {
+  opacity: 0.5;
 }
 
 .discover-more-container {
@@ -1445,6 +1645,22 @@ a.gray {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.recent-news-img div, .rounded-arrow-product, .product-card .mirror {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003150;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.recent-news-img div:hover, .rounded-arrow-product:hover, .product-card .mirror:hover {
+  opacity: 0.5;
 }
 
 footer {
