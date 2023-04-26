@@ -1,0 +1,124 @@
+@use '../abstracts' as *;
+.recently-viewed-products-slider {
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	h1 {
+		align-self: center;
+		font-family: $helveticaneuebold;
+		font-size: 35px;
+	}
+	>div {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 20px;
+		flex-wrap: wrap;
+	}
+}
+.product-card {
+	display: flex;
+	flex-direction: column;
+	width: 320px;
+	height: 530px;
+	border: solid 1px $supplementarycolorUI01;
+	position: relative;
+	img {
+		height: 280px;
+		width: 100%;
+	}
+    .mirror {
+        @extend.rounded-arrow-product;
+        transform: scale(-1, 1);
+        left: -30px;
+    }
+}
+.card-description {
+	width: 250px;
+	height: 180px;
+	margin: 40px auto 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	h5 {
+		margin: 0px;
+		color: $primarybrand1;
+		font-family: $helveticaneuemedium;
+		letter-spacing: 0.7px;
+	}
+	button {
+		height: 40px;
+		border: none;
+		background-color: $primarybrand1;
+		color: $inversetextcolor;
+		letter-spacing: 1px;
+		cursor: pointer;
+	}
+	>span {
+		span {
+			&:first-child {
+				font-family: $helveticaneuebold;
+			}
+			&:last-child {
+				font-family: $helveticaneuelight;
+			}
+		}
+	}
+}
+.gradient {
+	position: absolute;
+	top: 10px;
+	width: 220px;
+	height: 0px;
+	display: flex;
+	justify-content: center;
+	border-top: 30px solid $supplementarycolorUI02;
+	border-right: 20px solid transparent;
+	span {
+		font-family: $helveticaneuemedium;
+		position: relative;
+		left: -10px;
+		top: -25px;
+	}
+}
+.rounded-arrow-product {
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	background-color: $primarybrand1;
+	color: $inversetextcolor;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	right: -30px;
+	top: 260px;
+	cursor: pointer;
+	&:hover {
+		opacity: 0.5;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.recently-viewed-products-slider {
+		>div {
+			justify-content: space-around;
+		}
+	}
+	.product-card {
+		margin-top: 30px;
+	}
+}
+@media only screen and (max-width: 482px) {
+	.recently-viewed-products-slider {
+		h1 {
+			font-size: 25px;
+		}
+	}
+}
+@media only screen and (max-width: 372px) {
+	.recently-viewed-products-slider {
+		h1 {
+			font-size: 20px;
+		}
+	}
+}

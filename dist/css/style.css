@@ -30,6 +30,14 @@
   font-family: "helveticaneue";
   src: url(C:/Users/asus/Desktop/sass/fonts/HelveticaNeueRoman.woff) format("woff");
 }
+.product-slider, .main-slider {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header-firstpart {
   background-color: #d7d3c7;
   text-align: center;
@@ -50,6 +58,14 @@
 .material-symbols-outlined {
   vertical-align: middle;
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.product-slider, .main-slider {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-secondpart {
@@ -98,6 +114,14 @@ a:link {
     display: none;
   }
 }
+.product-slider, .main-slider {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .thaird-part-header-container {
   display: flex;
   flex-direction: row;
@@ -153,6 +177,14 @@ li {
     height: 70px;
   }
 }
+.product-slider, .main-slider {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .dropdown-main-container {
   display: none;
   position: absolute;
@@ -283,6 +315,14 @@ a.gray {
   color: #82786f;
 }
 
+.product-slider, .main-slider {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .menu-icon.material-symbols-outlined {
   display: none;
 }
@@ -360,18 +400,21 @@ a.gray {
     font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
   }
 }
+.product-slider, .main-slider {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-slider {
   background: url("C:/Users/asus/Desktop/sass/img/encyclopedia-boilers-hero-master1.jpg");
   height: 524px;
   border-top: #aa272f solid 4px;
   width: 100%;
   position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   z-index: 1;
 }
 .main-slider::before {
@@ -437,6 +480,14 @@ a.gray {
     font-weight: 800;
   }
 }
+.product-slider, .main-slider {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .how-we-are-section {
   display: flex;
   justify-content: space-between;
@@ -564,6 +615,14 @@ a.gray {
     padding: 0px 10px 5px 20px;
   }
 }
+.product-slider, .main-slider {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .demonstration-video-container {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -798,6 +857,14 @@ a.gray {
     zoom: 0.8;
   }
 }
+.product-slider, .main-slider {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .solutions-container {
   padding-top: 50px;
 }
@@ -894,6 +961,14 @@ a.gray {
     font-size: 20px;
   }
 }
+.product-slider, .main-slider {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .recent-news-slider {
   display: flex;
   flex-direction: column;
@@ -1012,16 +1087,18 @@ a.gray {
     font-size: 20px;
   }
 }
-.product-slider {
-  background: url("C:/Users/asus/Desktop/sass/img/encyclopedia-boilers-hero-master1.jpg");
-  height: 230px;
-  width: 100%;
-  background-size: 100% 100%;
+.main-slider, .product-slider {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.product-slider {
+  background: url("C:/Users/asus/Desktop/sass/img/encyclopedia-boilers-hero-master1.jpg");
+  height: 240px;
+  width: 100%;
   margin-top: 100px;
   box-shadow: inset 3px 230px 5px rgba(26, 28, 28, 0.74);
 }
@@ -1031,6 +1108,195 @@ a.gray {
   font-family: "helveticaneuebold";
 }
 
+.main-slider, .product-slider {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured-categories-container {
+  display: flex;
+  flex-direction: column;
+}
+.featured-categories-container h1 {
+  font-size: 35px;
+  padding: 30px;
+  align-self: center;
+  font-family: "helveticaneuebold";
+}
+.featured-categories-container > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 270px);
+  row-gap: 50px;
+}
+
+.featured-categories-card {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.featured-categories-card img {
+  height: 180px;
+  width: 250px;
+  margin-bottom: 40px;
+}
+.featured-categories-card a {
+  align-self: center;
+  font-family: "helveticaneuebold";
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 843px) {
+  .featured-categories-container > div {
+    grid-template-columns: repeat(auto-fit, 350px);
+  }
+}
+@media only screen and (max-width: 760px) {
+  .featured-categories-container > div {
+    align-self: center;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .featured-categories-container > div {
+    font-size: 25px;
+    padding: 20px 0px;
+  }
+  .featured-categories-container h1 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .featured-categories-container > div {
+    grid-template-columns: repeat(auto-fit, 250px);
+  }
+}
+.main-slider, .product-slider {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recently-viewed-products-slider {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.recently-viewed-products-slider h1 {
+  align-self: center;
+  font-family: "helveticaneuebold";
+  font-size: 35px;
+}
+.recently-viewed-products-slider > div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 530px;
+  border: solid 1px #d7d3c7;
+  position: relative;
+}
+.product-card img {
+  height: 280px;
+  width: 100%;
+}
+.product-card .mirror {
+  transform: scale(-1, 1);
+  left: -30px;
+}
+
+.card-description {
+  width: 250px;
+  height: 180px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-description h5 {
+  margin: 0px;
+  color: #003150;
+  font-family: "helveticaneuemedium";
+  letter-spacing: 0.7px;
+}
+.card-description button {
+  height: 40px;
+  border: none;
+  background-color: #003150;
+  color: #ffffff;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.card-description > span span:first-child {
+  font-family: "helveticaneuebold";
+}
+.card-description > span span:last-child {
+  font-family: "helveticaneuelight";
+}
+
+.gradient {
+  position: absolute;
+  top: 10px;
+  width: 220px;
+  height: 0px;
+  display: flex;
+  justify-content: center;
+  border-top: 30px solid #d3dee4;
+  border-right: 20px solid transparent;
+}
+.gradient span {
+  font-family: "helveticaneuemedium";
+  position: relative;
+  left: -10px;
+  top: -25px;
+}
+
+.rounded-arrow-product, .product-card .mirror {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: #003150;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -30px;
+  top: 260px;
+  cursor: pointer;
+}
+.rounded-arrow-product:hover, .product-card .mirror:hover {
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 1024px) {
+  .recently-viewed-products-slider > div {
+    justify-content: space-around;
+  }
+  .product-card {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 482px) {
+  .recently-viewed-products-slider h1 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 372px) {
+  .recently-viewed-products-slider h1 {
+    font-size: 20px;
+  }
+}
 body {
   margin: 0px;
   padding: 0px;
