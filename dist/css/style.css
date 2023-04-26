@@ -542,7 +542,7 @@ a.gray {
   font-family: "helveticaneuemedium";
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1308px) {
   .how-we-are-section {
     margin-top: 30px;
     flex-direction: column;
@@ -550,15 +550,15 @@ a.gray {
     align-items: center;
   }
   .how-we-are-section div:first-child {
-    width: 98%;
-    text-align: end;
+    width: 100%;
+    text-align: center;
+    border: none;
   }
   .how-we-are-section div:nth-child(2) {
-    border-left: solid 3px #d7d3c7;
     font-size: 15px;
     text-align: justify;
-    padding: 20px 60px 20px 20px;
-    width: 88%;
+    padding: 20px 20px 20px 20px;
+    width: 87%;
   }
   .service-section {
     position: static;
@@ -587,19 +587,13 @@ a.gray {
     justify-content: center;
   }
   .how-we-are-section div:first-child {
-    text-align: center;
-    border: none;
     margin: 30px 0 0 0;
   }
   .how-we-are-section div:first-child h2 {
     margin: 30px 0 0 0;
   }
   .how-we-are-section div:nth-child(2) {
-    align-self: center;
-    text-align: center;
-    padding-right: 20px;
-    border: none;
-    width: 88%;
+    width: 100%;
   }
   .service-section {
     margin-top: 0px;
@@ -675,15 +669,15 @@ a.gray {
   border: none;
   cursor: pointer;
 }
-.demonstration-video-container .play-video-container button .playbutton {
-  height: 150px;
-  width: 150px;
-  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.1));
-}
 .demonstration-video-container .play-video-container video {
   width: 870px;
   height: 600px;
   display: none;
+}
+.demonstration-video-container .playbutton {
+  height: 150px;
+  width: 150px;
+  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.1));
 }
 
 @media only screen and (max-width: 1370px) {
@@ -788,7 +782,7 @@ a.gray {
     width: 100px;
   }
   .demonstration-video-container .video-description h2 {
-    margin: 0px 30px 10px 30px;
+    margin: 0px 40px 10px 30px;
     font-size: 20px;
   }
   .demonstration-video-container .video-description p {
@@ -803,8 +797,8 @@ a.gray {
     height: 300px;
   }
   .demonstration-video-container .playbutton {
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
   }
 }
 @media only screen and (max-width: 440px) {
@@ -837,6 +831,10 @@ a.gray {
     height: 190px;
     width: 100%;
     align-self: center;
+  }
+  .demonstration-video-container .playbutton {
+    height: 50px;
+    width: 50px;
   }
 }
 @media only screen and (max-width: 347px) {

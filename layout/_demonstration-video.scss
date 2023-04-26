@@ -48,17 +48,18 @@
       background-color: transparent;
       border: none;
       cursor: pointer;
-      .playbutton {
-        height: 150px;
-        width: 150px;
-        filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.1));
-      }
+      
     }
     video {
       width: 870px;
       height: 600px;
       display: none;
     }
+  }
+  .playbutton {
+    height: 150px;
+    width: 150px;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.1));
   }
 }
 
@@ -164,7 +165,7 @@
         width: 100px;
       }
       h2 {
-        margin: 0px 30px 10px 30px;
+        margin: 0px 40px 10px 30px;
         font-size: 20px;
       }
       p {
@@ -180,8 +181,8 @@
       }
     }
     .playbutton {
-      height: 50px;
-      width: 50px;
+      height: 80px;
+      width: 80px;
     }
   }
 }
@@ -214,6 +215,10 @@
         width: 100%;
         align-self: center;
       }
+    }
+    .playbutton {
+      height: 50px;
+      width: 50px;
     }
   }
 }
