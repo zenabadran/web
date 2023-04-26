@@ -129,10 +129,9 @@ footer {
       }
     }
     > div {
-      
       &:not(&:first-child, &:last-child) {
         flex-direction: row;
-      justify-content: space-between;
+        justify-content: space-between;
       }
     }
   }

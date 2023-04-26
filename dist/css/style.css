@@ -686,13 +686,13 @@ a.gray {
     width: 450px;
   }
   .demonstration-video-container .video-description img {
-    margin: 60px 0px 0px 45px;
+    margin: 40px 0px 0px 45px;
     height: 40px;
     width: 100px;
   }
   .demonstration-video-container .video-description h2 {
     width: 340px;
-    margin: 0px 70px 10px 50px;
+    margin: 0px 80px 10px 50px;
     font-size: 25px;
   }
   .demonstration-video-container .video-description p {
@@ -718,7 +718,7 @@ a.gray {
     width: 200px;
   }
   .demonstration-video-container .video-description h2 {
-    margin: 0px 50px 10px 50px;
+    margin: 0px 80px 10px 50px;
     font-size: 35px;
     letter-spacing: 1px;
     width: auto;
