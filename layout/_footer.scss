@@ -95,6 +95,7 @@ footer {
     div {
       > span {
         &:first-child {
+          cursor: pointer;
           &::after {
             background-color: $supplementarycolorUI02;
             height: 0.5px;
@@ -112,6 +113,7 @@ footer {
         display: block;
         position: relative;
         top: 10px;
+        cursor: pointer;
       }
       &:last-child {
         span {

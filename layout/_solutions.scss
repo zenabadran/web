@@ -10,7 +10,7 @@
   .solutions-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     img {
       height: auto;
       width: 57%;
@@ -97,6 +97,23 @@
     h1 {
       font-size: 25px;
     }
+    .solutions-row {
+    .row-description {
+      
+      span {
+        font-size: 12px;
+        zoom: .85;
+      }
+      h2 {
+        font-size: 16px;
+      }
+      
+      a {
+        font-size: 14px;
+        line-height: 1;
+      }
+    }
+  }
   }
 }
 @media only screen and (max-width: 325px) {
