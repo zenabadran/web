@@ -1,0 +1,114 @@
+@use '../abstracts' as *;
+.discover-more-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 70px;
+	h1 {
+		align-self: center;
+		font-family:$helveticaneuebold;
+		margin-bottom: 40px;
+		font-size: 30px;
+	}
+}
+.discover-more-row {
+	display: flex;
+	justify-content: space-between;
+	>div {
+		height: 450px;
+		width: 650px;
+		display: flex;
+		justify-content: flex-end;
+		&:first-child {
+			background: url(C:/Users/asus/Desktop/sass/img/boilerhouse.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		&:last-child {
+			background: url(C:/Users/asus/Desktop/sass/img/boilerhouse.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			.discover-more-discreption {
+				background-color: $supplementarycolorUI04;
+			}
+		}
+	}
+}
+.discover-more-discreption {
+	width: 43%;
+	background-color: $supplementarycolorUI06;
+	color: $inversetextcolor;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 30px;
+	padding-bottom: 80px;
+	>span {
+		letter-spacing: 2px;
+		font-family: $helveticaneuemedium;
+	}
+	h2 {
+		font-size: 30px;
+		font-family: $helveticaneue;
+		margin-top: 60px;
+		margin-bottom: 0px;
+	}
+	p {
+		line-height: 1.5;
+		font-size: 15px;
+		letter-spacing: 1px;
+		font-family: $helveticaneuelight;
+	}
+	a {
+		color: $inversetextcolor;
+		font-family: $helveticaneue;
+	}
+}
+@media only screen and (max-width: 1370px) {
+	.discover-more-row {
+		flex-direction: column;
+		align-self: center;
+		align-items: center;
+		height: 780px;
+		>div {
+			height: 360px;
+			width: 100%;
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	.discover-more-row {
+		height: 650px;
+		>div {
+			height: 300px;
+			width: 90%;
+		}
+	}
+	.discover-more-discreption {
+		width: 40%;
+		padding: 30px;
+		h2 {
+			font-size: 20px;
+			margin-top: 20px;
+		}
+		span {
+			font-size: 14px;
+			zoom: .95;
+		}
+		p {
+			zoom: .85;
+			line-height: normal;
+		}
+	}
+}
+@media only screen and (max-width: 425px) {
+	.discover-more-discreption {
+		padding: 20px;
+		width: 100%;
+		h2 {
+			font-size: 18px;
+		}
+		a {
+			zoom: .75;
+		}
+	}
+}

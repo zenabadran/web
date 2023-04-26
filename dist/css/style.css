@@ -1297,6 +1297,300 @@ a.gray {
     font-size: 20px;
   }
 }
+.main-slider, .product-slider {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discover-more-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+.discover-more-container h1 {
+  align-self: center;
+  font-family: "helveticaneuebold";
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.discover-more-row {
+  display: flex;
+  justify-content: space-between;
+}
+.discover-more-row > div {
+  height: 450px;
+  width: 650px;
+  display: flex;
+  justify-content: flex-end;
+}
+.discover-more-row > div:first-child {
+  background: url(C:/Users/asus/Desktop/sass/img/boilerhouse.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.discover-more-row > div:last-child {
+  background: url(C:/Users/asus/Desktop/sass/img/boilerhouse.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.discover-more-row > div:last-child .discover-more-discreption {
+  background-color: #477f80;
+}
+
+.discover-more-discreption {
+  width: 43%;
+  background-color: #53284F;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px;
+  padding-bottom: 80px;
+}
+.discover-more-discreption > span {
+  letter-spacing: 2px;
+  font-family: "helveticaneuemedium";
+}
+.discover-more-discreption h2 {
+  font-size: 30px;
+  font-family: "helveticaneue";
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+.discover-more-discreption p {
+  line-height: 1.5;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: "helveticaneuelight";
+}
+.discover-more-discreption a {
+  color: #ffffff;
+  font-family: "helveticaneue";
+}
+
+@media only screen and (max-width: 1370px) {
+  .discover-more-row {
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    height: 780px;
+  }
+  .discover-more-row > div {
+    height: 360px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .discover-more-row {
+    height: 650px;
+  }
+  .discover-more-row > div {
+    height: 300px;
+    width: 90%;
+  }
+  .discover-more-discreption {
+    width: 40%;
+    padding: 30px;
+  }
+  .discover-more-discreption h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .discover-more-discreption span {
+    font-size: 14px;
+    zoom: 0.95;
+  }
+  .discover-more-discreption p {
+    zoom: 0.85;
+    line-height: normal;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .discover-more-discreption {
+    padding: 20px;
+    width: 100%;
+  }
+  .discover-more-discreption h2 {
+    font-size: 18px;
+  }
+  .discover-more-discreption a {
+    zoom: 0.75;
+  }
+}
+.main-slider, .product-slider {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #003150;
+  margin-top: 60px;
+}
+
+.first-part-of-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.first-part-of-footer div {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+  color: #ffffff;
+  font-family: "helveticaneuelight";
+}
+.first-part-of-footer div:first-child {
+  padding: 40px 0px;
+}
+.first-part-of-footer div:first-child a {
+  font-family: "helveticaneuemedium";
+  padding-top: 30px;
+}
+.first-part-of-footer div:first-child p {
+  line-height: 1.5;
+}
+.first-part-of-footer div > a {
+  color: #ffffff;
+  font-family: "helveticaneuelight";
+  padding-top: 10px;
+}
+.first-part-of-footer div > p {
+  padding-top: 10px;
+}
+.first-part-of-footer div > span:last-child {
+  padding-top: 10px;
+}
+.first-part-of-footer div > span:first-child {
+  padding-bottom: 20px;
+  position: relative;
+  font-family: "helveticaneuemedium";
+  font-size: 15px;
+}
+.first-part-of-footer div > span:first-child::after {
+  content: "";
+  position: absolute;
+  background-color: #ffffff;
+  height: 2px;
+  width: 31px;
+  left: 0px;
+  top: 25px;
+}
+.first-part-of-footer div:last-child span a {
+  display: inline-block;
+  height: 25px;
+}
+.first-part-of-footer div:last-child span a img {
+  height: 25px;
+  width: 25px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.first-part-of-footer div i {
+  display: none;
+}
+
+.convert-vertical-to-horizantal {
+  padding: 0px 0px !important;
+}
+
+.logo-footer {
+  height: 30px;
+  width: 140px;
+}
+
+.last-part-of-footer {
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+  border-top: solid rgba(211, 222, 228, 0.5019607843) 1px;
+  font-family: "helveticaneuelight";
+  position: relative;
+}
+.last-part-of-footer span {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 873px) {
+  .first-part-of-footer {
+    flex-direction: column;
+  }
+  .first-part-of-footer div {
+    padding: 10px 0px;
+  }
+  .first-part-of-footer div > span:first-child::after {
+    background-color: #d3dee4;
+    height: 0.5px;
+    width: 100vw;
+    left: -30px;
+    top: 40px;
+  }
+  .first-part-of-footer div > a {
+    display: none;
+  }
+  .first-part-of-footer div i {
+    display: block;
+    position: relative;
+    top: 10px;
+  }
+  .first-part-of-footer div:last-child span a img {
+    height: 45px;
+    width: 45px;
+    padding-right: 10px;
+    padding-top: 30px;
+  }
+  .first-part-of-footer > div:not(.first-part-of-footer > div:first-child, .first-part-of-footer > div:last-child) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .last-part-of-footer {
+    border: none;
+    flex-direction: column-reverse;
+    height: 140px;
+    justify-content: space-evenly;
+  }
+  .last-part-of-footer span {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .last-part-of-footer span:first-child {
+    padding-bottom: 30px;
+  }
+  .convert-vertical-to-horizantal {
+    flex-direction: row !important;
+    justify-content: space-between;
+    position: relative;
+  }
+  .convert-vertical-to-horizantal a {
+    display: block !important;
+  }
+  .convert-vertical-to-horizantal:last-child:after {
+    content: "";
+    position: absolute;
+    background-color: #d3dee4;
+    height: 0.5px;
+    width: 100vw;
+    left: -30px;
+    top: 85px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .first-part-of-footer div:last-child span a img {
+    height: 35px;
+    width: 35px;
+  }
+  .convert-vertical-to-horizantal a {
+    font-size: 14px;
+    zoom: 0.9;
+  }
+}
 body {
   margin: 0px;
   padding: 0px;

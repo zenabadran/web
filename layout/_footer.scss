@@ -1,0 +1,191 @@
+@use "../abstracts" as *;
+footer {
+  background-color: $primarybrand1;
+  margin-top: 60px;
+}
+.first-part-of-footer {
+  display: flex;
+  justify-content: space-between;
+  div {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+    color: $inversetextcolor;
+    font-family: $helveticaneuelight;
+    &:first-child {
+      padding: 40px 0px;
+      a {
+        font-family: $helveticaneuemedium;
+        padding-top: 30px;
+      }
+      p {
+        line-height: 1.5;
+      }
+    }
+    > a {
+      color: $inversetextcolor;
+      font-family: $helveticaneuelight;
+      padding-top: 10px;
+    }
+    > p {
+      padding-top: 10px;
+    }
+    > span {
+      &:last-child {
+        padding-top: 10px;
+      }
+      &:first-child {
+        padding-bottom: 20px;
+        position: relative;
+        font-family: $helveticaneuemedium;
+        font-size: 15px;
+        &::after {
+          content: "";
+          position: absolute;
+          background-color: $inversetextcolor;
+          height: 2px;
+          width: 31px;
+          left: 0px;
+          top: 25px;
+        }
+      }
+    }
+    &:last-child {
+      span {
+        a {
+          img {
+            height: 25px;
+            width: 25px;
+            padding-right: 10px;
+            padding-top: 10px;
+          }
+          display: inline-block;
+          height: 25px;
+        }
+      }
+    }
+    i {
+      display: none;
+    }
+  }
+}
+.convert-vertical-to-horizantal {
+  padding: 0px 0px !important;
+}
+.logo-footer {
+  height: 30px;
+  width: 140px;
+}
+.last-part-of-footer {
+  display: flex;
+  color: $inversetextcolor;
+  justify-content: space-between;
+  border-top: solid $supplementarycolorUI02withoppacity 1px;
+  font-family: $helveticaneuelight;
+  position: relative;
+  span {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+  }
+}
+@media only screen and (max-width: 873px) {
+  .first-part-of-footer {
+    flex-direction: column;
+    div {
+      > span {
+        &:first-child {
+          &::after {
+            background-color: $supplementarycolorUI02;
+            height: 0.5px;
+            width: 100vw;
+            left: -30px;
+            top: 40px;
+          }
+        }
+      }
+      padding: 10px 0px;
+      > a {
+        display: none;
+      }
+      i {
+        display: block;
+        position: relative;
+        top: 10px;
+      }
+      &:last-child {
+        span {
+          a {
+            img {
+              height: 45px;
+              width: 45px;
+              padding-right: 10px;
+              padding-top: 30px;
+            }
+          }
+        }
+      }
+    }
+    > div {
+      
+      &:not(&:first-child, &:last-child) {
+        flex-direction: row;
+      justify-content: space-between;
+      }
+    }
+  }
+  .last-part-of-footer {
+    border: none;
+    flex-direction: column-reverse;
+    height: 140px;
+    justify-content: space-evenly;
+    span {
+      padding-top: 0px;
+      padding-bottom: 0px;
+      &:first-child {
+        padding-bottom: 30px;
+      }
+    }
+  }
+  .convert-vertical-to-horizantal {
+    a {
+      display: block !important;
+    }
+    flex-direction: row !important;
+    justify-content: space-between;
+    position: relative;
+    &:last-child {
+      &:after {
+        content: "";
+        position: absolute;
+        background-color: $supplementarycolorUI02;
+        height: 0.5px;
+        width: 100vw;
+        left: -30px;
+        top: 85px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .first-part-of-footer {
+    div {
+      &:last-child {
+        span {
+          a {
+            img {
+              height: 35px;
+              width: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .convert-vertical-to-horizantal {
+    a {
+      font-size: 14px;
+      zoom: 0.9;
+    }
+  }
+}
