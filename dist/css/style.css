@@ -922,6 +922,7 @@ a.gray {
 
 @media only screen and (max-width: 767px) {
   .solutions-container .solutions-row {
+    margin-bottom: 100px;
     flex-direction: column-reverse;
   }
   .solutions-container .solutions-row:last-child {
@@ -1053,9 +1054,12 @@ a.gray {
   left: -30px;
 }
 
-@media only screen and (max-width: 1330px) {
+@media only screen and (max-width: 1337px) {
   .recent-news-slider > div {
     justify-content: center;
+  }
+  .recent-news-slider-item {
+    padding: 30px;
   }
 }
 @media only screen and (max-width: 482px) {
@@ -1083,6 +1087,9 @@ a.gray {
 @media only screen and (max-width: 325px) {
   .recent-news-slider h1 {
     font-size: 20px;
+  }
+  .recent-news-slider-item {
+    padding: 40px 0px;
   }
 }
 .main-slider, .product-slider {
@@ -1147,14 +1154,14 @@ a.gray {
   font-size: 16px;
 }
 
-@media only screen and (max-width: 843px) {
+@media only screen and (max-width: 1404px) {
   .featured-categories-container > div {
-    grid-template-columns: repeat(auto-fit, 350px);
+    justify-content: center;
   }
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 870px) {
   .featured-categories-container > div {
-    align-self: center;
+    grid-template-columns: repeat(auto-fit, 350px);
   }
 }
 @media only screen and (max-width: 482px) {
@@ -1277,12 +1284,14 @@ a.gray {
   opacity: 0.5;
 }
 
+@media only screen and (max-width: 1341px) {
+  .product-card {
+    margin-top: 30px;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .recently-viewed-products-slider > div {
     justify-content: space-around;
-  }
-  .product-card {
-    margin-top: 30px;
   }
 }
 @media only screen and (max-width: 482px) {

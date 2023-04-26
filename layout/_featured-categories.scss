@@ -30,20 +30,21 @@
 		font-size: 16px;
 	}
 }
-@media only screen and (max-width: 843px) {
+@media only screen and (max-width: 1404px){
+	.featured-categories-container {
+		>div {
+			justify-content: center;
+		}
+	}
+}
+@media only screen and (max-width: 870px) {
 	.featured-categories-container {
 		>div {
 			grid-template-columns: repeat(auto-fit, 350px);
 		}
 	}
 }
-@media only screen and (max-width: 760px) {
-	.featured-categories-container {
-		>div {
-			align-self: center;
-		}
-	}
-}
+
 @media only screen and (max-width: 482px) {
 	.featured-categories-container {
 		>div {

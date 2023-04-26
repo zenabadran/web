@@ -97,16 +97,18 @@
 		opacity: 0.5;
 	}
 }
-
+@media only screen and (max-width: 1341px){
+	.product-card {
+		margin-top: 30px;
+	}
+}
 @media only screen and (max-width: 1024px) {
 	.recently-viewed-products-slider {
 		>div {
 			justify-content: space-around;
 		}
 	}
-	.product-card {
-		margin-top: 30px;
-	}
+	
 }
 @media only screen and (max-width: 482px) {
 	.recently-viewed-products-slider {
