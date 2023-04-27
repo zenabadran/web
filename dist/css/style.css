@@ -49,7 +49,6 @@
   color: #ffffff;
   cursor: pointer;
 }
-
 .rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
   opacity: 0.5;
 }
@@ -74,30 +73,6 @@
 .material-symbols-outlined {
   vertical-align: middle;
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
-}
-
-.product-slider, .main-slider {
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #003150;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
-  opacity: 0.5;
 }
 
 .header-secondpart {
@@ -146,30 +121,6 @@ a:link {
     display: none;
   }
 }
-.product-slider, .main-slider {
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #003150;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
-  opacity: 0.5;
-}
-
 .thaird-part-header-container {
   display: flex;
   flex-direction: row;
@@ -225,30 +176,6 @@ li {
     height: 70px;
   }
 }
-.product-slider, .main-slider {
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #003150;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
-  opacity: 0.5;
-}
-
 .dropdown-main-container {
   display: none;
   position: absolute;
@@ -379,30 +306,6 @@ a.gray {
   color: #82786f;
 }
 
-.product-slider, .main-slider {
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #003150;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
-  opacity: 0.5;
-}
-
 .menu-icon.material-symbols-outlined {
   display: none;
 }
@@ -480,30 +383,6 @@ a.gray {
     font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
   }
 }
-.product-slider, .main-slider {
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #003150;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
-  opacity: 0.5;
-}
-
 .main-slider {
   background: url("C:/Users/asus/Desktop/sass/img/encyclopedia-boilers-hero-master1.jpg");
   height: 524px;
@@ -576,30 +455,6 @@ a.gray {
     font-weight: 800;
   }
 }
-.product-slider, .main-slider {
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #003150;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
-  opacity: 0.5;
-}
-
 .how-we-are-section {
   display: flex;
   justify-content: space-between;
@@ -721,30 +576,6 @@ a.gray {
     padding: 0px 10px 5px 20px;
   }
 }
-.product-slider, .main-slider {
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #003150;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
-  opacity: 0.5;
-}
-
 .demonstration-video-container {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -983,30 +814,6 @@ a.gray {
     zoom: 0.8;
   }
 }
-.product-slider, .main-slider {
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #003150;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
-  opacity: 0.5;
-}
-
 .solutions-container {
   padding-top: 50px;
 }
@@ -1115,30 +922,6 @@ a.gray {
     font-size: 20px;
   }
 }
-.product-slider, .main-slider {
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #003150;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
-  opacity: 0.5;
-}
-
 .recent-news-slider {
   display: flex;
   flex-direction: column;
@@ -1251,30 +1034,6 @@ a.gray {
     padding: 40px 0px;
   }
 }
-.main-slider, .product-slider {
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #003150;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
-  opacity: 0.5;
-}
-
 .product-slider {
   background: url("C:/Users/asus/Desktop/sass/img/encyclopedia-boilers-hero-master1.jpg");
   height: 240px;
@@ -1286,30 +1045,6 @@ a.gray {
   color: #ffffff;
   font-size: 55px;
   font-family: "helveticaneuebold";
-}
-
-.main-slider, .product-slider {
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #003150;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
-  opacity: 0.5;
 }
 
 .featured-categories-container {
@@ -1369,30 +1104,6 @@ a.gray {
     grid-template-columns: repeat(auto-fit, 250px);
   }
 }
-.main-slider, .product-slider {
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.recent-news-img div, .rounded-arrow-product, .product-card .mirror {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #003150;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.recent-news-img div:hover, .rounded-arrow-product:hover, .product-card .mirror:hover {
-  opacity: 0.5;
-}
-
 .recently-viewed-products-slider {
   display: flex;
   flex-direction: column;
@@ -1499,30 +1210,6 @@ a.gray {
     font-size: 20px;
   }
 }
-.main-slider, .product-slider {
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.recent-news-img div, .rounded-arrow-product, .product-card .mirror {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #003150;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.recent-news-img div:hover, .rounded-arrow-product:hover, .product-card .mirror:hover {
-  opacity: 0.5;
-}
-
 .discover-more-container {
   display: flex;
   flex-direction: column;
@@ -1639,30 +1326,6 @@ a.gray {
     zoom: 0.75;
   }
 }
-.main-slider, .product-slider {
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.recent-news-img div, .rounded-arrow-product, .product-card .mirror {
-  height: 60px;
-  width: 60px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #003150;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.recent-news-img div:hover, .rounded-arrow-product:hover, .product-card .mirror:hover {
-  opacity: 0.5;
-}
-
 footer {
   background-color: #003150;
   margin-top: 60px;
