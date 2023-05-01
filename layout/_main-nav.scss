@@ -1,51 +1,51 @@
-@use '../abstracts' as *;
+@use "../abstracts" as *;
 .thaird-part-header-container {
-	display: flex;
-	flex-direction: row;
-	height: 100px;
-	align-items: center;
-	justify-content: space-between;
-	button {
-		border: none;
-		background-color: transparent;
-		color: $primarybrand1;
-		font-size: 16px;
-		letter-spacing: 0.8px;
-		font-family: $helveticaneuebold;
-		cursor: pointer;
-	}
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+  button {
+    border: none;
+    background-color: transparent;
+    color: $primarybrand1;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    font-family: $helveticaneuebold;
+    cursor: pointer;
+  }
 }
 nav {
-	width: 940px;
-	margin: 0 auto;
-	ul {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-		margin: auto;
-		padding-left: 0;
-	}
+  width: 940px;
+  margin: 0 auto;
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-left: 0;
+  }
 }
 li {
-	list-style-type: none;
-	font-size: 16px;
-	letter-spacing: 0.8px;
-	font-family: $helveticaneuebold;
+  list-style-type: none;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  font-family: $helveticaneuebold;
 }
 .logo {
-	width: 196px;
+  width: 196px;
 }
 .search-icon.material-symbols-outlined {
-	font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 48;
+  font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 48;
 }
 @media only screen and (max-width: 1300px) {
-	nav {
-		display: none;
-	}
-	.thaird-part-header-container {
-		justify-content: space-around;
-		align-items: center;
-		height: 70px;
-	}
+  nav {
+    display: none;
+  }
+  .thaird-part-header-container {
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+  }
 }
