@@ -1,75 +1,75 @@
-@use '../abstracts' as *;
+@use "../abstracts" as *;
 .main-slider {
-	background: url("C:/Users/asus/Desktop/sass/img/encyclopedia-boilers-hero-master1.jpg");
-	height: 524px;
-	border-top: $primarybrand3 solid 4px;
-	width: 100%;
-	position: relative;
-	flex-direction: column;
-	@extend %proparities ;
-	z-index: 1;
-	&::before {
-		content: "";
-		position: absolute;
-		top: 0px;
-		right: 0px;
-		bottom: 0px;
-		left: 0px;
-		background-color: rgba(10, 19, 34, 0.74);
-		filter: brightness(50%);
-	}
-	h1 {
-		color: $inversetextcolor;
-		position: relative;
-		font-family: $helveticaneuebold;
-		font-size: 59px;
-		margin: 0;
-		padding: 0;
-		letter-spacing: 2px;
-	}
-	button {
-		position: relative;
-		width: 250px;
-		height: 50px;
-		color: $inversetextcolor;
-		border: solid 2px $inversetextcolor;
-		margin-top: 30px;
-		letter-spacing: 1.5px;
-		background-color: transparent;
-		&:hover {
-			cursor: pointer;
-			background-color: $inversetextcolor;
-			color:$primarybrand1;
-		}
-	}
+  background: url("C:/Users/asus/Desktop/sass/img/encyclopedia-boilers-hero-master1.jpg");
+  height: 524px;
+  border-top: $primarybrand3 solid 4px;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  @extend %proparities;
+  z-index: 1;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(10, 19, 34, 0.74);
+    filter: brightness(50%);
+  }
+  h1 {
+    color: $inversetextcolor;
+    position: relative;
+    font-family: $helveticaneuebold;
+    font-size: 59px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 2px;
+  }
+  button {
+    position: relative;
+    width: 250px;
+    height: 50px;
+    color: $inversetextcolor;
+    border: solid 2px $inversetextcolor;
+    margin-top: 30px;
+    letter-spacing: 1.5px;
+    background-color: transparent;
+    &:hover {
+      cursor: pointer;
+      background-color: $inversetextcolor;
+      color: $primarybrand1;
+    }
+  }
 }
 @media only screen and (max-width: 1023px) {
-	.main-slider {
-		height: 424px;
-		h1 {
-			font-size: 49px;
-			font-weight: 800;
-		}
-		button {
-			width: 200px;
-			height: 30px;
-		}
-	}
+  .main-slider {
+    height: 424px;
+    h1 {
+      font-size: 49px;
+      font-weight: 800;
+    }
+    button {
+      width: 200px;
+      height: 30px;
+    }
+  }
 }
 @media only screen and (max-width: 767px) {
-	.main-slider {
-		height: 324px;
-		h1 {
-			font-size: 30px;
-			font-weight: 800;
-		}
-	}
+  .main-slider {
+    height: 324px;
+    h1 {
+      font-size: 30px;
+      font-weight: 800;
+    }
+  }
 }
 @media only screen and (max-width: 424px) {
-	.main-slider {
-		h1 {
-			font-size: 25px;
-			font-weight: 800;
-		}
-	}
+  .main-slider {
+    h1 {
+      font-size: 25px;
+      font-weight: 800;
+    }
+  }
 }
