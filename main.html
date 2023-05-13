@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="fonts/fontawsome/css/all.css">    
 
     <script src="https://kit.fontawesome.com/30f3f3580b.js" crossorigin="anonymous"></script>
+   
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
@@ -457,9 +458,12 @@
                     </ul>
                 </nav>
             </div>
-            <button>
+            <button id="search-button">
                 <span> SEARCH</span>
                 <span class="material-symbols-outlined search-icon">search</span>
+                <div id="search-container" class="search-container">
+                    <span>nothing</span>
+                </div>
             </button>
         </div>
     </header>
@@ -816,7 +820,7 @@
             playvideo.style.background = "none";
         });
     </script>
- 
+  <script src="features/searchbutton.js"></script>
 </body>
 
 </html>
