@@ -21,8 +21,21 @@ $background-fullsize: 100% 100%;
     justify-content: space-between;
     flex-wrap: wrap;
   }
+  
 }
-.recent-news-slider-item {
+.swiper {
+  width: 1410px;
+  height: 600px;
+  .swiper-wrapper{
+    width: 900px;
+    .swiper-slide {
+      width: 426px !important;
+    }
+  }
+}
+
+
+.swiper-slide {
   display: flex;
   flex-direction: column;
   width: 426px;
@@ -85,6 +98,9 @@ $background-fullsize: 100% 100%;
     }
   }
 }
+// .swiper-button-next{
+//   @extend %arrowright;
+// }
 @media only screen and (max-width: 1337px) {
   .recent-news-slider {
     > div {

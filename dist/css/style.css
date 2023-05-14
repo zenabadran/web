@@ -1048,30 +1048,41 @@ a.gray {
   flex-wrap: wrap;
 }
 
-.recent-news-slider-item {
+.swiper {
+  width: 1410px;
+  height: 600px;
+}
+.swiper .swiper-wrapper {
+  width: 900px;
+}
+.swiper .swiper-wrapper .swiper-slide {
+  width: 426px !important;
+}
+
+.swiper-slide {
   display: flex;
   flex-direction: column;
   width: 426px;
 }
-.recent-news-slider-item:first-child .recent-news-img {
+.swiper-slide:first-child .recent-news-img {
   background: url("C:/Users/asus/Desktop/sass/img/CondensingBoiler.jpg");
   background-size: 100% 100%;
   justify-content: end;
 }
-.recent-news-slider-item:nth-child(2) .recent-news-img {
+.swiper-slide:nth-child(2) .recent-news-img {
   background: url("C:/Users/asus/Desktop/sass/img/corona.jpg");
   background-size: 100% 100%;
 }
-.recent-news-slider-item:last-child .recent-news-img {
+.swiper-slide:last-child .recent-news-img {
   background: url("C:/Users/asus/Desktop/sass/img/laptopwithboiler.jpg");
   background-size: 100% 100%;
 }
-.recent-news-slider-item h2 {
+.swiper-slide h2 {
   display: inline-block;
   letter-spacing: 0.7px;
   font-family: "helveticaneuebold";
 }
-.recent-news-slider-item p {
+.swiper-slide p {
   display: inline-block;
   padding-right: 5px;
   font-family: "helveticaneuelight";
@@ -1079,7 +1090,7 @@ a.gray {
   letter-spacing: 1px;
   line-height: 1.5;
 }
-.recent-news-slider-item a {
+.swiper-slide a {
   align-self: flex-start;
   font-size: 15px;
   font-family: "helveticaneuemedium";
