@@ -137,6 +137,19 @@ a:link {
   font-family: "helveticaneuebold";
   cursor: pointer;
 }
+.thaird-part-header-container button > span:first-child::after {
+  content: "";
+  position: absolute;
+  background-color: #003150;
+  height: 1.5px;
+  width: 0;
+  left: 1330px;
+  transition: 0.3s;
+  top: 188px;
+}
+.thaird-part-header-container button > span:first-child:hover::after {
+  width: 60px;
+}
 .thaird-part-header-container button .search-container {
   display: none;
   position: absolute;

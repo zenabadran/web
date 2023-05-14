@@ -13,6 +13,23 @@
     letter-spacing: 0.8px;
     font-family: $helveticaneuebold;
     cursor: pointer;
+    > span:first-child {
+      &::after {
+        content: "";
+        position: absolute;
+        background-color: $primarybrand1;
+        height: 1.5px;
+        width: 0;
+        left: 1330px;
+        transition: 0.3s;
+        top:188px;
+      }
+      &:hover {
+        &::after {
+          width: 60px;
+        }
+      }
+    }
     .search-container {
       display: none;
       position: absolute;
