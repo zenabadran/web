@@ -14,15 +14,16 @@
     font-family: $helveticaneuebold;
     cursor: pointer;
     > span:first-child {
+      position: relative;
       &::after {
         content: "";
         position: absolute;
         background-color: $primarybrand1;
         height: 1.5px;
         width: 0;
-        left: 1330px;
+        left: 0px;
         transition: 0.3s;
-        top:188px;
+        top: 35px;
       }
       &:hover {
         &::after {
@@ -47,7 +48,7 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        input{
+        input {
           height: 80%;
           width: 100%;
           border: none;
@@ -90,5 +91,82 @@ li {
     justify-content: space-around;
     align-items: center;
     height: 70px;
+    button {
+      .search-container {
+        top: 148px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 991px) {
+  .thaird-part-header-container {
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    button {
+      .search-container {
+        top: 168px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 876px) {
+  .thaird-part-header-container {
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    button {
+      .search-container {
+        top: 166px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 546px) {
+  .thaird-part-header-container {
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    button {
+      .search-container {
+        top: 187px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 467px) {
+  .thaird-part-header-container {
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    button {
+      .search-container {
+        top: 184px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 381px) {
+  .thaird-part-header-container {
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    button {
+      .search-container {
+        top: 204px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 320px) {
+  .thaird-part-header-container {
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    button {
+      .search-container {
+        top: 224px;
+      }
+    }
   }
 }

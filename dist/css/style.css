@@ -137,15 +137,18 @@ a:link {
   font-family: "helveticaneuebold";
   cursor: pointer;
 }
+.thaird-part-header-container button > span:first-child {
+  position: relative;
+}
 .thaird-part-header-container button > span:first-child::after {
   content: "";
   position: absolute;
   background-color: #003150;
   height: 1.5px;
   width: 0;
-  left: 1330px;
+  left: 0px;
   transition: 0.3s;
-  top: 188px;
+  top: 35px;
 }
 .thaird-part-header-container button > span:first-child:hover::after {
   width: 60px;
@@ -212,6 +215,69 @@ li {
     justify-content: space-around;
     align-items: center;
     height: 70px;
+  }
+  .thaird-part-header-container button .search-container {
+    top: 148px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .thaird-part-header-container {
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+  }
+  .thaird-part-header-container button .search-container {
+    top: 168px;
+  }
+}
+@media only screen and (max-width: 876px) {
+  .thaird-part-header-container {
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+  }
+  .thaird-part-header-container button .search-container {
+    top: 166px;
+  }
+}
+@media only screen and (max-width: 546px) {
+  .thaird-part-header-container {
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+  }
+  .thaird-part-header-container button .search-container {
+    top: 187px;
+  }
+}
+@media only screen and (max-width: 467px) {
+  .thaird-part-header-container {
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+  }
+  .thaird-part-header-container button .search-container {
+    top: 184px;
+  }
+}
+@media only screen and (max-width: 381px) {
+  .thaird-part-header-container {
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+  }
+  .thaird-part-header-container button .search-container {
+    top: 204px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .thaird-part-header-container {
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+  }
+  .thaird-part-header-container button .search-container {
+    top: 224px;
   }
 }
 .dropdown-main-container {
@@ -364,7 +430,7 @@ a.gray {
   .thaird-part-header-container button {
     order: 3;
   }
-  .thaird-part-header-container button span:first-child {
+  .thaird-part-header-container button > span:first-child {
     display: none;
   }
   .side-bar-menu:hover nav {

@@ -19,7 +19,7 @@
 	.thaird-part-header-container {
 		button {
 			order: 3;
-			span {
+			>span {
 				&:first-child {
 					display: none;
 				}
