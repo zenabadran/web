@@ -665,8 +665,8 @@
                     </div>
                     
                 </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prevous"><span class="material-symbols-outlined">arrow_right_alt</span></div>
+                <div class="swiper-button-nextto"><span class="material-symbols-outlined">arrow_right_alt</span></div>
                 
             </div>
         </div>
@@ -888,10 +888,12 @@
   <script>
     const swiper = new Swiper('.swiper', {
   // Optional parameters
-      slidesPerView: 3,
+    //   slidesPerView: 3,
       centeredSlides: true,
-      spaceBetween: 30,
+      spaceBetween: 25,
       loop: true,
+     
+      
 
   // If we need pagination
   pagination: {
@@ -900,11 +902,41 @@
 
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.swiper-button-nextto',
+    prevEl: '.swiper-button-prevous',
   },
+//   breakpoints: {
+//     '@0.75': {
+//       slidesPerView: 1,
+     
+//     },
+//     '@1.00': {
+//       slidesPerView: 2,
+      
+//     },
+//     '@1.50': {
+//       slidesPerView: 3,
+      
+//     },
+//   }
 
- 
+  breakpoints: {
+    // when window width is >= 320px
+    600: {
+      slidesPerView: 1,
+      
+    },
+    // // when window width is >= 480px
+    800: {
+      slidesPerView: 2,
+      
+    },
+    // when window width is >= 640px
+    1400: {
+      slidesPerView: 3,
+     
+    }
+  }
 });
   </script>
 </body>

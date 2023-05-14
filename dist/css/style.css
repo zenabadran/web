@@ -38,7 +38,7 @@
   align-items: center;
 }
 
-.rounded-arrow-product, .product-card .mirror, .recent-news-img div {
+.rounded-arrow-product, .product-card .mirror, .swiper .swiper-button-nextto, .swiper .swiper-button-prevous, .recent-news-img div {
   height: 60px;
   width: 60px;
   border-radius: 30px;
@@ -49,7 +49,7 @@
   color: #ffffff;
   cursor: pointer;
 }
-.rounded-arrow-product:hover, .product-card .mirror:hover, .recent-news-img div:hover {
+.rounded-arrow-product:hover, .product-card .mirror:hover, .swiper .swiper-button-nextto:hover, .swiper .swiper-button-prevous:hover, .recent-news-img div:hover {
   opacity: 0.5;
 }
 
@@ -1049,14 +1049,24 @@ a.gray {
 }
 
 .swiper {
-  width: 1410px;
+  width: 100%;
   height: 600px;
-}
-.swiper .swiper-wrapper {
-  width: 900px;
+  position: relative;
 }
 .swiper .swiper-wrapper .swiper-slide {
-  width: 426px !important;
+  max-width: 30% !important;
+}
+.swiper .swiper-button-nextto {
+  position: absolute;
+  z-index: 3;
+  top: 120px;
+}
+.swiper .swiper-button-prevous {
+  transform: scale(-1, 1);
+  position: absolute;
+  z-index: 3;
+  top: 120px;
+  left: 0px;
 }
 
 .swiper-slide {
@@ -1115,27 +1125,10 @@ a.gray {
   .recent-news-slider > div {
     justify-content: center;
   }
-  .recent-news-slider-item {
-    padding: 30px;
-  }
 }
 @media only screen and (max-width: 482px) {
   .recent-news-slider h1 {
     font-size: 25px;
-  }
-  .recent-news-slider-item {
-    width: 250px;
-    margin-top: 30px;
-  }
-  .recent-news-slider-item h2 {
-    font-size: 16px;
-  }
-  .recent-news-slider-item p {
-    font-size: 12px;
-    line-height: 1.2;
-  }
-  .recent-news-slider-item a {
-    font-size: 10px;
   }
   .recent-news-img {
     height: 170px;
@@ -1144,9 +1137,6 @@ a.gray {
 @media only screen and (max-width: 325px) {
   .recent-news-slider h1 {
     font-size: 20px;
-  }
-  .recent-news-slider-item {
-    padding: 40px 0px;
   }
 }
 .product-slider {
