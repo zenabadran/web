@@ -414,6 +414,9 @@ a.gray {
   display: none;
 }
 
+.side-bar-menu > span {
+  cursor: pointer;
+}
 .side-bar-menu nav {
   display: none;
 }
@@ -433,8 +436,7 @@ a.gray {
   .thaird-part-header-container button > span:first-child {
     display: none;
   }
-  .side-bar-menu:hover nav {
-    display: flex;
+  .side-bar-menu nav {
     flex-direction: column;
     width: 90%;
     height: 100%;

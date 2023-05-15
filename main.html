@@ -404,13 +404,13 @@
                     </li>
                 </ul>
             </nav>
-            <div class="side-bar-menu">
-                <span class="material-symbols-outlined menu-icon"> menu</span>
-                <nav>
+            <div  class="side-bar-menu">
+                <span id="menu-icon" class="material-symbols-outlined menu-icon"> menu</span>
+                <nav id="menu">
                     <ul>
                         <li>
-                            <a href="javascript:;">
-                                <span class="material-symbols-outlined">close</span>
+                            <a id="close-menu" href="javascript:;">
+                                <span  class="material-symbols-outlined">close</span>
                             </a>
                         </li>
                         <li>
@@ -565,51 +565,7 @@
             <h1>Recent News</h1>
             <a href="javascript:;">View All News
                 <span class="material-symbols-outlined">arrow_right_alt</span></a>
-            <!-- <div>
-                <div class="recent-news-slider-item">
-                    <div class="recent-news-img">
-                        <div>
-                            <span class="material-symbols-outlined">arrow_right_alt</span>
-                        </div>
-                    </div>
-                    <h2>
-                        ClearFire<sup>&#174;</sup>-CE Condensing Boiler - Most Valuable
-                        Product of the Year
-                    </h2>
-                    <p>
-                        The Cleaver-Brooks ClearFire &#174;-CE (CFC-E) fully condensing
-                        hydronic boiler is the Most Valuable Product of 2019 according to
-                        Consulting-Specifying Engineer. The..
-                    </p>
-                    <a href="javascript:;">Read More<span class="material-symbols-outlined">arrow_right_alt</span></a>
-                </div>
-                <div class="recent-news-slider-item">
-                    <div class="recent-news-img"></div>
-                    <h2>Our Commitment to Customers During COVID-19 Pandemic</h2>
-                    <p>
-                        With the rest of the world, Cleaver-Brooks is monitoring the
-                        COVID-19 (Coronavirus) situation very closely. As the safety of
-                        our employees and their families remain our top priority
-                    </p>
-                    <a href="javascript:;">Read More<span class="material-symbols-outlined">arrow_right_alt</span></a>
-                </div>
-                <div class="recent-news-slider-item">
-                    <div class="recent-news-img">
-                        <div class="mirror">
-                            <span class="material-symbols-outlined">arrow_right_alt</span>
-                        </div>
-                    </div>
-                    <h2>
-                        Desperate Times Call for Innovative loT Boiler Monitoring Measures
-                    </h2>
-                    <p>
-                        As we navigate these unchartered waters together, smart technology
-                        can help keep critical systems operational to ensure that
-                        companies stay up and running. Functions...
-                    </p>
-                    <a href="javascript:;">Read More<span class="material-symbols-outlined">arrow_right_alt</span></a>
-                </div>
-            </div> -->
+           
             <div class="swiper">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
@@ -885,7 +841,9 @@
     </script>
   <script src="features/searchbutton.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <script>
+  <script src="features/menubutton.js"></script>
+
+  <!-- <script>
     const swiper = new Swiper('.swiper', {
   // Optional parameters
     //   slidesPerView: 3,
@@ -905,40 +863,26 @@
     nextEl: '.swiper-button-nextto',
     prevEl: '.swiper-button-prevous',
   },
-//   breakpoints: {
-//     '@0.75': {
-//       slidesPerView: 1,
-     
-//     },
-//     '@1.00': {
-//       slidesPerView: 2,
-      
-//     },
-//     '@1.50': {
-//       slidesPerView: 3,
-      
-//     },
-//   }
 
   breakpoints: {
-    // when window width is >= 320px
+    
     600: {
       slidesPerView: 1,
       
     },
-    // // when window width is >= 480px
+    
     800: {
       slidesPerView: 2,
       
     },
-    // when window width is >= 640px
+    
     1400: {
       slidesPerView: 3,
      
     }
   }
 });
-  </script>
+  </script> -->
 </body>
 
 </html>

@@ -1,93 +1,94 @@
-@use '../abstracts' as *;
+@use "../abstracts" as *;
 .menu-icon.material-symbols-outlined {
-	display: none;
+  display: none;
 }
 .side-bar-menu {
-	nav {
-		display: none;
-	}
+  > span {
+    cursor: pointer;
+  }
+  nav {
+    display: none;
+  }
 }
 @media only screen and (max-width: 1300px) {
-	.menu-icon.material-symbols-outlined {
-		order: 1;
-		display: block;
-		font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 48;
-	}
-	.logo {
-		order: 2;
-	}
-	.thaird-part-header-container {
-		button {
-			order: 3;
-			>span {
-				&:first-child {
-					display: none;
-				}
-			}
-		}
-	}
-	.side-bar-menu {
-		&:hover {
-			nav {
-				display: flex;
-				flex-direction: column;
-				width: 90%;
-				height: 100%;
-				position: fixed;
-				top: 0px;
-				left: 0px;
-				box-shadow: 150px 0px 0px #0303035b;
-				z-index: 3;
-				background-color: whitesmoke;
-				overflow: scroll;
-			}
-		}
-		nav {
-			ul {
-				display: flex;
-				flex-direction: column;
-				margin-top: 0;
-				width: 100%;
-				li {
-                    
-					padding: 17px;
-					background-color: $inversetextcolor;
-					border-bottom: solid $supplementarycolorUI02 1px;
-					width: 100%;
-					font-size: 15px;
-					a {
-						padding-left: 20px;
-					}
-					&:first-child {
-						border-bottom: solid $primarybrand3 3px;
-						padding-top: 20px;
-						padding-bottom: 20px;
-					}
-				}
-				.sconed-part-un-order-list {
-					font-size: 14px;
-					background-color: whitesmoke;
-					border: none;
-					font-family: $helveticaneuemedium;
-					padding-top: 40px;
-				}
-			}
-		}
-	}
-	.sconed-part-un-order-list {
-		a {
-			img {
-				height: 17px;
-				width: 16px;
-				color: $primarybrand1;
-			}
-		}
-	}
-	.material-symbols-outlined {
-		font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 200, "opsz" 48;
-	}
-	.material-symbols-outlined.arrow {
-		float: right;
-		font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
-	}
+  .menu-icon.material-symbols-outlined {
+    order: 1;
+    display: block;
+    font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 48;
+  }
+  .logo {
+    order: 2;
+  }
+  .thaird-part-header-container {
+    button {
+      order: 3;
+      > span {
+        &:first-child {
+          display: none;
+        }
+      }
+    }
+  }
+  .side-bar-menu {
+    nav {
+      // display: flex;
+      flex-direction: column;
+      width: 90%;
+      height: 100%;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      box-shadow: 150px 0px 0px #0303035b;
+      z-index: 3;
+      background-color: whitesmoke;
+      overflow: scroll;
+    }
+
+    nav {
+      ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        width: 100%;
+        li {
+          padding: 17px;
+          background-color: $inversetextcolor;
+          border-bottom: solid $supplementarycolorUI02 1px;
+          width: 100%;
+          font-size: 15px;
+          a {
+            padding-left: 20px;
+          }
+          &:first-child {
+            border-bottom: solid $primarybrand3 3px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+          }
+        }
+        .sconed-part-un-order-list {
+          font-size: 14px;
+          background-color: whitesmoke;
+          border: none;
+          font-family: $helveticaneuemedium;
+          padding-top: 40px;
+        }
+      }
+    }
+  }
+  .sconed-part-un-order-list {
+    a {
+      img {
+        height: 17px;
+        width: 16px;
+        color: $primarybrand1;
+      }
+    }
+  }
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 200, "opsz" 48;
+  }
+  .material-symbols-outlined.arrow {
+    float: right;
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  }
 }
