@@ -1179,6 +1179,8 @@ a.gray {
   height: 180px;
   width: 250px;
   margin-bottom: 40px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .featured-categories-card a {
   align-self: center;

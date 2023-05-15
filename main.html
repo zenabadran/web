@@ -635,35 +635,35 @@
             <h1>Featured Categories</h1>
             <div>
                 <div class="featured-categories-card">
-                    <img src="img\boiler.png" alt="boiler" />
-                    <a href="javascript:;">Boilers<span class="material-symbols-outlined">arrow_right_alt</span></a>
+                    <img class="featured-categories-img" src="img\boiler.png" alt="boiler" />
+                    <a class="featured-categories-titles" href="javascript:;">Boilers<span class="material-symbols-outlined">arrow_right_alt</span></a>
                 </div>
                 <div class="featured-categories-card">
-                    <img src="img\burners.png" alt="burners" />
-                    <a href="javascript:;">Burners<span class="material-symbols-outlined">arrow_right_alt</span></a>
+                    <img class="featured-categories-img" src="img\burners.png" alt="burners" />
+                    <a class="featured-categories-titles" href="javascript:;">Burners<span class="material-symbols-outlined">arrow_right_alt</span></a>
                 </div>
                 <div class="featured-categories-card">
-                    <img src="img\controls.png" alt="controls" />
-                    <a href="javascript:;">Controls<span class="material-symbols-outlined">arrow_right_alt</span></a>
+                    <img class="featured-categories-img" src="img\controls.png" alt="controls" />
+                    <a class="featured-categories-titles" href="javascript:;">Controls<span class="material-symbols-outlined">arrow_right_alt</span></a>
                 </div>
                 <div class="featured-categories-card">
-                    <img src="img\heatrecovery.png" alt="heatrecovery" />
-                    <a href="javascript:;">Heat Recovery<span
+                    <img class="featured-categories-img" src="img\heatrecovery.png" alt="heatrecovery" />
+                    <a class="featured-categories-titles" href="javascript:;">Heat Recovery<span
                             class="material-symbols-outlined">arrow_right_alt</span></a>
                 </div>
                 <div class="featured-categories-card">
-                    <img src="img\watersystem.jpg" alt="watersystem" />
-                    <a href="javascript:;">Water Systems<span
+                    <img class="featured-categories-img" src="img\watersystem.jpg" alt="watersystem" />
+                    <a class="featured-categories-titles" href="javascript:;">Water Systems<span
                             class="material-symbols-outlined">arrow_right_alt</span></a>
                 </div>
                 <div class="featured-categories-card">
-                    <img src="img\exhaustSolutions.png" alt="Exhaust Solutions" />
-                    <a href="javascript:;">Exhaust Solutions<span
+                    <img class="featured-categories-img" src="img\exhaustSolutions.png" alt="Exhaust Solutions" />
+                    <a class="featured-categories-titles" href="javascript:;">Exhaust Solutions<span
                             class="material-symbols-outlined">arrow_right_alt</span></a>
                 </div>
                 <div class="featured-categories-card">
-                    <img src="img\partsandservices.jpg" alt="Parts & Service" />
-                    <a href="javascript:;">Parts & Service<span
+                    <img class="featured-categories-img" src="img\partsandservices.jpg" alt="Parts & Service" />
+                    <a class="featured-categories-titles" href="javascript:;">Parts & Service<span
                             class="material-symbols-outlined">arrow_right_alt</span></a>
                 </div>
             </div>
@@ -827,21 +827,11 @@
         </div>
     </footer>
 
-    <script>
-        const btn = document.getElementById("btn");
-
-        btn.addEventListener("click", () => {
-            btn.style.display = "none";
-
-            const video = document.getElementById("video");
-            video.style.display = "block";
-            const playvideo = document.getElementById("playvideo");
-            playvideo.style.background = "none";
-        });
-    </script>
-  <script src="features/searchbutton.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-  <script src="features/menubutton.js"></script>
+    <script src="features/playvideo.js"></script>
+    <script src="features/searchbutton.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="features/menubutton.js"></script>
+    <script src="features/data.js"></script>
 
   <!-- <script>
     const swiper = new Swiper('.swiper', {
