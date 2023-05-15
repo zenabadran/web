@@ -1032,7 +1032,7 @@ a.gray {
   display: flex;
   flex-direction: column;
   padding-top: 50px;
-  height: 800px;
+  height: 600px;
 }
 .recent-news-slider h1 {
   align-self: center;
@@ -1051,9 +1051,8 @@ a.gray {
 
 .swiper-slide {
   font-size: 18px;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .swiper-slide .recent-news-img {

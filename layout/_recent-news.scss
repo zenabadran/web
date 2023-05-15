@@ -5,7 +5,7 @@ $background-fullsize: 100% 100%;
   display: flex;
   flex-direction: column;
   padding-top: 50px;
-  height: 800px;
+  height: 600px;
   h1 {
     align-self: center;
     font-family: $helveticaneuebold;
@@ -20,33 +20,25 @@ $background-fullsize: 100% 100%;
     width: 100%;
     height: 100%;
   }
-
- 
-  
 }
 
-
-
 .swiper-slide {
-  
   font-size: 18px;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
-  justify-content: center;
+  // justify-content: space-around;
   align-items: center;
-  
-    .recent-news-img {
-      display: flex;
-      justify-content: center;
-      img{
-        height: 220px;
-        width: 400px;
-        object-fit: contain;
-      }
-      
+
+  .recent-news-img {
+    display: flex;
+    justify-content: center;
+    img {
+      height: 220px;
+      width: 400px;
+      object-fit: contain;
     }
-  
- 
+  }
+
   h2 {
     display: inline-block;
     letter-spacing: 0.7px;
@@ -68,62 +60,3 @@ $background-fullsize: 100% 100%;
     font-family: $helveticaneuemedium;
   }
 }
-// .recent-news-img {
-//   height: 270px;
-//   width: 100%;
-//   display: flex;
-//   align-items: center;
-//   div {
-//     @extend %arrowright;
-// 	position: relative;
-//     left: 30px;
-//     &.mirror {
-//       transform: scale(-1, 1);
-//       left: -30px;
-//     }
-//   }
-// }
-
-// @media only screen and (max-width: 1337px) {
-//   .recent-news-slider {
-//     > div {
-//       justify-content: center;
-//     }
-//   }
- 
-// }
-// @media only screen and (max-width: 482px) {
-//   .recent-news-slider {
-//     h1 {
-//       font-size: 25px;
-//     }
-//   }
-//   // .swiper-slide {
-//   //   width: 250px;
-//   //   margin-top: 30px;
-//   //   h2 {
-//   //     font-size: 16px;
-//   //   }
-//   //   p {
-//   //     font-size: 12px;
-//   //     line-height: 1.2;
-//   //   }
-//   //   a {
-//   //     font-size: 10px;
-//   //   }
-//   // }
-//   .recent-news-img {
-//     height: 170px;
-//   }
-// }
-// @media only screen and (max-width: 325px) {
-//   .recent-news-slider {
-//     h1 {
-//       font-size: 20px;
-//     }
-//   }
-//   // .swiper-slide {
-//   //   // margin-bottom: 60px;
-//   //   padding: 40px 0px;
-//   // }
-// }
