@@ -38,7 +38,7 @@
   align-items: center;
 }
 
-.rounded-arrow-product, .product-card .mirror, .swiper .swiper-button-nextto, .swiper .swiper-button-prevous, .recent-news-img div {
+.rounded-arrow-product, .product-card .mirror {
   height: 60px;
   width: 60px;
   border-radius: 30px;
@@ -49,7 +49,7 @@
   color: #ffffff;
   cursor: pointer;
 }
-.rounded-arrow-product:hover, .product-card .mirror:hover, .swiper .swiper-button-nextto:hover, .swiper .swiper-button-prevous:hover, .recent-news-img div:hover {
+.rounded-arrow-product:hover, .product-card .mirror:hover {
   opacity: 0.5;
 }
 
@@ -1032,6 +1032,7 @@ a.gray {
   display: flex;
   flex-direction: column;
   padding-top: 50px;
+  height: 500px;
 }
 .recent-news-slider h1 {
   align-self: center;
@@ -1043,104 +1044,26 @@ a.gray {
   color: #82786f;
   font-family: "helveticaneuebold";
 }
-.recent-news-slider > div {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.swiper {
+.recent-news-slider .swiper {
   width: 100%;
-  height: 600px;
-  position: relative;
+  height: 100%;
 }
-.swiper .swiper-wrapper .swiper-slide {
-  max-width: 30% !important;
-}
-.swiper .swiper-button-nextto {
-  position: absolute;
-  z-index: 3;
-  top: 120px;
-}
-.swiper .swiper-button-prevous {
-  transform: scale(-1, 1);
-  position: absolute;
-  z-index: 3;
-  top: 120px;
-  left: 0px;
-}
-
-.swiper-slide {
+.recent-news-slider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
   display: flex;
-  flex-direction: column;
-  width: 426px;
-}
-.swiper-slide:first-child .recent-news-img {
-  background: url("C:/Users/asus/Desktop/sass/img/CondensingBoiler.jpg");
-  background-size: 100% 100%;
-  justify-content: end;
-}
-.swiper-slide:nth-child(2) .recent-news-img {
-  background: url("C:/Users/asus/Desktop/sass/img/corona.jpg");
-  background-size: 100% 100%;
-}
-.swiper-slide:last-child .recent-news-img {
-  background: url("C:/Users/asus/Desktop/sass/img/laptopwithboiler.jpg");
-  background-size: 100% 100%;
-}
-.swiper-slide h2 {
-  display: inline-block;
-  letter-spacing: 0.7px;
-  font-family: "helveticaneuebold";
-}
-.swiper-slide p {
-  display: inline-block;
-  padding-right: 5px;
-  font-family: "helveticaneuelight";
-  font-weight: 500;
-  letter-spacing: 1px;
-  line-height: 1.5;
-}
-.swiper-slide a {
-  align-self: flex-start;
-  font-size: 15px;
-  font-family: "helveticaneuemedium";
-}
-
-.recent-news-img {
-  height: 270px;
-  width: 100%;
-  display: flex;
+  justify-content: center;
   align-items: center;
 }
-.recent-news-img div {
-  position: relative;
-  left: 30px;
-}
-.recent-news-img div.mirror {
-  transform: scale(-1, 1);
-  left: -30px;
+.recent-news-slider .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-@media only screen and (max-width: 1337px) {
-  .recent-news-slider > div {
-    justify-content: center;
-  }
-}
-@media only screen and (max-width: 482px) {
-  .recent-news-slider h1 {
-    font-size: 25px;
-  }
-  .recent-news-img {
-    height: 170px;
-  }
-}
-@media only screen and (max-width: 325px) {
-  .recent-news-slider h1 {
-    font-size: 20px;
-  }
-}
 .product-slider {
   background: url("C:/Users/asus/Desktop/sass/img/encyclopedia-boilers-hero-master1.jpg");
   height: 240px;
