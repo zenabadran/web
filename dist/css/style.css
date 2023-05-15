@@ -1056,6 +1056,10 @@ a.gray {
   justify-content: center;
   align-items: center;
 }
+.swiper-slide .recent-news-img {
+  display: flex;
+  justify-content: center;
+}
 .swiper-slide .recent-news-img img {
   height: 220px;
   width: 400px;
