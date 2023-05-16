@@ -37,13 +37,14 @@
 .swiper-slide {
   display: flex;
   flex-direction: column;
-  // width: 320px ;
+  // max-width: 320px !important ;
   height: 530px !important;
   border: solid 1px $supplementarycolorUI01;
   position: relative;
   img {
     height: 280px;
     width: 100%;
+    object-fit: contain;
   }
   // .mirror {
   //   @extend.rounded-arrow-product;
@@ -74,6 +75,7 @@
   }
   > span {
     span {
+      font-size: 16px;
       &:first-child {
         font-family: $helveticaneuebold;
       }

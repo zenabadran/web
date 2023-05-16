@@ -1178,6 +1178,8 @@ a.gray {
 .swiper-slide img {
   height: 280px;
   width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .card-description {
@@ -1201,6 +1203,9 @@ a.gray {
   color: #ffffff;
   letter-spacing: 1px;
   cursor: pointer;
+}
+.card-description > span span {
+  font-size: 16px;
 }
 .card-description > span span:first-child {
   font-family: "helveticaneuebold";
