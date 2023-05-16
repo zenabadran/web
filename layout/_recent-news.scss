@@ -27,7 +27,7 @@ $background-fullsize: 100% 100%;
   display: flex !important;
   flex-direction: column;
   // justify-content: space-between;
-  
+
   align-items: center;
   .recent-news-img {
     display: flex;
@@ -60,16 +60,14 @@ $background-fullsize: 100% 100%;
     align-self: flex-start;
     font-size: 15px;
     font-family: $helveticaneuemedium;
-    
   }
 }
-@media only screen and (max-width: 1400px){
-  .swiper-slide{
+@media only screen and (max-width: 1400px) {
+  .swiper-slide2 {
     a {
       align-self: center;
       font-size: 15px;
       font-family: $helveticaneuemedium;
-      
     }
   }
 }

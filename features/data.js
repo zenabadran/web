@@ -17,6 +17,8 @@ const recentnewstitle = document.getElementsByClassName("recent-news-title");
 const recentnewsdiscreption = document.getElementsByClassName("recent-news-discreption");
 const category = document.getElementsByClassName("category");
 const recentlyviewedproductsimg = document.getElementsByClassName("recently-viewed-products-img");
+const nodeList = document.querySelectorAll(".card-description h5");
+const rate = document.getElementsByClassName("rate");
 fetch("https://fakestoreapi.com/products?limit=9")
   .then((res) => res.json())
   .then((json) => {
@@ -32,6 +34,9 @@ fetch("https://fakestoreapi.com/products?limit=9")
     for (let i = 0; i < 5; i++) {
       category[i].innerHTML = json[i].category;
       recentlyviewedproductsimg[i].src= json[i].image;
+      nodeList[i].innerHTML = json[i].title;
+      rate[i].innerHTML =json[i].rating.rate;
     }
+   
 
   });

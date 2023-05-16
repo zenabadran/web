@@ -1,4 +1,4 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".mySwiper2", {
   slidesPerView: 1,
   spaceBetween: 10,
   pagination: {
@@ -6,15 +6,15 @@ var swiper = new Swiper(".mySwiper", {
     clickable: true,
   },
   breakpoints: {
-    "@0.0": {
+    640: {
       slidesPerView: 1,
       spaceBetween: 20,
     },
-    "@1.7": {
+    768: {
       slidesPerView: 2,
       spaceBetween: 40,
     },
-    "@2.2": {
+    1024: {
       slidesPerView: 3,
       spaceBetween: 20,
     },

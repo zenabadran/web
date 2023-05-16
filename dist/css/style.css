@@ -1073,7 +1073,7 @@ a.gray {
 }
 
 @media only screen and (max-width: 1400px) {
-  .swiper-slide a {
+  .swiper-slide2 a {
     align-self: center;
     font-size: 15px;
     font-family: "helveticaneuemedium";
@@ -1168,14 +1168,14 @@ a.gray {
   height: 100%;
 }
 
-.swiper-slide {
+.Slider2 {
   display: flex;
   flex-direction: column;
   height: 530px !important;
   border: solid 1px #d7d3c7;
   position: relative;
 }
-.swiper-slide img {
+.Slider2 img {
   height: 280px;
   width: 100%;
   -o-object-fit: contain;
