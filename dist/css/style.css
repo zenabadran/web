@@ -38,6 +38,21 @@
   align-items: center;
 }
 
+.rounded-arrow-product, .recently-viewed-products-slider .mirror {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003150;
+  color: #ffffff;
+  cursor: pointer;
+}
+.rounded-arrow-product:hover, .recently-viewed-products-slider .mirror:hover {
+  opacity: 0.5;
+}
+
 .header-firstpart {
   background-color: #d7d3c7;
   text-align: center;
@@ -1156,11 +1171,16 @@ a.gray {
   flex-direction: column;
   margin-top: 100px;
   height: 650px;
+  position: relative;
 }
 .recently-viewed-products-slider h1 {
   align-self: center;
   font-family: "helveticaneuebold";
   font-size: 35px;
+}
+.recently-viewed-products-slider .mirror {
+  transform: scale(-1, 1);
+  left: -30px;
 }
 
 .swiper {
@@ -1171,6 +1191,7 @@ a.gray {
 .Slider2 {
   display: flex;
   flex-direction: column;
+  margin-right: 10px;
   height: 530px !important;
   border: solid 1px #d7d3c7;
   position: relative;
@@ -1230,6 +1251,13 @@ a.gray {
   position: relative;
   font-size: 15px;
   top: -25px;
+}
+
+.rounded-arrow-product, .recently-viewed-products-slider .mirror {
+  position: absolute;
+  right: -30px;
+  top: 260px;
+  z-index: 3;
 }
 
 .discover-more-container {
