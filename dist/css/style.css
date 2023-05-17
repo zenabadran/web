@@ -1188,19 +1188,22 @@ a.gray {
   height: 100%;
 }
 
-.Slider2 {
+.Slider2 img {
+  height: 280px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.slide-wrapper {
   display: flex;
   flex-direction: column;
   margin-right: 10px;
   height: 530px !important;
   border: solid 1px #d7d3c7;
   position: relative;
-}
-.Slider2 img {
-  height: 280px;
   width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  max-width: 310px;
 }
 
 .card-description {

@@ -21,25 +21,24 @@
   width: 100%;
   height: 100%;
   
-  // .swiper-wrapper{
-  //   transform: translate3d(-5px, 0px, 0px) !important;
-  // }
 }
 .Slider2 {
-  display: flex;
-  flex-direction: column;
-  // max-width: 20% !important ; 
-  // max-width: 318px !important; 
-  margin-right: 10px;
-  height: 530px !important;
-  border: solid 1px $supplementarycolorUI01;
-  position: relative;
   img {
     height: 280px;
     width: 100%;
     object-fit: contain;
   }
   
+}
+.slide-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  height: 530px !important;
+  border: solid 1px $supplementarycolorUI01;
+  position: relative;
+  width: 100%;
+  max-width: 310px;
 }
 .card-description {
   width: 250px;
