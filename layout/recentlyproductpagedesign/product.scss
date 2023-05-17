@@ -1,0 +1,30 @@
+@use '../helveticaneue-font';
+@use '../../abstracts' as *;
+.product-container{
+    display: flex;
+    margin-top: 100px;
+    font-size: 18px;
+    font-family: $helveticaneuemedium;
+    color: gray;
+    margin-top: 20px;
+    h1{
+        color: rgb(99, 99, 99);
+        font-family: $helveticaneuebold;
+    }
+    img{
+        height: 400px;
+        width: 400px;
+    }
+    .product-features{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    #price{
+        color: rgb(255, 196, 0);
+    }
+    #rate,#product-code,#price{
+    margin-top: 20px;    }
+        
+    
+}
