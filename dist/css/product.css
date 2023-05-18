@@ -32,11 +32,14 @@
 }
 .product-container {
   display: flex;
-  margin-top: 100px;
+  margin: 90px auto;
   font-size: 18px;
   font-family: "helveticaneuemedium";
   color: gray;
-  margin-top: 20px;
+  justify-content: flex-start;
+  max-width: 1100px;
+  transform: translateY(-5px);
+  border-radius: 30px;
 }
 .product-container h1 {
   color: rgb(99, 99, 99);
@@ -54,6 +57,19 @@
 .product-container #price {
   color: rgb(255, 196, 0);
 }
-.product-container #rate, .product-container #product-code, .product-container #price {
+.product-container #rate, .product-container #product-code, .product-container #price, .product-container .add-to-cart {
   margin-top: 20px;
+}
+.product-container .add-to-cart .add-to-cart-button {
+  color: #ffffff;
+  background-color: rgb(255, 196, 0);
+  border: none;
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.product-container .add-to-cart > input:nth-child(2) {
+  height: 35px;
+  width: 30px;
 }/*# sourceMappingURL=product.css.map */

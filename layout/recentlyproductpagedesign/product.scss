@@ -2,11 +2,16 @@
 @use '../../abstracts' as *;
 .product-container{
     display: flex;
-    margin-top: 100px;
+    margin:90px auto;
     font-size: 18px;
     font-family: $helveticaneuemedium;
     color: gray;
-    margin-top: 20px;
+    justify-content: flex-start;
+    max-width: 1100px;
+    // box-shadow: 0px 0px 20px 2px rgba(60, 59, 59, 0.5);
+    // border: solid 1px;
+    transform: translateY(-5px);
+    border-radius: 30px;
     h1{
         color: rgb(99, 99, 99);
         font-family: $helveticaneuebold;
@@ -14,6 +19,7 @@
     img{
         height: 400px;
         width: 400px;
+        
     }
     .product-features{
         display: flex;
@@ -21,10 +27,25 @@
         justify-content: flex-start;
     }
     #price{
-        color: rgb(255, 196, 0);
+        color: $primarybrand4;
     }
-    #rate,#product-code,#price{
+    #rate,#product-code,#price,.add-to-cart{
     margin-top: 20px;    }
+    .add-to-cart{
+        .add-to-cart-button{
+           color: $inversetextcolor;
+           background-color:$primarybrand4 ;
+           border: none;
+           height: 40px;
+           width: 80px;
+           border-radius: 5px;
+           cursor: pointer;
+        }
+        >input:nth-child(2){
+            height: 35px;
+            width: 30px;
+        }
+    }
         
     
 }
