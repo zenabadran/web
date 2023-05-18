@@ -1,3 +1,4 @@
+// document.addEventListener("load", FUNCTION);
 // const viewbutton = document.querySelectorAll(".card-description button");
 // const producttitle=document.getElementById("title");
 
