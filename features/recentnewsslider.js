@@ -19,4 +19,8 @@ var swiper = new Swiper(".mySwiper2", {
       spaceBetween: 20,
     },
   },
+  navigation: {
+    nextEl: ".rounded-arrow-product",
+    prevEl: ".mirror",
+  },
 });
