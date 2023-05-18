@@ -55,7 +55,7 @@ fetch("https://fakestoreapi.com/products?limit=12")
         // var url = new URL("pages/recently-product-item-page.html");
         // url.searchParams.append('id', json[i].id);
         // window.location.href = url;
-           window.location.href = "pages/recently-product-item-page.html?page="+json[i].id;
+           window.location.href = "pages/recently-product-item-page.html?page/"+json[i].id;
          // x=json[i].title;
          
           
