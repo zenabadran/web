@@ -1032,7 +1032,7 @@ a.gray {
   display: flex;
   flex-direction: column;
   padding-top: 50px;
-  height: 660px;
+  height: 760px;
   position: relative;
 }
 .recent-news-slider h1 {
@@ -1182,7 +1182,7 @@ a.gray {
   display: flex;
   flex-direction: column;
   margin-top: 100px;
-  height: 650px;
+  height: 700px;
   position: relative;
 }
 .recently-viewed-products-slider h1 {
