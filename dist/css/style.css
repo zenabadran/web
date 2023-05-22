@@ -1098,8 +1098,8 @@ a.gray {
   font-family: "helveticaneuemedium";
 }
 
-@media only screen and (max-width: 1400px) {
-  .swiper-slide2 a {
+@media only screen and (max-width: 1010px) {
+  .swiper-slide a {
     align-self: center;
     font-size: 15px;
     font-family: "helveticaneuemedium";
