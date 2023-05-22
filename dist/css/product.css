@@ -75,4 +75,26 @@
 .product-container .add-to-cart > input:nth-child(2) {
   height: 35px;
   width: 30px;
+}
+
+@media only screen and (max-width: 859px) {
+  .product-container h1 {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .product-container #rate, .product-container #product-code, .product-container #price, .product-container .add-to-cart, .product-container p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 733px) {
+  .product-container {
+    flex-direction: column;
+  }
+  .product-container img {
+    align-self: center;
+    height: 300px;
+    max-width: 200px;
+    margin-right: 0px;
+  }
 }/*# sourceMappingURL=product.css.map */

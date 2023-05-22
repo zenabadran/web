@@ -18,6 +18,7 @@ var swiper = new Swiper(".mySwiper2", {
       slidesPerView: 3,
       spaceBetween: 20,
     },
+   
   },
   navigation: {
     nextEl: ".rounded-arrow-product",
