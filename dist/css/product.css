@@ -30,6 +30,10 @@
   font-family: "helveticaneue";
   src: url(C:/Users/asus/Desktop/sass/fonts/HelveticaNeueRoman.woff) format("woff");
 }
+header {
+  border-bottom: solid #aa272f;
+}
+
 .product-container {
   display: flex;
   margin: 90px auto;

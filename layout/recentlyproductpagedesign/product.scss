@@ -1,5 +1,8 @@
 @use '../helveticaneue-font';
 @use '../../abstracts' as *;
+header{
+    border-bottom: solid $primarybrand3;
+}
 .product-container{
     display: flex;
     margin:90px auto;
