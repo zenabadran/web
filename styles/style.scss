@@ -1,0 +1,31 @@
+@use 'components/helveticaneue-font';
+@use 'components/first-part-ofheader';
+@use 'components/second-part-ofheader';
+@use 'components/main-nav';
+@use 'components/mega-list';
+@use 'components/hidden-nav';
+@use 'components/main-slider';
+@use 'components/who-section-banner';
+@use 'components/demonstration-video';
+@use 'components/solutions';
+@use 'components/recent-news';
+@use 'components/products-banner';
+@use 'components/featured-categories';
+@use 'components/recently-products';
+@use 'components/discover-section';
+@use 'components/footer';
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.page-container {
+  margin: 0 auto;
+  max-width: 1350px;
+  padding: 0 30px;
+}
+  
+
+
