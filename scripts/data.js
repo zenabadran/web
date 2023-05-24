@@ -31,14 +31,13 @@ fetch("https://fakestoreapi.com/products?limit=12")
                   <span> ${json[i].category}</span>
               </div>
               <img src="${json[i].image}" alt="boiler" />
-
               <div class="card-description">
                  <h5>${json[i].title}</h5>
                  <span> <span> CB Part #:</span> <span>${json[i].rating.rate}</span> </span>
                  <button>VIEW DETAILS</button>
               </div>
-            </div>
-        </div>
+          </div>
+      </div>
       `;
     }
     const viewbutton = document.querySelectorAll(".card-description button");
