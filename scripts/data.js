@@ -1,4 +1,3 @@
-
 let product = document.getElementById("swiper-wrapper");
 let featuredcategorieswrapper = document.getElementById(
   "featured-categories-wrapper"
@@ -41,9 +40,14 @@ fetch("https://fakestoreapi.com/products?limit=12")
       `;
     }
     const viewbutton = document.querySelectorAll(".card-description button");
-    for(let i=0 ;i< viewbutton.length; i++){
+    for (let i = 0; i < viewbutton.length; i++) {
       viewbutton[i].addEventListener("click", function () {
-           window.location.href = "views/recently-product-item-page.html?page/"+json[i].id;
-        });
+        // window.location.href ="views/recently-product-item-page.html?id=" + json[i].id;
+        const queryString = '?';
+       const urlParams = new URLSearchParams(queryString);
+       urlParams.set('id', json[i].id);
+       console.log(urlParams.toString());
+       window.location.href ="views/recently-product-item-page.html?"+urlParams.toString();
+      });
     }
   });

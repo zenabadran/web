@@ -1,12 +1,13 @@
-const url = window.location.href;
-const regex = /\/(\d+)$/;
-const match = url.match(regex);
+// const url = window.location.href;
+// const regex = /\/(\d+)$/;
+// const match = url.match(regex);
+// var url = new URL(window.location.href); // Get the current URL
+var searchParams = new URLSearchParams(window.location.search); // Get the query parameters
+var id = searchParams.get('id'); 
 const productcontainer=document.getElementById("product-container");
 fetch("https://fakestoreapi.com/products?limit=12")
   .then((res) => res.json())
   .then((json) => {
-    if (match) {
-      const id = match[1];
       console.log(id); 
       productcontainer.innerHTML=`
       <img src="${json[id-1].image}" alt="product-image">
@@ -23,9 +24,7 @@ fetch("https://fakestoreapi.com/products?limit=12")
                 </form>
             </div>
       `;
-    } else {
-      console.log("ID not found in the URL");
-    }
+    
  
 
 })
