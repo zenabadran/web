@@ -6,7 +6,8 @@ let recentlyviewedproducts = document.getElementById("swiper-wrapper2");
 fetch("https://fakestoreapi.com/products?limit=12")
   .then((res) => res.json())
   .then((json) => {
-    for (let i = 0; i < json.length; i++) {
+    
+    for (const i in json) {
       product.innerHTML += `
       <div  class="swiper-slide">
         <div class="recent-news-img">
